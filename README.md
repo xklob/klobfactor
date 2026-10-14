@@ -7,6 +7,7 @@ A double staff and Vulcan Tech Gospel practice companion. Follow DrexFactor's tu
 - Interactive geometric diagrams, verified pose checkpoints, and spatial maps.
 - Scrubbing, forward/backward steps, looping, automatic move advancement, and 0.25× through 2× playback.
 - Front, side, top, oblique 3D, and mirrored views; optional tip paths and body guide.
+- Dark mode by default, with a visible light/dark toggle and a saved preference across pages and visits.
 - A motion lab, searchable curriculum, VTG reference, and browser-local practice records.
 
 The teaching is credited to DrexFactor. This is an independent companion, without affiliation or endorsement.

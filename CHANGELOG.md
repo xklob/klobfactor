@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+Added dark mode as the default, with a persistent header toggle. The full interface, animated staffs, body guides, grip diagrams, and VTG illustrations share the theme palette. The saved choice applies before the page paints and syncs between open tabs.
+
 ## 0.1.0
 
 The first complete curriculum release covers both requested DrexFactor playlists, with 21 lesson pages and 150 ordered move and study sections.

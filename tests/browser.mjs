@@ -11,6 +11,16 @@ const go=async p=>{const r=await page.goto(base+p,{waitUntil:'domcontentloaded'}
 try{
  await mkdir('.artifacts',{recursive:true});
  await go('/');await page.waitForSelector('.motion-svg');assert.match(await page.title(),/Klobfactor/);
+ assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
+ assert.equal(await page.locator('body').evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(16, 22, 18)');
+ await page.getByRole('button',{name:'Dark mode',exact:true}).click();
+ assert.equal(await page.locator('html').getAttribute('data-theme'),'light');
+ assert.equal(await page.locator('body').evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(246, 247, 242)');
+ await go('/lab/');assert.equal(await page.locator('html').getAttribute('data-theme'),'light');await page.reload();assert.equal(await page.locator('html').getAttribute('data-theme'),'light');
+ await page.getByRole('button',{name:'Dark mode',exact:true}).click();await go('/');
+ assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
+ assert.equal(await page.locator('.staff-layer line').last().evaluate(el=>getComputedStyle(el).stroke),'rgb(241, 161, 124)');
+ console.log('PASS dark default, live diagram colors, theme toggle, and preference persistence across pages and reloads');
  await page.screenshot({path:'.artifacts/home-desktop.png',fullPage:true});
  // Every move on every generated lesson must have synchronized headings, cues,
  // correct source timestamps, and either a finite diagram or a source-study view.
