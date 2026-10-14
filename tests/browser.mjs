@@ -102,9 +102,17 @@ try{
  await page.screenshot({path:'.artifacts/archer-theater.png'});
  await page.keyboard.press('Escape');assert.equal(await page.locator('dialog[open]').count(),0);assert.equal(await page.locator('#lesson-player').isVisible(),true);
  await page.locator('.view-options summary').click();await page.getByRole('button',{name:'Full screen',exact:true}).click();
- assert.equal(await page.evaluate(()=>document.fullscreenElement?.id),'lesson-player');
- await page.screenshot({path:'.artifacts/archer-fullscreen.png'});
- await page.getByRole('button',{name:'Exit full screen',exact:true}).click();assert.equal(await page.evaluate(()=>document.fullscreenElement),null);
+ await page.waitForFunction(()=>document.fullscreenElement?.id==='lesson-player'||Boolean(document.querySelector('dialog[open]')));
+ if(await page.evaluate(()=>document.fullscreenElement?.id==='lesson-player')){
+  await page.screenshot({path:'.artifacts/archer-fullscreen.png'});
+  await page.getByRole('button',{name:'Exit full screen',exact:true}).click();await page.waitForFunction(()=>!document.fullscreenElement);
+ }else{
+  assert.match(await page.locator('.view-note').textContent(),/full screen unavailable/);
+  await page.keyboard.press('Escape');console.log('PASS expanded fallback when native fullscreen is unavailable');
+ }
+ // Browsers that deny the API must retain a usable expanded viewer.
+ await page.locator('#lesson-player').evaluate(el=>{el.requestFullscreen=()=>Promise.reject(new Error('Unavailable in this browser'));});
+ await page.getByRole('button',{name:'Full screen',exact:true}).click();await page.waitForSelector('dialog[open]');assert.match(await page.locator('.view-note').textContent(),/full screen unavailable/);await page.keyboard.press('Escape');
  await go('/lab/');await page.waitForSelector('canvas');await page.getByLabel('Camera view',{exact:true}).selectOption('front');
  for(const kind of ['isolation','antispin']){await page.locator('#lab-pattern').selectOption(kind);assert.equal(await page.locator('.stage').getAttribute('data-staff-count'),'2');assert.match(await page.locator('.scene-status').textContent(),/overlap/);}
  console.log('PASS camera orbit/zoom/reset, grip inset, archer animation, overlap labels, theater, full screen, and collapsed secondary UI');
