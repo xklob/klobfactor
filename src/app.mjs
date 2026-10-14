@@ -34,7 +34,7 @@ function ytApi(){
  return new Promise((resolve,reject)=>{const timeout=setTimeout(()=>reject(new Error('YouTube did not load. Try opening the source on YouTube or using a downloaded video.')),12000);window.onYouTubeIframeAPIReady=()=>{clearTimeout(timeout);resolve(window.YT);};const script=document.createElement('script');script.src='https://www.youtube.com/iframe_api';script.onerror=()=>{clearTimeout(timeout);reject(new Error('YouTube could not be reached. Use the source link or a downloaded video.'));};document.head.append(script);});
 }
 if($('#lesson-data')){
- const lesson=JSON.parse($('#lesson-data').textContent);let index=0,video=null,yt=null,sourceReady=false,loading=false,objectUrl=null,mode='source',focus=null,sourceDialog=null,sourcePlaceholder=null;
+ const lesson=JSON.parse($('#lesson-data').textContent);let index=0,video=null,yt=null,sourceReady=false,loading=false,objectUrl=null,mode='diagram',focus=null,sourceDialog=null,sourcePlaceholder=null;
  const p=new MotionPlayer($('#lesson-player'),lesson.moves[0].motion||{kind:'static'},{id:lesson.id,onComplete:()=>advance('diagram'),onMoveStep:direction=>updateMove(index+direction),canMove:direction=>index+direction>=0&&index+direction<lesson.moves.length});
  const sourceUrl=()=>`https://www.youtube.com/watch?v=${lesson.videoId}&t=${Math.floor(lesson.moves[index].start)}s`;
  function modeChange(next){mode=next;$('#diagram-panel').hidden=next!=='diagram';$('#source-panel').hidden=next!=='source';$$('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===next)));if(next==='source'){p.playing=false;p.updateButton();}else{video?.pause();yt?.pauseVideo?.();}}
@@ -114,7 +114,7 @@ if($('#lesson-data')){
  addEventListener('pageshow',event=>{if(event.persisted){clearInterval(loopTimer);loopTimer=setInterval(sourceTick,200);}});
  addEventListener('pagehide',event=>{clearInterval(loopTimer);video?.pause();yt?.pauseVideo?.();if(!event.persisted)focus?.dispose();if(objectUrl&&!event.persisted)URL.revokeObjectURL(objectUrl);});
  const initial=Number(new URLSearchParams(location.search).get('move')||0);updateMove(Number.isFinite(initial)?Math.floor(initial):0,false);
- modeChange('source');
+ modeChange('diagram');
 }
 
 if($('#lab-player')){

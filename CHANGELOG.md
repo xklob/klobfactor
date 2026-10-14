@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.1 / Android 0.1.1
+
+- Made 3D studies the first and default lesson tab on web and Android, with source demonstrations one tab away.
+- Kept sections without a 3D study explicit, with a direct link to their demonstration.
+
 ## 0.3.0
 
 - Made the source demonstration the default lesson view. All 21 lessons and 150 sections retain their order, instructions, and source timestamps.

@@ -1,4 +1,14 @@
-# Android 0.1.0 validation
+# Android validation
+
+## 0.1.1
+
+Validated on 14 October 2026 on the same Android 16 / API 36 emulator used for 0.1.0.
+
+- The three offline device flows passed with the explicit 3D-tab selections removed: lessons and Continue now open the renderer by default. Source selection, actual local-video playback, activity recreation, and all 150 bundled sections still pass.
+- Android unit tests, debug/release builds, and debug/release lint passed. The web suite passed all 13 motion/content tests and browser checks, including the default tab in all 21 lessons.
+- The signed APK has version code 2 and version name 0.1.1, retains the 0.1.0 release certificate, and passes 16 KB alignment verification. All 17 shared assets match the web build byte for byte.
+
+## 0.1.0
 
 Validated on 14 October 2026 with Android 16 / API 36 on a dedicated emulator, using Android System WebView 133.0.6943.137.
 

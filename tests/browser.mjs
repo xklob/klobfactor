@@ -14,7 +14,7 @@ try{
  assert.equal(await page.getByLabel('Camera view',{exact:true}).inputValue(),'isometric');
  console.log('PASS charcoal default, theme persistence, and isometric camera');
  for(const l of all){
-  await go(l.href);assert.equal(await page.locator('#source-panel').isVisible(),true);assert.equal(await page.locator('iframe').count(),0);await diagram();
+  await go(l.href);assert.equal(await page.locator('#diagram-panel').isVisible(),true);assert.equal(await page.locator('#source-panel').isVisible(),false);assert.equal(await page.locator('[data-mode=diagram]').getAttribute('aria-pressed'),'true');assert.equal(await page.locator('iframe').count(),0);
   for(let i=0;i<l.moves.length;i++){
    const m=l.moves[i];await page.locator('#move-select').selectOption(String(i));
    assert.equal(await page.locator('#current-move-title').textContent(),m.name);assert.equal(await page.locator('#move-counter').textContent(),`${i+1} / ${l.moves.length}`);
@@ -23,7 +23,7 @@ try{
   }
   assert.ok(await page.locator('#next-move').isDisabled());
  }
- console.log('PASS all 21 lessons and 150 ordered sections; source first, explicit diagram scope, no playback on static references');
+ console.log('PASS all 21 lessons and 150 ordered sections; 3D first, explicit diagram scope, no playback on static references');
  const basic=all[0];await go(basic.href+'?move=3');await diagram();const slider=page.getByLabel('Cycle position',{exact:true});
  await slider.fill('400');await slider.dispatchEvent('input');await page.getByRole('button',{name:'Step forward one eighth of a cycle',exact:true}).click();assert.equal(await slider.inputValue(),'525');await page.getByRole('button',{name:'Step backward one eighth of a cycle',exact:true}).click();assert.equal(await slider.inputValue(),'400');
  await page.getByLabel('Playback speed',{exact:true}).selectOption('0.25');await page.getByRole('button',{name:'Play animation',exact:true}).click();await page.waitForTimeout(700);const slow=Number(await slider.inputValue());assert.ok(slow>410&&slow<470);await page.getByRole('button',{name:'Pause animation',exact:true}).click();const paused=await slider.inputValue();await page.waitForTimeout(150);assert.equal(await slider.inputValue(),paused);
@@ -37,7 +37,7 @@ try{
  await page.locator('[data-practice]').click();await page.reload();assert.equal(await page.locator('[data-practice]').getAttribute('aria-pressed'),'true');await diagram();
  await page.locator('#auto-advance').check();await slider.fill('990');await slider.dispatchEvent('input');await page.getByRole('button',{name:'Play animation',exact:true}).click();await page.waitForTimeout(450);assert.equal(await page.locator('#move-counter').textContent(),`5 / ${basic.moves.length}`);
  console.log('PASS diagram speeds, seeking, stepping, orbit, zoom, mirroring, independent visibility, theater, fullscreen fallback, progress and auto-advance');
- await go(basic.href);const media=await page.request.head(base+`/_local-media/${basic.videoId}.mp4`);
+ await go(basic.href);await page.locator('[data-mode=source]').click();const media=await page.request.head(base+`/_local-media/${basic.videoId}.mp4`);
  if(media.ok()){
   await page.locator('#load-source').click();await page.waitForFunction(()=>document.querySelector('video')?.readyState>=2);const video=page.locator('video');assert.ok(Math.abs(await video.evaluate(v=>v.currentTime)-basic.moves[0].start)<1);
   await page.locator('#source-speed').selectOption('0.25');assert.equal(await video.evaluate(v=>v.playbackRate),.25);await page.locator('[data-video-step="2"]').click();assert.ok(await video.evaluate((v,start)=>v.currentTime>=start+1.9,basic.moves[0].start));

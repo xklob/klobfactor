@@ -25,7 +25,7 @@ fun LessonScreen(lesson: Lesson,index: Int,dark: Boolean,expanded: Boolean,store
     val context=LocalContext.current
     val m=lesson.moves[index]
     val playerPath=remember(lesson.id) {"/trainer/?lesson=${lesson.id}&move=$index"}
-    var source by rememberSaveable {mutableStateOf(true)}
+    var source by rememberSaveable {mutableStateOf(false)}
     var auto by rememberSaveable {mutableStateOf(false)}
     var chooseMove by remember {mutableStateOf(false)}
     var video by remember {mutableStateOf(store.video(lesson.videoId))}
@@ -57,8 +57,8 @@ fun LessonScreen(lesson: Lesson,index: Int,dark: Boolean,expanded: Boolean,store
                 IconButton(onClick={onMove(index+1)},enabled=index<lesson.moves.lastIndex){Icon(Icons.AutoMirrored.Filled.ArrowForward,"Next move")}
             }
             Row(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
-                FilterChip(source,{source=true},label={Text("Source")})
                 FilterChip(!source,{source=false},label={Text("3D study")})
+                FilterChip(source,{source=true},label={Text("Source")})
             }
         }
         if(source) {
@@ -80,8 +80,8 @@ fun LessonScreen(lesson: Lesson,index: Int,dark: Boolean,expanded: Boolean,store
                 modifier=Modifier.fillMaxWidth().then(if(expanded)Modifier.weight(1f) else Modifier.height(520.dp)),
                 lesson=lesson,move=index,autoAdvance=auto,onMove=onMove,onExpand=onExpand,onNavigate=onNavigate)
         } else Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) {
-            Text("Source study",style=MaterialTheme.typography.titleMedium)
-            Text("Use the source for this movement and its body clearance.")
+            Text("No 3D study yet",style=MaterialTheme.typography.titleMedium)
+            Text("Use the demonstration for this section.")
             OutlinedButton(onClick={source=true}){Text("View source")}
         }
         if(!expanded) Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(18.dp)) {

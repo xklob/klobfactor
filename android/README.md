@@ -8,7 +8,7 @@ Native Android lesson navigation, search, practice records, settings, and local 
 - Android 9 or later, with an up-to-date Android System WebView.
 - All 21 lessons and 150 sections, including the full descriptions, grip and stance cues, steps, source times, setup notes, and limitations.
 - Offline prop diagrams and static references, free camera, thumb/pinky end markers, independent staff visibility, expanded view, seeking, stepping, speed, loops, and automatic advancement.
-- Source demonstrations are the default lesson view. Native local video playback includes seeking, quarter-second steps, speed, segment loops, automatic advancement, and a same-frame close-up. Choose a downloaded video using Android's file picker. Access survives restarts when the provider supports persistent access.
+- 3D studies are the default lesson view; source demonstrations are one tab away. Native local video playback includes seeking, quarter-second steps, speed, segment loops, automatic advancement, and a same-frame close-up. Choose a downloaded video using Android's file picker. Access survives restarts when the provider supports persistent access.
 - Saved progress, last section, dark/light mode, keep-screen-awake, and optional maximum brightness while practicing.
 - The motion lab, VTG relationships, glossary, source list, and diagram limits are bundled unchanged from the web build.
 

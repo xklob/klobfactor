@@ -75,7 +75,6 @@ class TrainerDeviceTest {
         ActivityScenario.launch(MainActivity::class.java).use {s->
             tap("Grip, timing & direction")
             repeat(3){device.findObject(By.desc("Next move")).click();Thread.sleep(200)}
-            tap("3D study")
             waitJs(s,"document.body.dataset.ready==='true' && !!document.querySelector('canvas')")
             assertEquals("\"beginner-01\"",js(s,"document.body.dataset.lesson"))
             waitJs(s,"document.body.dataset.move==='3' && document.querySelector('.stage').dataset.staffCount==='2'")
@@ -98,7 +97,6 @@ class TrainerDeviceTest {
             device.findObject(By.desc("Mark practiced")).click()
             device.pressBack()
             tap("Continue")
-            tap("3D study")
             waitJs(s,"document.body.dataset.move==='3'")
             s.recreate()
             waitJs(s,"document.body.dataset.move==='3'")
@@ -185,7 +183,6 @@ class TrainerDeviceTest {
         ActivityScenario.launch(MainActivity::class.java).use {s->
             tap("Grip, timing & direction")
             repeat(3){device.findObject(By.desc("Next move")).click();Thread.sleep(200)}
-            tap("3D study")
             waitJs(s,"document.body.dataset.ready==='true'")
             js(s,"window.coverage={done:false,errors:[],count:0};(async()=>{const all=(await fetch('/assets/catalog.json').then(r=>r.json())).flatMap(s=>s.entries);for(const l of all)for(let i=0;i<l.moves.length;i++){try{window.trainer.select(l.id,i);if(l.moves[i].motion && !document.querySelector('canvas'))throw new Error('missing renderer');window.coverage.count++;}catch(e){window.coverage.errors.push(l.id+':'+i+':'+e.message);}await new Promise(r=>setTimeout(r,5));}window.coverage.done=true;})()")
             waitJs(s,"window.coverage?.done===true")

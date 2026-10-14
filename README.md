@@ -6,7 +6,7 @@ Double staff lessons, interactive diagrams, and timestamped DrexFactor tutorials
 
 - 21 lesson pages from 20 distinct videos in two playlists.
 - 150 ordered move and study sections with grip, stance, focus, practice cues, and source timestamps.
-- Source demonstrations first, with separate 3D pattern studies and static spatial references.
+- 3D studies first, with source demonstrations one tab away.
 - Scrubbing, forward/backward steps, looping, automatic move advancement, and 0.25× through 2× playback.
 - Isometric default with free orbit, zoom, and pan; front, side, top, and mirrored presets.
 - Theater and full-screen views. Downloaded videos have a live close-up with selectable area, pan, and zoom.
