@@ -1,0 +1,14 @@
+{
+  "name": "klobfactor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive double staff and Vulcan Tech Gospel field guide",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "devDependencies": { "playwright": "^1.61.1" }
+}

@@ -1,0 +1,1733 @@
+[
+  {
+    "videoId": "sGrt1Uj8Ud4",
+    "title": "Isolations",
+    "summary": "Anchor one staff end and circle the other around it, then explore the timing and plane variations.",
+    "setup": {
+      "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+      "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+      "plane": "Wall plane for the basic explanation; wall and wheel plane variants are demonstrated."
+    },
+    "moves": [
+      {
+        "name": "Thumb-end isolation",
+        "start": 12,
+        "end": 61,
+        "description": "Keep the thumb-side tip near a single point on the body midline at about shoulder height while the other tip circles it.",
+        "grip": "Center grip; at the upper and lower positions let the shaft rest against the thumb joint with the fingers extending toward the pinky end.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Watch the anchored end, not just the moving end.",
+        "steps": [
+          {
+            "title": "Choose the center",
+            "body": "Imagine a point halfway between the shoulders at shoulder height."
+          },
+          {
+            "title": "Orbit the hand",
+            "body": "Move the hand around that point while continually aiming the thumb-side end at it."
+          },
+          {
+            "title": "Accommodate the grip",
+            "body": "At the top and bottom, use the thumb-joint support demonstrated in the grip lesson."
+          },
+          {
+            "title": "Check the anchor",
+            "body": "Use a mirror to see whether the chosen tip wanders away from the target."
+          }
+        ],
+        "suggestedPattern": "isolation",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Pinky-end isolation",
+        "start": 61,
+        "end": 69,
+        "description": "Use the pinky-side tip as the stationary end of the isolation.",
+        "grip": "Center grip with a comfortable closed hold; track the pinky-side end rather than changing which end is named.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Keep the same end anchored through the entire circle.",
+        "steps": [
+          {
+            "title": "Change the anchored end",
+            "body": "Place the pinky end at the imagined shoulder-height center."
+          },
+          {
+            "title": "Circle around it",
+            "body": "Let the hand and thumb end travel around that center."
+          },
+          {
+            "title": "Keep a comfortable hold",
+            "body": "Drex shows this version without the pronounced open-thumb positions of the thumb-end version."
+          }
+        ],
+        "suggestedPattern": "isolation",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Together same isolations",
+        "start": 104,
+        "end": 122,
+        "description": "Move the hands around their circles in the same direction and phase.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Both hands arrive at each corresponding compass position together.",
+        "steps": [
+          {
+            "title": "Establish one isolation",
+            "body": "Choose one end to anchor and make its small hand orbit consistent."
+          },
+          {
+            "title": "Add the second hand",
+            "body": "Move the hands around their circles in the same direction and phase."
+          },
+          {
+            "title": "Hold the shape",
+            "body": "Keep each selected end near its isolation center as the other end travels around."
+          }
+        ],
+        "suggestedPattern": "isolation",
+        "timing": "together-same"
+      },
+      {
+        "name": "Together opposite in wall plane isolations",
+        "start": 124,
+        "end": 146,
+        "description": "Mirror the hand circles in front of the body.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Both hands reach the top and bottom together while traveling opposite directions.",
+        "steps": [
+          {
+            "title": "Establish one isolation",
+            "body": "Choose one end to anchor and make its small hand orbit consistent."
+          },
+          {
+            "title": "Add the second hand",
+            "body": "Mirror the hand circles in front of the body."
+          },
+          {
+            "title": "Hold the shape",
+            "body": "Keep each selected end near its isolation center as the other end travels around."
+          }
+        ],
+        "suggestedPattern": "isolation",
+        "timing": "together-opposite"
+      },
+      {
+        "name": "Together opposite in wheel plane isolations",
+        "start": 149,
+        "end": 171,
+        "description": "Place the mirrored circles beside the body.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Turn side-on to the viewer so the vertical staff planes run beside the body. Allow the torso to turn with the movement, as in the source.",
+        "focus": "Maintain the isolation as the body turns through the side-on demonstration.",
+        "steps": [
+          {
+            "title": "Establish one isolation",
+            "body": "Choose one end to anchor and make its small hand orbit consistent."
+          },
+          {
+            "title": "Add the second hand",
+            "body": "Place the mirrored circles beside the body."
+          },
+          {
+            "title": "Hold the shape",
+            "body": "Keep each selected end near its isolation center as the other end travels around."
+          }
+        ],
+        "suggestedPattern": "isolation",
+        "timing": "together-opposite"
+      },
+      {
+        "name": "Split opposite isolations",
+        "start": 175,
+        "end": 190,
+        "description": "Use opposite directions with the hands at opposite vertical positions.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "When one hand is high, the other is low; retain the fixed-end idea for both staffs.",
+        "steps": [
+          {
+            "title": "Establish one isolation",
+            "body": "Choose one end to anchor and make its small hand orbit consistent."
+          },
+          {
+            "title": "Add the second hand",
+            "body": "Use opposite directions with the hands at opposite vertical positions."
+          },
+          {
+            "title": "Hold the shape",
+            "body": "Keep each selected end near its isolation center as the other end travels around."
+          }
+        ],
+        "suggestedPattern": "isolation",
+        "timing": "split-opposite"
+      },
+      {
+        "name": "Split same in wheel plane isolations",
+        "start": 195,
+        "end": 204,
+        "description": "Follow the same direction with the hands half a cycle apart.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Turn side-on to the viewer so the vertical staff planes run beside the body. Allow the torso to turn with the movement, as in the source.",
+        "focus": "Drex specifically recommends wheel plane for this combination.",
+        "steps": [
+          {
+            "title": "Establish one isolation",
+            "body": "Choose one end to anchor and make its small hand orbit consistent."
+          },
+          {
+            "title": "Add the second hand",
+            "body": "Follow the same direction with the hands half a cycle apart."
+          },
+          {
+            "title": "Hold the shape",
+            "body": "Keep each selected end near its isolation center as the other end travels around."
+          }
+        ],
+        "suggestedPattern": "isolation",
+        "timing": "split-same"
+      }
+    ],
+    "pitfalls": [
+      "Letting the supposedly fixed end drift around.",
+      "Trying to keep a rigid closed grip through the thumb-end version instead of using the demonstrated thumb-joint support.",
+      "Forcing split-same into the front-body wall-plane arrangement instead of using the wheel-plane option shown."
+    ],
+    "prerequisites": [
+      "tqJoUgprXws"
+    ],
+    "evidence": [
+      {
+        "time": 12,
+        "observation": "The spoken definition places the tracked tip at body midline and shoulder height."
+      },
+      {
+        "time": 44,
+        "observation": "Drex explains the thumb-joint support used at the top and bottom of thumb-end isolation."
+      },
+      {
+        "time": 61,
+        "observation": "He switches to pinky-end isolation with a more continuous closed grip."
+      },
+      {
+        "time": 104,
+        "observation": "The reference overlay identifies together time, same direction."
+      },
+      {
+        "time": 124,
+        "observation": "A separate reference section labels together-opposite wall plane."
+      },
+      {
+        "time": 149,
+        "observation": "The next section labels together-opposite wheel plane."
+      },
+      {
+        "time": 175,
+        "observation": "The overlay labels split-time opposite."
+      },
+      {
+        "time": 195,
+        "observation": "The final reference overlay labels split-time same."
+      }
+    ],
+    "limitations": [
+      "These are source-informed teaching diagrams, not motion capture. Hand paths and shaft angles do not specify exact shoulder, elbow, wrist, or finger mechanics.",
+      "A centered grip is observed, but no exact hand-to-tip length is measured.",
+      "The reference sections are demonstrations rather than new detailed grip instruction; apply the earlier grip explanation."
+    ],
+    "geometry": {
+      "handRadius": "Equal to the distance from grip to the anchored tip in an ideal planar isolation. With a center grip this is half the staff length.",
+      "absoluteStaffTurnsPerHandOrbit": 1,
+      "model": "hand = center + radius*(cos(theta),sin(theta)); orient one staff endpoint back to center.",
+      "interpretation": "This radius equality is derived from the fixed-end definition, not a numeric measurement supplied by Drex."
+    }
+  },
+  {
+    "videoId": "L9DO8BIlXrs",
+    "title": "Extensions",
+    "summary": "Use full arm reach to carry the staff around a large circle without pinning a tip.",
+    "setup": {
+      "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+      "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+      "plane": "Wall plane for the explanation; the split-same reference turns through wheel plane."
+    },
+    "moves": [
+      {
+        "name": "Thumbs-out extensions",
+        "start": 12,
+        "end": 50,
+        "description": "Carry the staff around with the arm at full reach, with the thumb-side end pointing away from the body center. No tip is required to stay pinned.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Make the hand circle large rather than chasing a fixed tip.",
+        "steps": [
+          {
+            "title": "Reach outward",
+            "body": "Extend the arm to create the large circle shown in the lesson."
+          },
+          {
+            "title": "Carry the staff",
+            "body": "Keep the staff in line with the outward reach as the hand moves around."
+          },
+          {
+            "title": "Let the center stay open",
+            "body": "Unlike an isolation, the inner end may travel around a circle of its own."
+          }
+        ],
+        "suggestedPattern": "extension",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Thumbs-in extensions",
+        "start": 50,
+        "end": 54,
+        "description": "Reverse the orientation so that the thumb-side end points inward while retaining the full-arm circle.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Changing the inward end does not change the extension hand path.",
+        "steps": [
+          {
+            "title": "Choose the inward end",
+            "body": "Turn the grip so the thumb end faces the center."
+          },
+          {
+            "title": "Keep the reach",
+            "body": "Move the hand around at full arm length."
+          },
+          {
+            "title": "Compare the tips",
+            "body": "Observe how both tip paths differ from the pinned endpoint of an isolation."
+          }
+        ],
+        "suggestedPattern": "extension",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Together same extensions",
+        "start": 56,
+        "end": 76,
+        "description": "Both hands make large circles in the same direction and phase.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Preserve the long arm path through all four compass positions.",
+        "steps": [
+          {
+            "title": "Set the reach",
+            "body": "Choose thumbs in or thumbs out and extend both arms."
+          },
+          {
+            "title": "Set the timing",
+            "body": "Both hands make large circles in the same direction and phase."
+          },
+          {
+            "title": "Complete the circle",
+            "body": "Keep the staff aligned with the moving reach without trying to pin a tip."
+          }
+        ],
+        "suggestedPattern": "extension",
+        "timing": "together-same"
+      },
+      {
+        "name": "Together opposite extensions",
+        "start": 78,
+        "end": 100,
+        "description": "Mirror the full-arm circles so both hands are high, then low, together.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Preserve the long arm path through all four compass positions.",
+        "steps": [
+          {
+            "title": "Set the reach",
+            "body": "Choose thumbs in or thumbs out and extend both arms."
+          },
+          {
+            "title": "Set the timing",
+            "body": "Mirror the full-arm circles so both hands are high, then low, together."
+          },
+          {
+            "title": "Complete the circle",
+            "body": "Keep the staff aligned with the moving reach without trying to pin a tip."
+          }
+        ],
+        "suggestedPattern": "extension",
+        "timing": "together-opposite"
+      },
+      {
+        "name": "Split opposite extensions",
+        "start": 104,
+        "end": 121,
+        "description": "Move the hands in opposite directions with one high when the other is low.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Preserve the long arm path through all four compass positions.",
+        "steps": [
+          {
+            "title": "Set the reach",
+            "body": "Choose thumbs in or thumbs out and extend both arms."
+          },
+          {
+            "title": "Set the timing",
+            "body": "Move the hands in opposite directions with one high when the other is low."
+          },
+          {
+            "title": "Complete the circle",
+            "body": "Keep the staff aligned with the moving reach without trying to pin a tip."
+          }
+        ],
+        "suggestedPattern": "extension",
+        "timing": "split-opposite"
+      },
+      {
+        "name": "Split same extensions",
+        "start": 125,
+        "end": 136,
+        "description": "Follow the same direction half a cycle apart, using the side-on arrangement shown.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Turn side-on to the viewer so the vertical staff planes run beside the body. Allow the torso to turn with the movement, as in the source.",
+        "focus": "Preserve the long arm path through all four compass positions.",
+        "steps": [
+          {
+            "title": "Set the reach",
+            "body": "Choose thumbs in or thumbs out and extend both arms."
+          },
+          {
+            "title": "Set the timing",
+            "body": "Follow the same direction half a cycle apart, using the side-on arrangement shown."
+          },
+          {
+            "title": "Complete the circle",
+            "body": "Keep the staff aligned with the moving reach without trying to pin a tip."
+          }
+        ],
+        "suggestedPattern": "extension",
+        "timing": "split-same"
+      }
+    ],
+    "pitfalls": [
+      "Shrinking the hand orbit to keep an inner tip pinned, which changes the intended extension into an isolation.",
+      "Adding a separate wrist spin instead of carrying the radial staff with the arm.",
+      "Assuming extension and isolation must look different with every staff and arm length."
+    ],
+    "prerequisites": [
+      "sGrt1Uj8Ud4"
+    ],
+    "evidence": [
+      {
+        "time": 12,
+        "observation": "The explanation contrasts a full-length arm circle with the fixed-point goal of an isolation."
+      },
+      {
+        "time": 34,
+        "observation": "Drex says staff length can make extension and isolation similar, and compares his own shorter staffs with arm reach."
+      },
+      {
+        "time": 47,
+        "observation": "Both thumb-out and thumb-in orientations are explicitly demonstrated."
+      },
+      {
+        "time": 56,
+        "observation": "Together-same reference label is visible."
+      },
+      {
+        "time": 78,
+        "observation": "Together-opposite reference label is visible."
+      },
+      {
+        "time": 105,
+        "observation": "Split-time opposites label is visible."
+      },
+      {
+        "time": 125,
+        "observation": "Split-time same-direction label is visible."
+      }
+    ],
+    "limitations": [
+      "These are source-informed teaching diagrams, not motion capture. Hand paths and shaft angles do not specify exact shoulder, elbow, wrist, or finger mechanics.",
+      "No universal arm-length-to-staff-length ratio is given.",
+      "The phrase about the staff not rotating refers to no added staff spin; the shaft still turns with the arm in the viewing plane."
+    ],
+    "geometry": {
+      "handRadius": "Full arm reach; do not force this radius to half staff length.",
+      "absoluteStaffTurnsPerHandOrbit": 1,
+      "model": "Carry the shaft radially with the hand; the inner and outer tips form concentric circles when the center is idealized.",
+      "interpretation": "The video gives a qualitative reach comparison, not a measured radius ratio."
+    }
+  },
+  {
+    "videoId": "pRoRKPIewhE",
+    "title": "Antispin",
+    "summary": "Counterrotate each shaft against its hand circle, using the thumb or pinky end as the horizontal reference.",
+    "setup": {
+      "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+      "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+      "plane": "Wall plane for the breakdown; the reference includes both wall and wheel plane together-opposite variations."
+    },
+    "moves": [
+      {
+        "name": "Thumb-led four-petal antispin",
+        "start": 12,
+        "end": 234,
+        "description": "The hand and shaft rotate in opposite directions. In the thumb-led version the thumb-side tip travels along a horizontal line across the shoulders; the other tip travels up and down.",
+        "grip": "Center grip; at the upper and lower positions let the shaft rest against the thumb joint with the fingers extending toward the pinky end.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "At either side, the pinky end passes outside the elbow rather than into the elbow crease.",
+        "steps": [
+          {
+            "title": "Start below the center",
+            "body": "Hold the staff vertically in front with the thumb end up, using the thumb-joint support."
+          },
+          {
+            "title": "Slide to the right",
+            "body": "Send the thumb end horizontally right. Keep the pinky end on the outer, bony side of the elbow."
+          },
+          {
+            "title": "Return through the top",
+            "body": "Bring the thumb end back toward the center as the pinky end rises."
+          },
+          {
+            "title": "Slide left and return",
+            "body": "Send the thumb end left with the pinky end outside the elbow, then let the pinky end descend to the starting position."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Pinky-led four-petal antispin",
+        "start": 234,
+        "end": 299,
+        "description": "Exchange the roles of the ends so the pinky-side tip is the horizontal reference. This gives the complementary antispin grip path.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "At the side positions the thumb end approaches the inner elbow, unlike the thumb-led version.",
+        "steps": [
+          {
+            "title": "Prepare the lower position",
+            "body": "Drex begins with the thumb directed down and the pinky end outside the elbow."
+          },
+          {
+            "title": "Send the pinky outward",
+            "body": "Extend the pinky-side tip along the horizontal line while the thumb end comes toward the elbow crease."
+          },
+          {
+            "title": "Raise the thumb end",
+            "body": "Let the thumb end rise, then send the pinky end outward on the other side."
+          },
+          {
+            "title": "Return below",
+            "body": "Lower the thumb end and recover the starting relationship with the pinky end outside the elbow."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Thumbs in, together same",
+        "start": 305,
+        "end": 327,
+        "description": "Apply the thumb-led antispin path to this source-labeled timing and plane variation. Both hand circles share direction and phase.",
+        "grip": "Center grip; at the upper and lower positions let the shaft rest against the thumb joint with the fingers extending toward the pinky end.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Keep the pinky end outside the elbow at the side positions.",
+        "steps": [
+          {
+            "title": "Choose the tracked end",
+            "body": "Follow the thumb-side tip along the horizontal reference in its own spinning plane."
+          },
+          {
+            "title": "Set the relationship",
+            "body": "Both hand circles share direction and phase."
+          },
+          {
+            "title": "Retain counterrotation",
+            "body": "Each shaft keeps rotating opposite to its own hand circle."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "together-same"
+      },
+      {
+        "name": "Pinkies in, together same",
+        "start": 329,
+        "end": 352,
+        "description": "Apply the pinky-led antispin path to this source-labeled timing and plane variation. Both hand circles share direction and phase.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Let the thumb end approach the inner elbow at the side positions.",
+        "steps": [
+          {
+            "title": "Choose the tracked end",
+            "body": "Follow the pinky-side tip along the horizontal reference in its own spinning plane."
+          },
+          {
+            "title": "Set the relationship",
+            "body": "Both hand circles share direction and phase."
+          },
+          {
+            "title": "Retain counterrotation",
+            "body": "Each shaft keeps rotating opposite to its own hand circle."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "together-same"
+      },
+      {
+        "name": "Thumbs in, together opposite, wall plane",
+        "start": 355,
+        "end": 377,
+        "description": "Apply the thumb-led antispin path to this source-labeled timing and plane variation. The hand circles mirror one another, reaching the top and bottom together.",
+        "grip": "Center grip; at the upper and lower positions let the shaft rest against the thumb joint with the fingers extending toward the pinky end.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Keep the pinky end outside the elbow at the side positions.",
+        "steps": [
+          {
+            "title": "Choose the tracked end",
+            "body": "Follow the thumb-side tip along the horizontal reference in its own spinning plane."
+          },
+          {
+            "title": "Set the relationship",
+            "body": "The hand circles mirror one another, reaching the top and bottom together."
+          },
+          {
+            "title": "Retain counterrotation",
+            "body": "Each shaft keeps rotating opposite to its own hand circle."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "together-opposite"
+      },
+      {
+        "name": "Pinkies in, together opposite, wall plane",
+        "start": 378,
+        "end": 401,
+        "description": "Apply the pinky-led antispin path to this source-labeled timing and plane variation. The hand circles mirror one another, reaching the top and bottom together.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Let the thumb end approach the inner elbow at the side positions.",
+        "steps": [
+          {
+            "title": "Choose the tracked end",
+            "body": "Follow the pinky-side tip along the horizontal reference in its own spinning plane."
+          },
+          {
+            "title": "Set the relationship",
+            "body": "The hand circles mirror one another, reaching the top and bottom together."
+          },
+          {
+            "title": "Retain counterrotation",
+            "body": "Each shaft keeps rotating opposite to its own hand circle."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "together-opposite"
+      },
+      {
+        "name": "Thumbs in, together opposite, wheel plane",
+        "start": 405,
+        "end": 427,
+        "description": "Apply the thumb-led antispin path to this source-labeled timing and plane variation. The hand circles mirror one another, reaching the top and bottom together.",
+        "grip": "Center grip; at the upper and lower positions let the shaft rest against the thumb joint with the fingers extending toward the pinky end.",
+        "stance": "Turn side-on to the viewer so the vertical staff planes run beside the body. Allow the torso to turn with the movement, as in the source.",
+        "focus": "Keep the pinky end outside the elbow at the side positions.",
+        "steps": [
+          {
+            "title": "Choose the tracked end",
+            "body": "Follow the thumb-side tip along the horizontal reference in its own spinning plane."
+          },
+          {
+            "title": "Set the relationship",
+            "body": "The hand circles mirror one another, reaching the top and bottom together."
+          },
+          {
+            "title": "Retain counterrotation",
+            "body": "Each shaft keeps rotating opposite to its own hand circle."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "together-opposite"
+      },
+      {
+        "name": "Pinkies in, together opposite, wheel plane",
+        "start": 430,
+        "end": 447,
+        "description": "Apply the pinky-led antispin path to this source-labeled timing and plane variation. The hand circles mirror one another, reaching the top and bottom together.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Turn side-on to the viewer so the vertical staff planes run beside the body. Allow the torso to turn with the movement, as in the source.",
+        "focus": "Let the thumb end approach the inner elbow at the side positions.",
+        "steps": [
+          {
+            "title": "Choose the tracked end",
+            "body": "Follow the pinky-side tip along the horizontal reference in its own spinning plane."
+          },
+          {
+            "title": "Set the relationship",
+            "body": "The hand circles mirror one another, reaching the top and bottom together."
+          },
+          {
+            "title": "Retain counterrotation",
+            "body": "Each shaft keeps rotating opposite to its own hand circle."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "together-opposite"
+      },
+      {
+        "name": "Thumbs in, split opposite",
+        "start": 450,
+        "end": 471,
+        "description": "Apply the thumb-led antispin path to this source-labeled timing and plane variation. The hand circles run in opposite directions, with one hand high while the other is low.",
+        "grip": "Center grip; at the upper and lower positions let the shaft rest against the thumb joint with the fingers extending toward the pinky end.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Keep the pinky end outside the elbow at the side positions.",
+        "steps": [
+          {
+            "title": "Choose the tracked end",
+            "body": "Follow the thumb-side tip along the horizontal reference in its own spinning plane."
+          },
+          {
+            "title": "Set the relationship",
+            "body": "The hand circles run in opposite directions, with one hand high while the other is low."
+          },
+          {
+            "title": "Retain counterrotation",
+            "body": "Each shaft keeps rotating opposite to its own hand circle."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "split-opposite"
+      },
+      {
+        "name": "Pinkies in, split opposite",
+        "start": 473,
+        "end": 500,
+        "description": "Apply the pinky-led antispin path to this source-labeled timing and plane variation. The hand circles run in opposite directions, with one hand high while the other is low.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Let the thumb end approach the inner elbow at the side positions.",
+        "steps": [
+          {
+            "title": "Choose the tracked end",
+            "body": "Follow the pinky-side tip along the horizontal reference in its own spinning plane."
+          },
+          {
+            "title": "Set the relationship",
+            "body": "The hand circles run in opposite directions, with one hand high while the other is low."
+          },
+          {
+            "title": "Retain counterrotation",
+            "body": "Each shaft keeps rotating opposite to its own hand circle."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "split-opposite"
+      },
+      {
+        "name": "Thumbs in, split same",
+        "start": 505,
+        "end": 526,
+        "description": "Apply the thumb-led antispin path to this source-labeled timing and plane variation. Both hands travel in the same direction, half a circle apart.",
+        "grip": "Center grip; at the upper and lower positions let the shaft rest against the thumb joint with the fingers extending toward the pinky end.",
+        "stance": "Turn side-on to the viewer so the vertical staff planes run beside the body. Allow the torso to turn with the movement, as in the source.",
+        "focus": "Keep the pinky end outside the elbow at the side positions.",
+        "steps": [
+          {
+            "title": "Choose the tracked end",
+            "body": "Follow the thumb-side tip along the horizontal reference in its own spinning plane."
+          },
+          {
+            "title": "Set the relationship",
+            "body": "Both hands travel in the same direction, half a circle apart."
+          },
+          {
+            "title": "Retain counterrotation",
+            "body": "Each shaft keeps rotating opposite to its own hand circle."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "split-same"
+      },
+      {
+        "name": "Pinkies in, split same",
+        "start": 531,
+        "end": 542,
+        "description": "Apply the pinky-led antispin path to this source-labeled timing and plane variation. Both hands travel in the same direction, half a circle apart.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Turn side-on to the viewer so the vertical staff planes run beside the body. Allow the torso to turn with the movement, as in the source.",
+        "focus": "Let the thumb end approach the inner elbow at the side positions.",
+        "steps": [
+          {
+            "title": "Choose the tracked end",
+            "body": "Follow the pinky-side tip along the horizontal reference in its own spinning plane."
+          },
+          {
+            "title": "Set the relationship",
+            "body": "Both hands travel in the same direction, half a circle apart."
+          },
+          {
+            "title": "Retain counterrotation",
+            "body": "Each shaft keeps rotating opposite to its own hand circle."
+          }
+        ],
+        "suggestedPattern": "antispin",
+        "timing": "split-same"
+      }
+    ],
+    "pitfalls": [
+      "For thumb-led antispin, letting the pinky end enter the elbow crease and trapping the next upward movement.",
+      "Mixing up the horizontal tracking end with whichever end happens to point inward at one moment.",
+      "Counting only one end when naming the double-ended staff four-petal pattern.",
+      "Learning only one grip-path version, which makes later changes between isolations and antispins harder."
+    ],
+    "prerequisites": [
+      "tqJoUgprXws",
+      "sGrt1Uj8Ud4",
+      "L9DO8BIlXrs"
+    ],
+    "evidence": [
+      {
+        "time": 29,
+        "observation": "Drex contrasts clockwise staff rotation with counterclockwise hand movement from his perspective."
+      },
+      {
+        "time": 54,
+        "observation": "He calls the shown pattern four-petal for a staff and two-petal for a one-ended prop."
+      },
+      {
+        "time": 81,
+        "observation": "Thumb-in versus pinky-in is defined by which end forms the horizontal shoulder-line path."
+      },
+      {
+        "time": 130,
+        "observation": "The thumb-led breakdown starts below the center with the thumb end up."
+      },
+      {
+        "time": 147,
+        "observation": "He explicitly contrasts pinky end outside the elbow with an uncomfortable inside-elbow path."
+      },
+      {
+        "time": 234,
+        "observation": "The pinky-led breakdown begins and reverses which endpoint follows the horizontal line."
+      },
+      {
+        "time": 305,
+        "observation": "The slow reference begins with thumbs-in together-same."
+      },
+      {
+        "time": 355,
+        "observation": "Thumbs-in together-opposite wall plane is labeled."
+      },
+      {
+        "time": 405,
+        "observation": "Thumbs-in together-opposite wheel plane is labeled separately."
+      },
+      {
+        "time": 450,
+        "observation": "Thumbs-in split opposites is labeled."
+      },
+      {
+        "time": 531,
+        "observation": "The final reference overlay identifies pinkies-in split same."
+      }
+    ],
+    "limitations": [
+      "These are source-informed teaching diagrams, not motion capture. Hand paths and shaft angles do not specify exact shoulder, elbow, wrist, or finger mechanics.",
+      "The straight endpoint lines are a teaching ideal. Drex notes that his vertical line is less consistent than the horizontal line.",
+      "End-to-end traces are not a measurement of elbow clearance; the source grip demonstrations remain necessary."
+    ],
+    "geometry": {
+      "handRadius": "For ideal straight endpoint lines, use grip-to-tip length as the hand-orbit radius.",
+      "absoluteStaffTurnsPerHandOrbit": -1,
+      "model": "With equal radii and shaft angle -theta, one endpoint is (2*r*cos(theta),0) and the other is (0,2*r*sin(theta)), up to phase/sign. Swap endpoint identity for the pinky-led version.",
+      "interpretation": "The source explicitly supplies opposite rotation and horizontal/vertical endpoint paths. The equality and equations are an ideal geometric derivation.",
+      "traceNote": "The four outward compass points use both staff ends. A single tracked end does not draw a conventional four-lobed poi flower."
+    }
+  },
+  {
+    "videoId": "fb3CTGPTGyw",
+    "title": "Inspin",
+    "summary": "Add same-direction shaft turns while the hand travels around, producing longer curved paths between familiar inward-end positions.",
+    "setup": {
+      "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+      "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+      "plane": "Wall plane in the breakdown; the reference turns side-on for split-same."
+    },
+    "moves": [
+      {
+        "name": "Inspin flower",
+        "start": 12,
+        "end": 98,
+        "description": "Move the staff and hand in the same direction while adding enough staff rotation to alternate the inward-pointing end at successive compass positions.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Allow the longer curved route between positions; this is not the short counterrotating antispin route.",
+        "steps": [
+          {
+            "title": "Begin with pinky in",
+            "body": "Start low with the pinky-side end toward the center, as in the demonstration."
+          },
+          {
+            "title": "Travel to the right",
+            "body": "Turn the staff in the same direction as the hand until the thumb end faces inward on the right."
+          },
+          {
+            "title": "Continue above",
+            "body": "Carry the curved motion onward until the pinky end is inward at the upper position."
+          },
+          {
+            "title": "Return through the left",
+            "body": "Bring the thumb end toward the inner elbow on the left, then continue to pinky-in at the bottom."
+          }
+        ],
+        "suggestedPattern": "inspin",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Together same inspin",
+        "start": 104,
+        "end": 136,
+        "description": "Both hand circles share direction and phase.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Each staff rotates in the same direction as its own hand, with the extra turns preserved.",
+        "steps": [
+          {
+            "title": "Establish the flower",
+            "body": "Use the pinky-in, thumb-in, pinky-in, thumb-in compass sequence."
+          },
+          {
+            "title": "Add the other hand",
+            "body": "Both hand circles share direction and phase."
+          },
+          {
+            "title": "Keep the extra rotation",
+            "body": "Maintain the long curved transitions instead of taking an antispin shortcut."
+          }
+        ],
+        "suggestedPattern": "inspin",
+        "timing": "together-same"
+      },
+      {
+        "name": "Together opposite inspin",
+        "start": 138,
+        "end": 174,
+        "description": "The hand circles mirror one another, reaching the top and bottom together.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Each staff rotates in the same direction as its own hand, with the extra turns preserved.",
+        "steps": [
+          {
+            "title": "Establish the flower",
+            "body": "Use the pinky-in, thumb-in, pinky-in, thumb-in compass sequence."
+          },
+          {
+            "title": "Add the other hand",
+            "body": "The hand circles mirror one another, reaching the top and bottom together."
+          },
+          {
+            "title": "Keep the extra rotation",
+            "body": "Maintain the long curved transitions instead of taking an antispin shortcut."
+          }
+        ],
+        "suggestedPattern": "inspin",
+        "timing": "together-opposite"
+      },
+      {
+        "name": "Split opposite inspin",
+        "start": 176,
+        "end": 207,
+        "description": "The hand circles run in opposite directions, with one hand high while the other is low.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Each staff rotates in the same direction as its own hand, with the extra turns preserved.",
+        "steps": [
+          {
+            "title": "Establish the flower",
+            "body": "Use the pinky-in, thumb-in, pinky-in, thumb-in compass sequence."
+          },
+          {
+            "title": "Add the other hand",
+            "body": "The hand circles run in opposite directions, with one hand high while the other is low."
+          },
+          {
+            "title": "Keep the extra rotation",
+            "body": "Maintain the long curved transitions instead of taking an antispin shortcut."
+          }
+        ],
+        "suggestedPattern": "inspin",
+        "timing": "split-opposite"
+      },
+      {
+        "name": "Split same inspin",
+        "start": 209,
+        "end": 240,
+        "description": "Both hands travel in the same direction, half a circle apart.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Turn side-on to the viewer so the vertical staff planes run beside the body. Allow the torso to turn with the movement, as in the source.",
+        "focus": "Each staff rotates in the same direction as its own hand, with the extra turns preserved.",
+        "steps": [
+          {
+            "title": "Establish the flower",
+            "body": "Use the pinky-in, thumb-in, pinky-in, thumb-in compass sequence."
+          },
+          {
+            "title": "Add the other hand",
+            "body": "Both hands travel in the same direction, half a circle apart."
+          },
+          {
+            "title": "Keep the extra rotation",
+            "body": "Maintain the long curved transitions instead of taking an antispin shortcut."
+          }
+        ],
+        "suggestedPattern": "inspin",
+        "timing": "split-same"
+      }
+    ],
+    "pitfalls": [
+      "Taking the short counterrotating route, which produces antispin instead.",
+      "Keeping the same inward-pointing end at every compass position, which removes the extra staff rotation.",
+      "Changing hand timing while forgetting to retain each staff’s same-direction relationship to its own hand."
+    ],
+    "prerequisites": [
+      "pRoRKPIewhE"
+    ],
+    "evidence": [
+      {
+        "time": 19,
+        "observation": "Inspin is defined as multiple staff beats in the same direction as the moving hand."
+      },
+      {
+        "time": 27,
+        "observation": "The demonstrated sequence begins with pinky in at the lower position."
+      },
+      {
+        "time": 31,
+        "observation": "The next right-side position has thumb in."
+      },
+      {
+        "time": 44,
+        "observation": "The hand has reached the upper position during the next phase."
+      },
+      {
+        "time": 48,
+        "observation": "The thumb-side end comes toward the inner elbow at the left-side position."
+      },
+      {
+        "time": 50,
+        "observation": "The demonstration returns to the lower pinky-in relationship."
+      },
+      {
+        "time": 104,
+        "observation": "Together-same reference overlay is visible."
+      },
+      {
+        "time": 138,
+        "observation": "Together-opposite overlay is visible."
+      },
+      {
+        "time": 176,
+        "observation": "Split-opposite overlay is visible."
+      },
+      {
+        "time": 209,
+        "observation": "Split-same overlay is visible."
+      }
+    ],
+    "limitations": [
+      "These are source-informed teaching diagrams, not motion capture. Hand paths and shaft angles do not specify exact shoulder, elbow, wrist, or finger mechanics.",
+      "Drex does not state a numerical spin ratio or a petal-count name in this video.",
+      "Using three absolute shaft turns per hand circle is the minimal smooth same-direction model consistent with the demonstrated inward-end alternation; it should be labeled as a diagram interpretation.",
+      "No fixed quantitative hand-radius-to-staff-length ratio is supplied."
+    ],
+    "geometry": {
+      "handRadius": "Choose a comfortable teaching orbit; the source does not measure a radius ratio.",
+      "absoluteStaffTurnsPerHandOrbit": 3,
+      "model": "A minimal continuous model uses shaft angle 3*theta plus a phase chosen for pinky-in at the lower checkpoint.",
+      "interpretation": "Derived from same-direction rotation plus alternating inward endpoint at each quarter orbit; not a ratio spoken by the instructor.",
+      "traceNote": "Keep thumb and pinky traces distinct. Do not infer a double-staff petal name solely from one endpoint trace."
+    }
+  },
+  {
+    "videoId": "nrYl22Z7bQ8",
+    "title": "Hybrids",
+    "summary": "Combine unlike patterns, then separate the direction of the hands from the direction of the staffs.",
+    "setup": {
+      "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+      "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+      "plane": "Predominantly the vertical plane in front of the body, with torso adjustments during the demonstrations."
+    },
+    "moves": [
+      {
+        "name": "Isolation plus extension comparison",
+        "start": 39,
+        "end": 65,
+        "description": "Drex briefly pairs an isolation with an extension to explain that a hybrid combines unlike patterns. He finds this pairing awkward for his arm and staff proportions.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "This is an exploratory comparison, not a requirement to force both hands into contact.",
+        "steps": [
+          {
+            "title": "Establish the isolation",
+            "body": "Hold one chosen endpoint near its isolation center."
+          },
+          {
+            "title": "Compare an extension",
+            "body": "Give the other hand a larger, extended circle."
+          },
+          {
+            "title": "Notice the proportions",
+            "body": "Watch how the different orbit sizes bring the hands into an awkward relationship in this example."
+          }
+        ],
+        "suggestedPattern": "hybrid",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Isolation or extension plus antispin",
+        "start": 65,
+        "end": 96,
+        "description": "Pair a one-turn isolation or extension with a counterrotating four-petal antispin. Drex develops the isolation version in the detailed examples.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "At the cardinal positions, seek clear horizontal and vertical staff relationships.",
+        "steps": [
+          {
+            "title": "Set both ends inward",
+            "body": "Begin with both thumb ends directed inward, as shown."
+          },
+          {
+            "title": "Assign different jobs",
+            "body": "Let one staff use an isolation while the other follows its antispin path."
+          },
+          {
+            "title": "Rise together",
+            "body": "Move to the next compass position while the staffs visibly rotate in opposite directions."
+          }
+        ],
+        "suggestedPattern": "hybrid",
+        "timing": "together-same"
+      },
+      {
+        "name": "Keep or exchange the hybrid roles",
+        "start": 96,
+        "end": 144,
+        "description": "At a compass position, either keep each hand doing its current pattern or exchange which hand isolates and which hand antispins.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Pause at clear horizontal and vertical arrangements before changing the role of a hand.",
+        "steps": [
+          {
+            "title": "Arrive at a checkpoint",
+            "body": "Bring both staffs to a recognizable compass-point relationship."
+          },
+          {
+            "title": "Choose the next paths",
+            "body": "Keep the same assignment, or give the isolation hand the antispin and vice versa."
+          },
+          {
+            "title": "Connect the next checkpoint",
+            "body": "Continue to another horizontal or vertical alignment; accent the moment or flow through it."
+          }
+        ],
+        "suggestedPattern": "hybrid",
+        "timing": "together-same"
+      },
+      {
+        "name": "Together up, apart down hybrid",
+        "start": 145,
+        "end": 182,
+        "description": "Bring the hands upward together, then separate them on the downward path while preserving one isolation and one antispin.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Equal-magnitude shaft rotation makes the staffs appear parallel during the separating section.",
+        "steps": [
+          {
+            "title": "Rise together",
+            "body": "Take the two hand paths toward the top while keeping their different pattern assignments."
+          },
+          {
+            "title": "Separate on descent",
+            "body": "Send the hands apart as they return downward."
+          },
+          {
+            "title": "Watch the shafts",
+            "body": "Look for the folding, parallel relationship rather than judging only the hand paths."
+          }
+        ],
+        "suggestedPattern": "hybrid",
+        "timing": "together-opposite"
+      },
+      {
+        "name": "Together-same hybrid",
+        "start": 195,
+        "end": 201,
+        "description": "Hands share direction; the shafts counterrotate, creating a contrasting or clashing appearance.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Timing and direction names here describe the hands. Track shaft direction separately.",
+        "steps": [
+          {
+            "title": "Assign the shapes",
+            "body": "Give one hand an isolation and the other a four-petal antispin."
+          },
+          {
+            "title": "Set the hand timing",
+            "body": "Both hand circles share direction and phase."
+          },
+          {
+            "title": "Compare the shafts",
+            "body": "Hands share direction; the shafts counterrotate, creating a contrasting or clashing appearance."
+          }
+        ],
+        "suggestedPattern": "hybrid",
+        "timing": "together-same"
+      },
+      {
+        "name": "Together-opposite hybrid",
+        "start": 201,
+        "end": 213,
+        "description": "The hands mirror one another, while the two shafts turn in the same direction and appear to fold in parallel.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Timing and direction names here describe the hands. Track shaft direction separately.",
+        "steps": [
+          {
+            "title": "Assign the shapes",
+            "body": "Give one hand an isolation and the other a four-petal antispin."
+          },
+          {
+            "title": "Set the hand timing",
+            "body": "The hand circles mirror one another, reaching the top and bottom together."
+          },
+          {
+            "title": "Compare the shafts",
+            "body": "The hands mirror one another, while the two shafts turn in the same direction and appear to fold in parallel."
+          }
+        ],
+        "suggestedPattern": "hybrid",
+        "timing": "together-opposite"
+      },
+      {
+        "name": "Split-opposite hybrid",
+        "start": 213,
+        "end": 222,
+        "description": "Opposite hand directions with split timing produce another parallel folding relationship.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Timing and direction names here describe the hands. Track shaft direction separately.",
+        "steps": [
+          {
+            "title": "Assign the shapes",
+            "body": "Give one hand an isolation and the other a four-petal antispin."
+          },
+          {
+            "title": "Set the hand timing",
+            "body": "The hand circles run in opposite directions, with one hand high while the other is low."
+          },
+          {
+            "title": "Compare the shafts",
+            "body": "Opposite hand directions with split timing produce another parallel folding relationship."
+          }
+        ],
+        "suggestedPattern": "hybrid",
+        "timing": "split-opposite"
+      },
+      {
+        "name": "Split-same hybrid",
+        "start": 222,
+        "end": 305,
+        "description": "Hands travel the same way half a cycle apart; the shafts turn opposite ways. Drex contrasts this with the parallel effect of opposite-direction hands.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Timing and direction names here describe the hands. Track shaft direction separately.",
+        "steps": [
+          {
+            "title": "Assign the shapes",
+            "body": "Give one hand an isolation and the other a four-petal antispin."
+          },
+          {
+            "title": "Set the hand timing",
+            "body": "Both hands travel in the same direction, half a circle apart."
+          },
+          {
+            "title": "Compare the shafts",
+            "body": "Hands travel the same way half a cycle apart; the shafts turn opposite ways. Drex contrasts this with the parallel effect of opposite-direction hands."
+          }
+        ],
+        "suggestedPattern": "hybrid",
+        "timing": "split-same"
+      }
+    ],
+    "pitfalls": [
+      "Using the word opposite without identifying whether it describes the hands or the staffs.",
+      "Losing the horizontal and vertical relationships at the compass checkpoints.",
+      "Forcing the briefly demonstrated isolation/extension pairing to fit proportions it does not suit.",
+      "Assuming same-direction hand paths imply same-direction staff rotation."
+    ],
+    "prerequisites": [
+      "sGrt1Uj8Ud4",
+      "L9DO8BIlXrs",
+      "pRoRKPIewhE",
+      "fb3CTGPTGyw"
+    ],
+    "evidence": [
+      {
+        "time": 39,
+        "observation": "A hybrid is introduced as two dissimilar patterns, including the brief isolation/extension comparison."
+      },
+      {
+        "time": 65,
+        "observation": "Drex prefers the contrast of isolation or extension with antispin and develops the isolation example."
+      },
+      {
+        "time": 96,
+        "observation": "He shows that the pattern assignments can remain fixed or switch at a checkpoint."
+      },
+      {
+        "time": 125,
+        "observation": "Horizontal and vertical staff relationships at four compass points are the stated target."
+      },
+      {
+        "time": 145,
+        "observation": "He demonstrates hands going up together and coming down apart."
+      },
+      {
+        "time": 163,
+        "observation": "He explains that the four-petal antispin and isolation/extension rotate by equal amounts in equal time."
+      },
+      {
+        "time": 195,
+        "observation": "Together-same hybrid is named."
+      },
+      {
+        "time": 201,
+        "observation": "Together-opposite is explicitly described as the hands, not the staffs."
+      },
+      {
+        "time": 213,
+        "observation": "Split-opposite shows the parallel folding effect."
+      },
+      {
+        "time": 222,
+        "observation": "Split-same is demonstrated and compared with together-same."
+      },
+      {
+        "time": 268,
+        "observation": "The summary distinguishes same-direction hands/opposite staffs from opposite-direction hands/same staffs."
+      }
+    ],
+    "limitations": [
+      "These are source-informed teaching diagrams, not motion capture. Hand paths and shaft angles do not specify exact shoulder, elbow, wrist, or finger mechanics.",
+      "The lesson suggests an extension/antispin alternative but gives the detailed compass breakdown with isolation/antispin.",
+      "The comparison with inspin is part of the preceding vocabulary; no separate inspin hybrid is developed here."
+    ],
+    "geometry": {
+      "model": "Combine a +1-turn isolation/extension shaft with a -1-turn antispin shaft. Assign each hand its own orbit direction and phase.",
+      "interpretation": "Same-direction hands lead to opposite shaft rotation; opposite-direction hands lead to same shaft rotation for this pairing.",
+      "traceNote": "Label hand arrows separately from shaft arrows. A single timing label cannot describe both."
+    }
+  },
+  {
+    "videoId": "MtpXzCSQBXA",
+    "title": "R-types and chu-chus",
+    "summary": "Keep one staff orientation fixed while its hand moves, then combine that translation with shoulder and hip reels.",
+    "setup": {
+      "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+      "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+      "plane": "R-types move in the displayed vertical plane. Chu-chus include front/behind-body reel travel, which a flat view cannot fully represent."
+    },
+    "moves": [
+      {
+        "name": "Thumb-up R-type",
+        "start": 54,
+        "end": 61,
+        "description": "Keep the thumb-side end pointing up throughout the hand orbit.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "The staff translates around a loop without rotating in the viewing plane.",
+        "steps": [
+          {
+            "title": "Choose an orientation",
+            "body": "Keep the thumb-side end pointing up throughout the hand orbit."
+          },
+          {
+            "title": "Move the center",
+            "body": "Carry the hand around a circle while preserving that orientation."
+          },
+          {
+            "title": "Check both ends",
+            "body": "Both ends should follow matching displaced paths rather than one end staying pinned."
+          }
+        ],
+        "suggestedPattern": "r-type",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Pinky-up R-type",
+        "start": 61,
+        "end": 65,
+        "description": "Keep the pinky-side end pointing up throughout the hand orbit.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "The staff translates around a loop without rotating in the viewing plane.",
+        "steps": [
+          {
+            "title": "Choose an orientation",
+            "body": "Keep the pinky-side end pointing up throughout the hand orbit."
+          },
+          {
+            "title": "Move the center",
+            "body": "Carry the hand around a circle while preserving that orientation."
+          },
+          {
+            "title": "Check both ends",
+            "body": "Both ends should follow matching displaced paths rather than one end staying pinned."
+          }
+        ],
+        "suggestedPattern": "r-type",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Palm-down R-type",
+        "start": 65,
+        "end": 71,
+        "description": "Keep the palm-down staff orientation fixed as the hand travels around.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "The staff translates around a loop without rotating in the viewing plane.",
+        "steps": [
+          {
+            "title": "Choose an orientation",
+            "body": "Keep the palm-down staff orientation fixed as the hand travels around."
+          },
+          {
+            "title": "Move the center",
+            "body": "Carry the hand around a circle while preserving that orientation."
+          },
+          {
+            "title": "Check both ends",
+            "body": "Both ends should follow matching displaced paths rather than one end staying pinned."
+          }
+        ],
+        "suggestedPattern": "r-type",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Palm-up R-type",
+        "start": 71,
+        "end": 76,
+        "description": "Keep the palm-up staff orientation fixed as the hand travels around.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "The staff translates around a loop without rotating in the viewing plane.",
+        "steps": [
+          {
+            "title": "Choose an orientation",
+            "body": "Keep the palm-up staff orientation fixed as the hand travels around."
+          },
+          {
+            "title": "Move the center",
+            "body": "Carry the hand around a circle while preserving that orientation."
+          },
+          {
+            "title": "Check both ends",
+            "body": "Both ends should follow matching displaced paths rather than one end staying pinned."
+          }
+        ],
+        "suggestedPattern": "r-type",
+        "timing": "single-hand"
+      },
+      {
+        "name": "Together-same R-types",
+        "start": 99,
+        "end": 109,
+        "description": "Move both hand orbits in the same direction and phase.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "The hands have timing and direction even though the shaft orientation is fixed.",
+        "steps": [
+          {
+            "title": "Fix the staffs",
+            "body": "Choose one of the demonstrated fixed orientations."
+          },
+          {
+            "title": "Pair the circles",
+            "body": "Move both hand orbits in the same direction and phase."
+          },
+          {
+            "title": "Maintain the lock",
+            "body": "Avoid adding shaft rotation as the hands round the circle."
+          }
+        ],
+        "suggestedPattern": "r-type",
+        "timing": "together-same"
+      },
+      {
+        "name": "Together-opposite R-types",
+        "start": 109,
+        "end": 114,
+        "description": "Mirror the two hand orbits while keeping both shaft orientations fixed.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "The hands have timing and direction even though the shaft orientation is fixed.",
+        "steps": [
+          {
+            "title": "Fix the staffs",
+            "body": "Choose one of the demonstrated fixed orientations."
+          },
+          {
+            "title": "Pair the circles",
+            "body": "Mirror the two hand orbits while keeping both shaft orientations fixed."
+          },
+          {
+            "title": "Maintain the lock",
+            "body": "Avoid adding shaft rotation as the hands round the circle."
+          }
+        ],
+        "suggestedPattern": "r-type",
+        "timing": "together-opposite"
+      },
+      {
+        "name": "Upper chu-chu: shoulder reel plus R-type",
+        "start": 133,
+        "end": 212,
+        "description": "Use a shoulder reel in the upper hand while the lower staff keeps a vertical R-type orientation and follows the reel staff end.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "The lower staff thumb end tracks the upper staff pinky end; the upright R-type staff remains in front of the body.",
+        "steps": [
+          {
+            "title": "Stack the staffs",
+            "body": "Begin with one hand high and one low, both thumbs up. Align the upper pinky end with the lower thumb end."
+          },
+          {
+            "title": "Rehearse the upper reel",
+            "body": "Drop the upper thumb end behind the back and bring the upper pinky end around to the front again."
+          },
+          {
+            "title": "Add the follower",
+            "body": "Move the lower staff in an R-type so its thumb end follows the moving pinky end of the upper staff."
+          },
+          {
+            "title": "Recover the stack",
+            "body": "Return to the upright end-to-end relationship in front of the body."
+          }
+        ],
+        "suggestedPattern": "chu-chu",
+        "timing": "linked"
+      },
+      {
+        "name": "Lower chu-chu: hip reel plus R-type",
+        "start": 212,
+        "end": 275,
+        "description": "Reverse the jobs: the lower hand performs the hip reel and the upper staff keeps its orientation while following the lower staff end.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "The upper pinky end tracks the lower thumb end; only the untracked end of the reel staff passes behind the body.",
+        "steps": [
+          {
+            "title": "Use the same home position",
+            "body": "Stack the two vertical staffs with both thumbs up."
+          },
+          {
+            "title": "Rehearse the lower reel",
+            "body": "Send the lower pinky end outward, then behind the body and upward, before returning its thumb end to the top."
+          },
+          {
+            "title": "Follow with the upper staff",
+            "body": "Keep the upper shaft upright and move its pinky end along the lower thumb-end path."
+          },
+          {
+            "title": "Return in front",
+            "body": "Recover the stacked vertical position without sending the R-type staff behind the body."
+          }
+        ],
+        "suggestedPattern": "chu-chu",
+        "timing": "linked"
+      },
+      {
+        "name": "Alternating chu-chus",
+        "start": 275,
+        "end": 321,
+        "description": "Alternate the upper and lower reel roles whenever the staffs return to their shared upright home position.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "The home position is a decision point: one staff reels, the other remains an R-type follower.",
+        "steps": [
+          {
+            "title": "Perform the upper version",
+            "body": "Let the upper staff reel while the lower staff follows."
+          },
+          {
+            "title": "Meet at home",
+            "body": "Return both staffs to the vertical front-body stack."
+          },
+          {
+            "title": "Perform the lower version",
+            "body": "Let the lower staff reel while the upper staff follows."
+          },
+          {
+            "title": "Repeat the exchange",
+            "body": "Alternate the roles through the common home position."
+          }
+        ],
+        "suggestedPattern": "chu-chu",
+        "timing": "linked"
+      },
+      {
+        "name": "Antispin plus R-type",
+        "start": 322,
+        "end": 339,
+        "description": "Contrast an antispinning staff with a staff that travels around without changing its orientation.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Only the antispin shaft changes its angle; both hands may move.",
+        "steps": [
+          {
+            "title": "Choose the fixed staff",
+            "body": "Pick one hand to preserve an R-type orientation."
+          },
+          {
+            "title": "Add antispin",
+            "body": "Give the other hand the familiar counterrotating four-petal path."
+          },
+          {
+            "title": "Observe the contrast",
+            "body": "Keep the two movement rules distinct as they pass through the compass positions."
+          }
+        ],
+        "suggestedPattern": "antispin-r-type",
+        "timing": "hybrid"
+      },
+      {
+        "name": "Isolation plus R-type",
+        "start": 339,
+        "end": 348,
+        "description": "Pair an isolation with a translating, fixed-orientation staff.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Distinguish a fixed endpoint from a fixed shaft orientation.",
+        "steps": [
+          {
+            "title": "Anchor one endpoint",
+            "body": "Use an isolation with one hand."
+          },
+          {
+            "title": "Translate the other staff",
+            "body": "Move the other hand around while its shaft angle stays unchanged."
+          },
+          {
+            "title": "Compare the rules",
+            "body": "One staff turns about a stationary end; the other keeps its angle and moves both ends."
+          }
+        ],
+        "suggestedPattern": "isolation-r-type",
+        "timing": "hybrid"
+      },
+      {
+        "name": "Switching antispin and R-type roles",
+        "start": 348,
+        "end": 374,
+        "description": "Use antispin against R-type on the way up, then exchange the hand assignments at the top and continue downward. The demonstration requires two complete passes to recover the initial hand orientation.",
+        "grip": "Hold near the staff center and keep track of the thumb-side and pinky-side ends.",
+        "stance": "Stand comfortably facing the practice plane. Drex keeps his feet planted while his shoulders and elbows accommodate the movement; exact foot width is not prescribed.",
+        "focus": "Do not assume that one up-and-down pass returns the same grip orientation.",
+        "steps": [
+          {
+            "title": "Rise with unlike patterns",
+            "body": "Let one hand antispin while the other maintains an R-type."
+          },
+          {
+            "title": "Exchange at the top",
+            "body": "Give the first hand the R-type job and the other the antispin job."
+          },
+          {
+            "title": "Descend and repeat",
+            "body": "Continue down with the exchanged roles, then run the sequence again."
+          },
+          {
+            "title": "Check the return",
+            "body": "Compare the hand and thumb orientations with the beginning after the second pass."
+          }
+        ],
+        "suggestedPattern": "antispin-r-type",
+        "timing": "role-switch"
+      }
+    ],
+    "pitfalls": [
+      "Rotating the supposedly fixed R-type shaft as the hand circles.",
+      "Sending the R-type staff behind the body in a chu-chu.",
+      "Following the wrong pair of ends: the linked relationship is upper pinky to lower thumb in the starting stack.",
+      "Switching chu-chu roles before returning to the shared upright front-body position.",
+      "Expecting one role-switching antispin/R-type pass to recover the starting hand orientation."
+    ],
+    "prerequisites": [
+      "7nPzvxhRrpI",
+      "sGrt1Uj8Ud4",
+      "pRoRKPIewhE",
+      "nrYl22Z7bQ8"
+    ],
+    "evidence": [
+      {
+        "time": 54,
+        "observation": "Thumb-up fixed orientation is demonstrated, followed by pinky-up and palm-down/up choices."
+      },
+      {
+        "time": 99,
+        "observation": "Together-same and together-opposite R-type hand timing are briefly demonstrated."
+      },
+      {
+        "time": 133,
+        "observation": "The chu-chu setup places one hand high and one low, with both thumb ends up."
+      },
+      {
+        "time": 158,
+        "observation": "The upper shoulder reel is rehearsed before the lower R-type follower is added."
+      },
+      {
+        "time": 180,
+        "observation": "The lower thumb end is instructed to track the upper pinky end."
+      },
+      {
+        "time": 212,
+        "observation": "The bottom version changes to a hip reel."
+      },
+      {
+        "time": 241,
+        "observation": "The upper pinky end now tracks the lower thumb end."
+      },
+      {
+        "time": 255,
+        "observation": "Drex explicitly says the R-type staff remains in front; the untracked reel end passes behind."
+      },
+      {
+        "time": 275,
+        "observation": "He begins alternating top and bottom versions through the common home position."
+      },
+      {
+        "time": 322,
+        "observation": "Antispin versus R-type is offered as a further hybrid."
+      },
+      {
+        "time": 339,
+        "observation": "Isolation versus R-type is demonstrated next."
+      },
+      {
+        "time": 348,
+        "observation": "He switches antispin/R-type roles at the top and notes the need for two passes to restore hand orientation."
+      }
+    ],
+    "limitations": [
+      "These are source-informed teaching diagrams, not motion capture. Hand paths and shaft angles do not specify exact shoulder, elbow, wrist, or finger mechanics.",
+      "The source calls for a point-of-contact relationship between tips; diagrams should portray a tracking relationship rather than instructing the learner to force physical impact.",
+      "The reel portion has depth and occlusion behind the body. A two-dimensional circle is insufficient to teach those mechanics.",
+      "The historical video-game aside is not necessary to perform the move and has not been independently checked.",
+      "Only together-same and together-opposite R-types receive explicit brief examples here; the source invites further timing exploration without separately teaching all four."
+    ],
+    "geometry": {
+      "absoluteStaffTurnsPerHandOrbit": 0,
+      "model": "For R-types, translate the center around an orbit while keeping shaft angle fixed. For chu-chu, link one R-type endpoint to the visible tracked endpoint of a shoulder or hip reel.",
+      "interpretation": "Fixed orientation is explicit in the source. Chu-chu needs a separate depth-aware mechanism or source-video checkpoint view, not the generic planar R-type alone."
+    }
+  }
+]

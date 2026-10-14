@@ -1,0 +1,17 @@
+node_modules/
+dist/
+source-videos/
+.cache/
+.artifacts/
+.sites-runtime/
+.sites-checkout*/
+cookies*.txt
+*.cookies.txt
+*.mp4
+*.webm
+*.mkv
+*.mov
+*:Zone.Identifier
+.env*
+playwright-report/
+test-results/

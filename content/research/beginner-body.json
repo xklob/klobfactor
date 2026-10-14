@@ -1,0 +1,1070 @@
+[
+  {
+    "videoId": "2WMkronsmfo",
+    "title": "Archer weaves",
+    "summary": "Keep one hand extended and the other beside the opposite shoulder, then thread a staff on each side of that shoulder. Drex teaches this weave in split-time opposites.",
+    "setup": {
+      "grip": "Hold each staff at its center; identify the thumb and pinky ends. Begin with both thumb ends up.",
+      "stance": "Begin facing forward with room to turn slightly. Extend the right arm and bring the left hand near the right shoulder.",
+      "plane": "The staves travel around the shoulder and upper arm, with front and behind positions. The path is not one flat wall-plane circle."
+    },
+    "moves": [
+      {
+        "name": "Shoulder-hand drill",
+        "start": 83,
+        "end": 228,
+        "description": "Learn the close-hand path before adding the extended-hand staff.",
+        "grip": "Left hand holds the center with thumb end initially up.",
+        "stance": "Right arm reaches sideways; left hand stays near the right shoulder.",
+        "focus": "Alternate which end passes behind the shoulder, with clearance for the extended arm.",
+        "steps": [
+          {
+            "title": "Thumb end behind",
+            "body": "Keep the right arm extended. Lower the left staff's thumb end behind the right shoulder so its pinky end rises."
+          },
+          {
+            "title": "Return over the shoulder",
+            "body": "Aim the pinky end outward to your right, lower it, and recover the thumb end upward. Keep the staff controlled in your hand; the shoulder is a spatial cue."
+          },
+          {
+            "title": "Pass under the arm",
+            "body": "Aim the thumb end outward beneath the right arm. Lift the pinky end behind the arm, then turn it outward to return to thumb-up."
+          },
+          {
+            "title": "Join the two passages",
+            "body": "Repeat slowly: the staff gets a passage in front of the shoulder and a passage behind it. Let the extended arm make room."
+          }
+        ],
+        "suggestedPattern": "archer-solo-shoulder",
+        "timing": "One staff; repeating shoulder/underarm weave",
+        "diagramNotes": [
+          "Show front/behind shoulder occlusion or a side view. A flat tip-circle alone cannot explain the arm threading."
+        ]
+      },
+      {
+        "name": "Two-staff archer weave",
+        "start": 231,
+        "end": 367,
+        "description": "Add the extended staff while preserving the shoulder weave.",
+        "grip": "Both staffs remain center-gripped. Start with thumb ends up.",
+        "stance": "Right hand extended; left hand beside right shoulder.",
+        "focus": "Use the two inward-facing checkpoints and keep room between the staves.",
+        "steps": [
+          {
+            "title": "Thumb ends face inward",
+            "body": "Turn the left thumb end toward your right and the right thumb end toward your left. The thumb ends now aim toward one another."
+          },
+          {
+            "title": "Pinky ends rise",
+            "body": "Move the extended right hand slightly back for clearance while both pinky ends rise. Bring the pinky ends inward, then return both thumb ends upward."
+          },
+          {
+            "title": "Thread the next passage",
+            "body": "Repeat the inward checkpoint. This time one rising pinky end is behind the right shoulder and the other is in front. Recover through pinky-ends-in to thumb-ends-up."
+          },
+          {
+            "title": "Smooth the path",
+            "body": "Connect the stops gradually. Drex describes a V-shaped travel around the body while the staves remain nearly parallel and the arm supplies separation."
+          }
+        ],
+        "suggestedPattern": "archer-paired-opposites",
+        "timing": "Split-time opposites, as named in the tutorial",
+        "diagramNotes": [
+          "Requires the shoulder, upper arm and front/behind passages. Do not infer timing solely from the two visible tip colors."
+        ]
+      },
+      {
+        "name": "Other side and side-to-side weave",
+        "start": 368,
+        "end": 378,
+        "description": "Repeat on the other shoulder, then explore transferring between sides.",
+        "grip": "Keep the same center grips and thumb/pinky labels.",
+        "stance": "Mirror the extended and shoulder hands on the left side.",
+        "focus": "Make the mirrored shoulder passage comfortable before linking sides.",
+        "steps": [
+          {
+            "title": "Mirror the setup",
+            "body": "Extend the left arm and bring the right hand toward the left shoulder. Rebuild the solo path and then add the second staff."
+          },
+          {
+            "title": "Link sides",
+            "body": "Once both sides are smooth, explore traveling between them as demonstrated at the end. Keep the shoulder clearance visible and move slowly."
+          }
+        ],
+        "suggestedPattern": "archer-side-switch",
+        "timing": "Split-time opposites",
+        "diagramNotes": [
+          "This is a brief demonstration, not a detailed transfer breakdown. The diagram may show the two endpoint setups; use the source for the continuous transfer."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Keeping the extended arm rigidly in the staff's path. Make small clearance adjustments.",
+      "Flattening the shoulder weave into a single plane; one passage must be in front and another behind.",
+      "Speeding up before both inward-facing checkpoints are repeatable.",
+      "Treating the shoulder cue as a release or contact balance; the staff remains held."
+    ],
+    "prerequisites": [
+      "tqJoUgprXws",
+      "7nPzvxhRrpI"
+    ],
+    "evidence": [
+      {
+        "time": 59,
+        "observation": "Drex explicitly calls the demonstrated weave split-time opposites and contrasts it with the poi version."
+      },
+      {
+        "time": 102,
+        "observation": "Direct frame shows left hand near the right shoulder, right arm extended and left thumb end up."
+      },
+      {
+        "time": 176,
+        "observation": "Direct frame and surrounding narration show the pinky end rising behind the extended arm."
+      },
+      {
+        "time": 251,
+        "observation": "Direct frame shows the two thumb ends pointing inward before the paired shoulder passage."
+      },
+      {
+        "time": 283,
+        "observation": "Direct frame falls in the passage where the two rising pinky ends occupy front/behind positions relative to the shoulder."
+      },
+      {
+        "time": 346,
+        "observation": "Drex describes the V-shaped travel and nearly parallel staves."
+      },
+      {
+        "time": 369,
+        "observation": "The ending asks learners to learn the other side and transfer between sides."
+      }
+    ],
+    "limitations": [
+      "This analysis uses the downloaded video, its captions and direct timestamped frames; diagrams are teaching schematics rather than motion capture.",
+      "Drex is tentative about weave beat counting here, so no numerical beat count is assigned.",
+      "The mirrored-side transfer is only briefly shown.",
+      "The spoken paired sequence includes a correction around 5:07; use the demonstrated front/behind cycle instead of treating that false start as a separate variant."
+    ]
+  },
+  {
+    "videoId": "SObR9W5eK-Y",
+    "title": "Basic transitions",
+    "summary": "Connect timing and direction combinations at shared positions, then change driving style and prop facing. Finish by using those connections to enter choo-choos.",
+    "setup": {
+      "grip": "Use the center grips from the foundational lessons. Keep track of which end lies on the thumb side of each hand.",
+      "stance": "Stand comfortably with room for full arm circles and occasional torso turns.",
+      "plane": "Begin in the familiar wall-plane patterns. Learn shared hand positions before adding travel or plane changes."
+    },
+    "moves": [
+      {
+        "name": "Shared positions and the isolation cycle",
+        "start": 146,
+        "end": 237,
+        "description": "Find the four cardinal hand positions that let one timing/direction combination become another.",
+        "grip": "Maintain your center grips; first follow hand positions rather than changing grip.",
+        "stance": "Face the pattern with room above, below and on both sides.",
+        "focus": "Change at a shared position instead of adding an extra loop.",
+        "steps": [
+          {
+            "title": "Locate the four points",
+            "body": "With together-same isolations, identify bottom, left, top and right. Side positions also belong to split opposites; top and bottom also belong to together opposites."
+          },
+          {
+            "title": "Change one relationship",
+            "body": "At a common point, reverse the appropriate hand's travel while the other continues. Check the next timing/direction before completing the next circle."
+          },
+          {
+            "title": "Walk the cycle",
+            "body": "Practice together same, together opposites, split same, split opposites, then together same. Pause at each shared position until the route is clear."
+          }
+        ],
+        "suggestedPattern": "transition-isolation-four-modes",
+        "timing": "Together same → together opposites → split same → split opposites → together same"
+      },
+      {
+        "name": "Antispin timing cycle",
+        "start": 237,
+        "end": 263,
+        "description": "Apply the same shared-position route while both hands drive antispins.",
+        "grip": "Center grips; preserve the current thumb/pinky facing while learning the timing route.",
+        "stance": "Stay in wall plane with space for the antispin corners.",
+        "focus": "Find a common checkpoint in the antispin pattern before changing direction.",
+        "steps": [
+          {
+            "title": "Establish together same",
+            "body": "Make the antispin pattern stable with both hands following together."
+          },
+          {
+            "title": "Cycle the four modes",
+            "body": "At shared positions, progress to together opposites, split same, split opposites and back to together same."
+          },
+          {
+            "title": "Check the corners",
+            "body": "Pause if necessary at each transition. Resume the antispin geometry once the new hand relationship is established."
+          }
+        ],
+        "suggestedPattern": "transition-antispin-four-modes",
+        "timing": "Together same → together opposites → split same → split opposites → together same"
+      },
+      {
+        "name": "Antispin to isolation and back",
+        "start": 264,
+        "end": 302,
+        "description": "Change the driving style at a position that both shapes share.",
+        "grip": "Retain the grips and notice whether the thumb or pinky ends face inward after the change.",
+        "stance": "Start with the antispin checkpoint above the body.",
+        "focus": "Match position first, then choose a different route away from it.",
+        "steps": [
+          {
+            "title": "Meet at the top",
+            "body": "Bring the two antispin paths to the top checkpoint used in the demonstration."
+          },
+          {
+            "title": "Choose isolation",
+            "body": "From that shared position, continue with together-opposite isolations instead of another antispin section."
+          },
+          {
+            "title": "Return through the checkpoint",
+            "body": "Use a compatible shared position to resume antispins. Watch both the hand route and the end facing."
+          }
+        ],
+        "suggestedPattern": "transition-antispin-isolation",
+        "timing": "Together opposites at the demonstrated switch"
+      },
+      {
+        "name": "Alternate driving styles around the cycle",
+        "start": 303,
+        "end": 339,
+        "description": "Combine the four timing modes with alternating antispin and isolation.",
+        "grip": "Center grips remain fixed; inspect the prop facing at each handover.",
+        "stance": "Use full, comfortable arm circles in front of the body.",
+        "focus": "Change timing and driving style deliberately at the shared checkpoints.",
+        "steps": [
+          {
+            "title": "Start with antispin",
+            "body": "Begin together-same antispins and move into together-opposite isolations."
+          },
+          {
+            "title": "Alternate again",
+            "body": "Continue into split-same antispins, then split-opposite isolations."
+          },
+          {
+            "title": "Close the cycle",
+            "body": "Return to together-same antispins. Note that the resulting inward-facing ends may differ from the starting setup."
+          }
+        ],
+        "suggestedPattern": "transition-alternating-driving",
+        "timing": "Together-same antispin → together-opposite isolation → split-same antispin → split-opposite isolation"
+      },
+      {
+        "name": "Prop-facing changes with hybrids",
+        "start": 340,
+        "end": 417,
+        "description": "Use a short hybrid segment plus a matched driving segment to change which ends face inward.",
+        "grip": "Track the thumb-side end explicitly; the hand does not need to swap its grip on the staff.",
+        "stance": "Work at clear vertical and side checkpoints in front of the body.",
+        "focus": "A change in facing is separate from a change in timing/direction.",
+        "steps": [
+          {
+            "title": "Observe the hybrid",
+            "body": "An isolation/antispin hybrid can take matching thumb-end facings into a position with one thumb end up and the other down."
+          },
+          {
+            "title": "Use the quarter-beat bridge",
+            "body": "As demonstrated, combine a quarter-beat hybrid segment with a quarter-beat segment where both props use the same driving style. One example uses antispin for the matched segment."
+          },
+          {
+            "title": "Reverse the facing change",
+            "body": "Try the shown isolation quarter-beat followed by a hybrid quarter-beat. Stop at the endpoint and check which end of each staff points inward."
+          }
+        ],
+        "suggestedPattern": "transition-prop-facing-hybrid",
+        "timing": "Short hybrid and homogeneous segments; inspect the resulting facing",
+        "diagramNotes": [
+          "The tutorial also illustrates a half isolation circuit before returning to the hybrid at 6:01. Quarter-beat is Drex's term for the short demonstrated segments, not a universal duration in seconds."
+        ]
+      },
+      {
+        "name": "Isolation to choo-choos and back",
+        "start": 427,
+        "end": 470,
+        "description": "Use a hybrid bridge to connect split-same isolations with the choo-choo setup.",
+        "grip": "Center grips; prepare the prop facings shown at the bridge endpoint.",
+        "stance": "Allow the torso to turn slightly as the two paths come into line.",
+        "focus": "Finish the bridge in the correct facing before starting choo-choos.",
+        "steps": [
+          {
+            "title": "Start with isolations",
+            "body": "Establish split-time same-direction isolations."
+          },
+          {
+            "title": "Bridge to the target",
+            "body": "Use the shown hybrid, arrive in split-opposite antispin, then continue into choo-choos."
+          },
+          {
+            "title": "Open back out",
+            "body": "Hybrid back, isolate open, and resume split-same isolations. Together-opposite isolation is another shown continuation."
+          }
+        ],
+        "suggestedPattern": "transition-isolation-choo-choo",
+        "timing": "Split-same isolation → hybrid → split-opposite antispin → choo-choo"
+      },
+      {
+        "name": "Repeat the cycle with inspin",
+        "start": 478,
+        "end": 496,
+        "description": "The closing exercise extends the same four-mode cycle to inspins.",
+        "grip": "Keep a center grip and use the inspin-facing setup learned earlier.",
+        "stance": "Keep enough room for the larger arm-driven circles.",
+        "focus": "Practice one driving style at a time before mixing them.",
+        "steps": [
+          {
+            "title": "Repeat the four checkpoints",
+            "body": "Work through the timing/direction cycle with isolations, then antispins, then inspins."
+          },
+          {
+            "title": "Keep the style consistent",
+            "body": "During the inspin round, keep the staff rotation working with the arm circle as you change timing mode."
+          }
+        ],
+        "suggestedPattern": "transition-inspin-four-modes",
+        "timing": "Cycle through all four timing/direction combinations"
+      },
+      {
+        "name": "Combined transition drill",
+        "start": 496,
+        "end": 535,
+        "description": "Put the lesson together by alternating driving styles and then adding prop-facing changes.",
+        "grip": "Keep the same grip; pause to verify thumb/pinky orientation when the facing changes.",
+        "stance": "Stay in a comfortable wall-plane working area.",
+        "focus": "Add one transition layer at a time.",
+        "steps": [
+          {
+            "title": "Mix the driving styles",
+            "body": "Alternate antispin and isolation at shared positions while moving through the timing cycle."
+          },
+          {
+            "title": "Add facing changes",
+            "body": "Once the route is steady, insert the short hybrid bridges that change the inward-facing ends."
+          },
+          {
+            "title": "Recover deliberately",
+            "body": "If a transition reaches an unintended pattern, stop at a known checkpoint and restart. The demonstration itself includes corrections."
+          }
+        ],
+        "suggestedPattern": "transition-combined-practice",
+        "timing": "Multiple timing/direction and driving combinations"
+      }
+    ],
+    "pitfalls": [
+      "Switching between shapes without checking that the hand and staff positions actually match.",
+      "Treating timing/direction and prop facing as the same variable.",
+      "Losing track of the thumb-side end after a hybrid.",
+      "Trying the full mixed drill before the individual isolation, antispin and inspin cycles are comfortable."
+    ],
+    "prerequisites": [
+      "tqJoUgprXws",
+      "sGrt1Uj8Ud4",
+      "pRoRKPIewhE",
+      "fb3CTGPTGyw",
+      "nrYl22Z7bQ8",
+      "MtpXzCSQBXA"
+    ],
+    "evidence": [
+      {
+        "time": 128,
+        "observation": "The lesson explicitly separates timing/direction from prop facing."
+      },
+      {
+        "time": 178,
+        "observation": "Together-same side checkpoints are identified as shared with split opposites."
+      },
+      {
+        "time": 186,
+        "observation": "Together-same top and bottom checkpoints are identified as shared with together opposites."
+      },
+      {
+        "time": 206,
+        "observation": "The isolation cycle proceeds through all four timing/direction combinations."
+      },
+      {
+        "time": 273,
+        "observation": "Drex switches antispins to together-opposite isolations at the top."
+      },
+      {
+        "time": 375,
+        "observation": "He states the hybrid-plus-homogeneous quarter-beat rule for changing facing."
+      },
+      {
+        "time": 406,
+        "observation": "Direct frame shows the horizontal checkpoint during the isolation-plus-hybrid facing example."
+      },
+      {
+        "time": 449,
+        "observation": "Direct frame shows the vertical stack before the demonstrated choo-choo continuation."
+      },
+      {
+        "time": 487,
+        "observation": "The closing exercise explicitly includes inspins."
+      }
+    ],
+    "limitations": [
+      "The opening 0:12-0:43 is an abandoned introduction; teaching begins with the restarted introduction at 0:47.",
+      "Several live demonstrations contain spoken self-corrections. The lesson follows the stated corrected sequence.",
+      "The short hybrid bridges are demonstrated more clearly than they are verbally enumerated. Use the linked source for exact end orientation before reproducing a bridge.",
+      "These are source-grounded practice summaries, not motion-captured trajectories."
+    ]
+  },
+  {
+    "videoId": "Awp9Jr5XuMg",
+    "title": "Basic 3D",
+    "summary": "Add toward and away points to the usual up, down, left and right diamond. Practice changing planes in each timing/direction combination.",
+    "setup": {
+      "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+      "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+      "plane": "The six reference points form an octahedron around the body: up, down, left, right, toward the audience and away. Begin in wall plane and deliberately travel through depth."
+    },
+    "moves": [
+      {
+        "name": "One-staff six-point exploration",
+        "start": 70,
+        "end": 155,
+        "description": "Add front and back reference points to the four wall-plane antispin points.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+        "focus": "Make the plane change at a clear cardinal checkpoint.",
+        "steps": [
+          {
+            "title": "Map the diamond",
+            "body": "With one staff, find right, top, left and bottom in an antispin. Add a point toward the audience and a point away from them."
+          },
+          {
+            "title": "Explore the side exit",
+            "body": "At a side checkpoint, carry the pinky end toward the audience and recover toward the body before continuing the wall-plane antispin."
+          },
+          {
+            "title": "Explore the bottom exit",
+            "body": "At the bottom checkpoint, send the thumb end toward the audience and recover into the antispin. Keep the center grip while changing the plane."
+          }
+        ],
+        "suggestedPattern": "octahedron-solo-antispin",
+        "timing": "One staff",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Together-same side shifts",
+        "start": 155,
+        "end": 188,
+        "description": "Move both antispins through the audience-facing point at a side checkpoint.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+        "focus": "Let both staves change plane together.",
+        "steps": [
+          {
+            "title": "Reach the right side",
+            "body": "Start together-same antispins. Pause at the right-side position with both hands following the same route."
+          },
+          {
+            "title": "Travel through depth",
+            "body": "Send both pinky ends toward the audience, then recover the thumb ends toward the left-side position and continue the antispin."
+          },
+          {
+            "title": "Repeat from the left",
+            "body": "At the left-side checkpoint, use the corresponding outward passage and return to the wall-plane route."
+          }
+        ],
+        "suggestedPattern": "octahedron-together-same-horizontal",
+        "timing": "Together time, same direction",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Together-same top and bottom shifts",
+        "start": 188,
+        "end": 205,
+        "description": "Take the same paired plane change between the low and high checkpoints.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+        "focus": "Use the demonstrated thumb-end facing for this setup.",
+        "steps": [
+          {
+            "title": "Leave the bottom",
+            "body": "From both staves down, direct the thumb ends toward the audience and recover up into the next part of the pattern."
+          },
+          {
+            "title": "Leave the top",
+            "body": "From the top checkpoint, pass the thumb ends toward the audience and recover toward the bottom before continuing around."
+          }
+        ],
+        "suggestedPattern": "octahedron-together-same-vertical",
+        "timing": "Together time, same direction",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Together-same alternating plane-shift drill",
+        "start": 205,
+        "end": 264,
+        "description": "First repeat side shifts, then top/bottom shifts, then alternate all four exits.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+        "focus": "Visit three points around the wall-plane diamond before each crossing.",
+        "steps": [
+          {
+            "title": "Separate the axes",
+            "body": "Repeat right-to-left/left-to-right shifts. Then repeat top-to-bottom/bottom-to-top shifts."
+          },
+          {
+            "title": "Alternate the exits",
+            "body": "Cross right to left, later top to bottom, later left to right, then bottom to top."
+          },
+          {
+            "title": "Count the wall-plane travel",
+            "body": "After a plane shift lands on the opposite point, visit the next three diamond points before shifting again."
+          }
+        ],
+        "suggestedPattern": "octahedron-together-same-cycle",
+        "timing": "Together time, same direction",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Together-same isolation variation",
+        "start": 266,
+        "end": 276,
+        "description": "Repeat the same depth exits with isolations instead of antispins.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+        "focus": "Change the driving style while retaining the six-point spatial map.",
+        "steps": [
+          {
+            "title": "Establish isolation",
+            "body": "Set the two isolations together and locate the same side and vertical checkpoints."
+          },
+          {
+            "title": "Drag through depth",
+            "body": "Use the demonstrated isolation path to carry the staves across to the opposite point, then return to the wall-plane isolation."
+          }
+        ],
+        "suggestedPattern": "octahedron-together-same-isolation",
+        "timing": "Together time, same direction",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Together-opposite side shifts",
+        "start": 277,
+        "end": 307,
+        "description": "Use the front point to move between open and crossed-arm positions.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience; allow the arms to cross comfortably in front.",
+        "focus": "Open and crossed positions are both valid entrances.",
+        "steps": [
+          {
+            "title": "Start open",
+            "body": "With pinky ends out to the sides, direct the thumb ends toward the audience."
+          },
+          {
+            "title": "Cross through the passage",
+            "body": "Carry the arms into the crossed position as the pinky ends travel away from the body, then continue the antispins."
+          },
+          {
+            "title": "Start crossed",
+            "body": "Repeat from crossed arms, send the thumb ends toward the audience, and return through to the open position."
+          }
+        ],
+        "suggestedPattern": "octahedron-together-opposite-crossing",
+        "timing": "Together time, opposite directions",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Together-opposite vertical shifts",
+        "start": 307,
+        "end": 325,
+        "description": "Take both staves from top to bottom, or bottom to top, through the front point.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+        "focus": "This demonstrated facing uses pinky ends toward the audience.",
+        "steps": [
+          {
+            "title": "Top exit",
+            "body": "At the upper checkpoint, aim the pinky ends toward the audience and recover through the lower position."
+          },
+          {
+            "title": "Bottom exit",
+            "body": "At the lower checkpoint, pass the pinky ends toward the audience and continue up."
+          }
+        ],
+        "suggestedPattern": "octahedron-together-opposite-vertical",
+        "timing": "Together time, opposite directions",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Together-opposite alternating drill",
+        "start": 325,
+        "end": 350,
+        "description": "Combine open, top, crossed and bottom exits into one practice cycle.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Keep the body comfortable as the arms alternate open and crossed positions.",
+        "focus": "Choose one checkpoint at a time, preserving the arm crossing.",
+        "steps": [
+          {
+            "title": "Cross from open",
+            "body": "At the side position, travel through depth into the crossed-arm side position."
+          },
+          {
+            "title": "Use the vertical exit",
+            "body": "Continue around until the top position, then pass through depth to the lower position."
+          },
+          {
+            "title": "Complete the four exits",
+            "body": "Use the next crossed-arm side exit to reopen, then use the bottom exit to return upward."
+          }
+        ],
+        "suggestedPattern": "octahedron-together-opposite-cycle",
+        "timing": "Together time, opposite directions",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Together-opposite isolation variation",
+        "start": 351,
+        "end": 369,
+        "description": "Repeat the crossing and vertical drill with isolations.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Allow the same open and crossed-arm positions as the antispin version.",
+        "focus": "Retain the six-point route while changing the driving style.",
+        "steps": [
+          {
+            "title": "Use the same checkpoints",
+            "body": "Locate open, crossed, top and bottom with together-opposite isolations."
+          },
+          {
+            "title": "Carry through depth",
+            "body": "At each checkpoint, perform the corresponding isolation plane change, then continue the isolation path."
+          }
+        ],
+        "suggestedPattern": "octahedron-together-opposite-isolation",
+        "timing": "Together time, opposite directions",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Split-opposite vertical shifts",
+        "start": 369,
+        "end": 388,
+        "description": "Use the audience-facing point while the hands occupy opposite vertical positions.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+        "focus": "Keep track of which hand is high as the pair passes through depth.",
+        "steps": [
+          {
+            "title": "Establish top and bottom",
+            "body": "Start split-opposite antispins with one hand high and the other low."
+          },
+          {
+            "title": "Pass toward the audience",
+            "body": "Carry the staves through the front-facing position, continue around and repeat with the other hand high."
+          }
+        ],
+        "suggestedPattern": "octahedron-split-opposite-vertical",
+        "timing": "Split time, opposite directions",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Split-opposite side shifts",
+        "start": 388,
+        "end": 409,
+        "description": "At the side checkpoints, use the paired horizontal passage introduced in together same.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+        "focus": "Find the side position before beginning the plane change.",
+        "steps": [
+          {
+            "title": "Reach the side checkpoint",
+            "body": "Bring the split-opposite pattern to the side, with the demonstrated thumb ends outward."
+          },
+          {
+            "title": "Send the pinky ends forward",
+            "body": "Turn the pinky ends toward the audience, carry across to the other side and continue around."
+          },
+          {
+            "title": "Repeat from the opposite side",
+            "body": "Perform the corresponding passage from the other side of the body."
+          }
+        ],
+        "suggestedPattern": "octahedron-split-opposite-horizontal",
+        "timing": "Split time, opposite directions",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Split-opposite alternating drill",
+        "start": 409,
+        "end": 435,
+        "description": "Combine right, top/bottom, left and opposite top/bottom exits.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+        "focus": "Alternate side and vertical exits without losing the split timing.",
+        "steps": [
+          {
+            "title": "Shift from the right",
+            "body": "At the right-side checkpoint, carry the antispins across toward the left."
+          },
+          {
+            "title": "Shift from high and low",
+            "body": "Continue until one hand is high, then use the front point again."
+          },
+          {
+            "title": "Mirror the remaining exits",
+            "body": "Use the left-side exit, then the next high/low checkpoint, before repeating."
+          }
+        ],
+        "suggestedPattern": "octahedron-split-opposite-cycle",
+        "timing": "Split time, opposite directions",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Split-same front and back shifts",
+        "start": 435,
+        "end": 516,
+        "description": "Use the back point for the first time: one staff travels toward the audience while the other travels away.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Allow the torso to turn; give the forward hand clearance above the shoulder.",
+        "focus": "The two staves occupy different depths instead of both coming forward.",
+        "steps": [
+          {
+            "title": "Find the staggered checkpoint",
+            "body": "In split-same antispins, reach the demonstrated position with one staff forward and the other back."
+          },
+          {
+            "title": "Use front and back",
+            "body": "Send the two thumb ends outward toward the front and back points, then recover through the pinky-end positions into antispin."
+          },
+          {
+            "title": "Check shoulder clearance",
+            "body": "Whichever hand is forward, place that staff's thumb end above the shoulder rather than below before making the passage."
+          },
+          {
+            "title": "Repeat on both sides",
+            "body": "Continue antispins and repeat each time the corresponding front/back checkpoint returns."
+          }
+        ],
+        "suggestedPattern": "octahedron-split-same-front-back",
+        "timing": "Split time, same direction",
+        "diagramNotes": [
+          "Must show simultaneous toward/away depth. The forward thumb end above the shoulder is a demonstrated constraint at 8:10-8:18. A front-view flat orbit is insufficient."
+        ]
+      },
+      {
+        "name": "Split-same top and bottom shifts",
+        "start": 516,
+        "end": 539,
+        "description": "Use the high/low checkpoint for a second split-same depth passage.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+        "focus": "Keep one hand high and the other low as the pinky ends move outward.",
+        "steps": [
+          {
+            "title": "Reach top and bottom",
+            "body": "Continue the split-same antispin until the hands are at the vertical checkpoints."
+          },
+          {
+            "title": "Pinky ends out and back",
+            "body": "Use the demonstrated pinky-end outward passage, then recover to the wall-plane antispins. Repeat from the opposite high/low arrangement."
+          }
+        ],
+        "suggestedPattern": "octahedron-split-same-vertical",
+        "timing": "Split time, same direction",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      },
+      {
+        "name": "Change timing during a plane shift",
+        "start": 539,
+        "end": 579,
+        "description": "Use shared depth positions to switch between split same and split opposites.",
+        "grip": "Center grip throughout; keep the thumb and pinky ends identifiable.",
+        "stance": "Begin facing the audience with space in front, behind and above; allow comfortable torso turns.",
+        "focus": "Choose whether the two ends go toward the audience together or separate front/back.",
+        "steps": [
+          {
+            "title": "Split same to split opposites",
+            "body": "At the high/low checkpoint in split same, send both ends toward the audience and then away to enter the split-opposite route."
+          },
+          {
+            "title": "Split opposites to split same",
+            "body": "At a compatible point in split opposites, choose the split-same depth passage instead of sending both outward together."
+          },
+          {
+            "title": "Apply the transition lesson",
+            "body": "Use the same shared-position logic as the previous lesson, now with the working plane changed."
+          }
+        ],
+        "suggestedPattern": "octahedron-timing-transition",
+        "timing": "Split same ↔ split opposites",
+        "diagramNotes": [
+          "A depth-aware view is required: show audience-facing and away-from-audience points distinctly. A single flat trace does not reproduce this move."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Drawing only the four wall-plane points; toward and away are essential to the lesson.",
+      "Letting a plane change erase the identity of the thumb and pinky ends.",
+      "Sending both staffs forward during the split-same front/back variant.",
+      "Putting the forward thumb end below the shoulder in the split-same side passage.",
+      "Combining every exit immediately; drill one axis and one timing mode first."
+    ],
+    "prerequisites": [
+      "tqJoUgprXws",
+      "sGrt1Uj8Ud4",
+      "pRoRKPIewhE",
+      "SObR9W5eK-Y"
+    ],
+    "evidence": [
+      {
+        "time": 88,
+        "observation": "Drex lists right, top, left and bottom, then adds toward and away to describe an octahedron."
+      },
+      {
+        "time": 135,
+        "observation": "Direct frame shows the one-staff audience-facing passage."
+      },
+      {
+        "time": 169,
+        "observation": "Direct frame shows the together-same side checkpoint before the paired depth passage."
+      },
+      {
+        "time": 250,
+        "observation": "Drex explains visiting three diamond points before crossing to the opposite point."
+      },
+      {
+        "time": 299,
+        "observation": "Direct frame confirms crossed arms during the together-opposite side passage."
+      },
+      {
+        "time": 317,
+        "observation": "Direct frame confirms both staff ends aimed toward the camera in the together-opposite vertical example."
+      },
+      {
+        "time": 476,
+        "observation": "Drex explicitly identifies first use of the back point in split same."
+      },
+      {
+        "time": 492,
+        "observation": "The direct frame and narration establish the forward thumb end above shoulder level."
+      },
+      {
+        "time": 550,
+        "observation": "Both ends toward the audience are offered as a way to move from split same to split opposites."
+      }
+    ],
+    "limitations": [
+      "These summaries follow the demonstrated starting facings; thumb-versus-pinky exit cues change if a learner reverses the initial prop facing.",
+      "The six-point map is a spatial teaching model, not measured motion capture or a demand for exact straight-line tip trajectories.",
+      "The explicit isolation demonstrations occur in together same and together opposites; Drex also says to practice the same ideas across timing/direction combinations, but does not separately break down every isolation variant.",
+      "A single fixed camera sometimes obscures which end is farther away. Depth-sensitive passages require the source view and a clearly labeled schematic, not claims of reconstructed 3D motion."
+    ]
+  },
+  {
+    "videoId": "3PJ94YXFpls",
+    "title": "Crossers",
+    "summary": "Turn shoulder and hip reels into crossers by keeping the arms crossed across the body. Learn together-same and split-opposite versions, then enter from a hybrid.",
+    "setup": {
+      "grip": "Use center grips. Together-same starts with thumb ends up; split-opposites starts with pinky ends pointing outward.",
+      "stance": "Cross the arms with each hand on the non-native side. Turn from one side-facing position to the other, adjusting the feet comfortably.",
+      "plane": "Reel passages move behind the shoulders and under the armpits while the body turns. Preserve the front/behind distinction."
+    },
+    "moves": [
+      {
+        "name": "Together-same crosser",
+        "start": 38,
+        "end": 122,
+        "description": "Turn between side-facing positions with the arms crossed, alternating the high and low reel passages.",
+        "grip": "Both thumb ends start up. Either arm may be on top.",
+        "stance": "Cross the arms and turn slightly toward the left-side starting position.",
+        "focus": "Thumb ends rise at the side-facing checkpoints; pinky ends rise between them.",
+        "steps": [
+          {
+            "title": "Set the crossed arms",
+            "body": "Keep each hand across the body on the opposite side, with both thumb ends upright."
+          },
+          {
+            "title": "Pass behind the shoulders",
+            "body": "As you turn from left-facing to right-facing, tuck the staves behind the shoulders. Return to both thumb ends up at the far-side checkpoint."
+          },
+          {
+            "title": "Pass under the armpits",
+            "body": "As you turn back toward the left, use the lower passage underneath the armpits. Recover the thumb-up side position."
+          },
+          {
+            "title": "Join the turns",
+            "body": "Repeat continuously. Check that the staves clear the body on each high and low passage rather than forcing the turn."
+          }
+        ],
+        "suggestedPattern": "crosser-together-same",
+        "timing": "Together time, same direction",
+        "diagramNotes": [
+          "Needs body rotation plus front/behind occlusion. A flat front-view circle cannot show the shoulder and underarm passages."
+        ]
+      },
+      {
+        "name": "Split-opposite crosser",
+        "start": 122,
+        "end": 189,
+        "description": "Keep the arms crossed while one pinky end rises and the other falls during each side-to-side turn.",
+        "grip": "Start with both pinky ends pointing outward from the body.",
+        "stance": "Arms crossed; begin in the left-side position shown in the tutorial.",
+        "focus": "Alternate which hand has its pinky end high during the turn.",
+        "steps": [
+          {
+            "title": "Turn toward the right",
+            "body": "Let the right pinky end rise and the left pinky end fall through the middle of the turn. Finish with both pinky ends pointing toward the right-side position."
+          },
+          {
+            "title": "Return toward the left",
+            "body": "Let the right pinky end fall and the left pinky end rise through the middle. Finish with both pinky ends toward the left-side position."
+          },
+          {
+            "title": "Keep the arms crossed",
+            "body": "Repeat right-pinky-up, then left-pinky-up, while the body turns side to side. Maintain space for each staff around the arms."
+          }
+        ],
+        "suggestedPattern": "crosser-split-opposites",
+        "timing": "Split time, opposite directions",
+        "diagramNotes": [
+          "Show crossed arms throughout and opposite vertical tip travel at the middle. One hand is farther from the camera in the initial side view."
+        ]
+      },
+      {
+        "name": "Hybrid entry to together-same crosser",
+        "start": 190,
+        "end": 246,
+        "description": "Enter the crossed-arm shape from an antispin/isolation hybrid.",
+        "grip": "Use the corrected pinky-end-in hybrid orientation shown after 3:48.",
+        "stance": "Begin open enough to perform the hybrid; turn as the rising staff passes behind the shoulder.",
+        "focus": "One staff goes behind the shoulder/head while the other remains in front.",
+        "steps": [
+          {
+            "title": "Check the facing",
+            "body": "Set the antispin/isolation hybrid with the pinky end inward. Drex corrects his first attempt before demonstrating this setup."
+          },
+          {
+            "title": "Take the rising hand behind",
+            "body": "As the right hand comes up and over in the demonstrated version, route its staff behind the shoulder while keeping the other in front."
+          },
+          {
+            "title": "Continue with crossed arms",
+            "body": "Let that front/behind relationship lead into the crossed-arm reel, then continue the together-same crosser."
+          }
+        ],
+        "suggestedPattern": "crosser-entry-hybrid-together",
+        "timing": "Hybrid into together same",
+        "diagramNotes": [
+          "The exact entry includes depth and torso rotation; use the corrected source passage at 3:48-4:06. Do not animate the acknowledged wrong-facing attempt as instruction."
+        ]
+      },
+      {
+        "name": "Hybrid entry to split-opposite crosser",
+        "start": 246,
+        "end": 271,
+        "description": "Use the same front/behind entry principle to reach the split-opposite crosser.",
+        "grip": "Keep the center grip and check the pinky-end relationship for the split-opposite version.",
+        "stance": "Use the hybrid setup, then let the arms settle into the crossed position.",
+        "focus": "Separate one staff behind the head from the other in front.",
+        "steps": [
+          {
+            "title": "Prepare the split-opposite route",
+            "body": "Use the demonstrated hybrid/antispin approach with the facing needed for the split-opposite crosser."
+          },
+          {
+            "title": "Create the depth separation",
+            "body": "Guide one staff behind the head while the other stays in front. This lets the arms cross without sending both staffs through the same space."
+          },
+          {
+            "title": "Continue side to side",
+            "body": "Carry into the alternating right-pinky-up and left-pinky-up crosser established earlier."
+          }
+        ],
+        "suggestedPattern": "crosser-entry-hybrid-split-opposites",
+        "timing": "Hybrid into split opposites",
+        "diagramNotes": [
+          "The source gives the front/behind principle and a brief demonstration, not a full endpoint-by-endpoint entry sequence."
+        ]
+      }
+    ],
+    "pitfalls": [
+      "Uncrossing the arms while turning; the crossed position defines the move.",
+      "Moving both staffs through the same side of the body during an entry.",
+      "Forcing the shoulder passage without checking body clearance.",
+      "Using the initial wrong-facing hybrid attempt at 3:33-3:46 instead of the corrected pinky-end-in version.",
+      "Confusing the performer's right and left with screen right and left."
+    ],
+    "prerequisites": [
+      "tqJoUgprXws",
+      "7nPzvxhRrpI",
+      "nrYl22Z7bQ8"
+    ],
+    "evidence": [
+      {
+        "time": 24,
+        "observation": "Drex defines crossers as hip/shoulder reels with the arms crossed."
+      },
+      {
+        "time": 48,
+        "observation": "Direct frame shows the crossed-arm thumb-up setup."
+      },
+      {
+        "time": 57,
+        "observation": "Direct frame shows the upper passage at shoulder/head height while turning."
+      },
+      {
+        "time": 65,
+        "observation": "Direct frame shows the lower passage beneath the arms."
+      },
+      {
+        "time": 124,
+        "observation": "Drex names the second version split-time opposites."
+      },
+      {
+        "time": 154,
+        "observation": "Direct frame shows opposite vertical tip orientations at the middle of the split-opposite turn."
+      },
+      {
+        "time": 230,
+        "observation": "Drex corrects the hybrid facing to pinky end inward."
+      },
+      {
+        "time": 239,
+        "observation": "Direct frame shows crossed arms reached from the corrected entry."
+      },
+      {
+        "time": 260,
+        "observation": "The closing explanation says one staff goes behind the head while the other stays in front."
+      }
+    ],
+    "limitations": [
+      "The tutorial describes 180-degree turns between side-facing positions. The diagram should show those body turns, not two staff circles around a stationary front-facing figure.",
+      "The first together-same verbal description is less clear than the subsequent explanation; the later over-shoulder/underarm distinction and direct frames are used here.",
+      "Hybrid entries are briefly demonstrated. The split-opposite entry does not receive a complete separate thumb/pinky checkpoint breakdown.",
+      "Diagrams are teaching schematics rather than motion capture."
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "beginner",
+    "title": "Beginner Double Staff Tutorials",
+    "playlistId": "PLGRWu2f31dFWXowRJ4cpC7Zkf-3IRx-Xn",
+    "entries": [
+      {
+        "videoId": "tqJoUgprXws",
+        "title": "Beginner Double Staff Tutorial: Grip, Timing and Direction",
+        "order": 1,
+        "duration": 462
+      },
+      {
+        "videoId": "7nPzvxhRrpI",
+        "title": "Beginner Double Staff Tutorial: Reels",
+        "order": 2,
+        "duration": 382
+      },
+      {
+        "videoId": "sGrt1Uj8Ud4",
+        "title": "Beginner Double Staff Tutorial: Isolations",
+        "order": 3,
+        "duration": 217
+      },
+      {
+        "videoId": "L9DO8BIlXrs",
+        "title": "Beginner Double Staff Tutorial: Extensions",
+        "order": 4,
+        "duration": 152
+      },
+      {
+        "videoId": "pRoRKPIewhE",
+        "title": "Beginner Double Staff Tutorial: Antispin",
+        "order": 5,
+        "duration": 554
+      },
+      {
+        "videoId": "fb3CTGPTGyw",
+        "title": "Beginner Double Staff Tutorial: Inspin",
+        "order": 6,
+        "duration": 248
+      },
+      {
+        "videoId": "nrYl22Z7bQ8",
+        "title": "Beginner Double Staff Tutorial: Hybrids",
+        "order": 7,
+        "duration": 325
+      },
+      {
+        "videoId": "MtpXzCSQBXA",
+        "title": "Beginner Double Staff Tutorial: R-Types and Chu-chus",
+        "order": 8,
+        "duration": 412
+      },
+      {
+        "videoId": "2WMkronsmfo",
+        "title": "Beginner Double Staff Tutorial Archer Weaves",
+        "order": 9,
+        "duration": 414
+      },
+      {
+        "videoId": "SObR9W5eK-Y",
+        "title": "Beginner Double Staff Tutorial: Basic Transitions",
+        "order": 10,
+        "duration": 572
+      },
+      {
+        "videoId": "Awp9Jr5XuMg",
+        "title": "Beginner Double Staff Tutorial: Basic 3D",
+        "order": 11,
+        "duration": 628
+      },
+      {
+        "videoId": "3PJ94YXFpls",
+        "title": "Beginner Double Staff Tutorial: Crossers",
+        "order": 12,
+        "duration": 286
+      },
+      {
+        "videoId": "tOk2Mcisgyc",
+        "title": "How to do Basic Antibrids for Double Staff: 1-minute tutorial",
+        "order": 13,
+        "duration": 90
+      }
+    ]
+  },
+  {
+    "id": "antibrid",
+    "title": "Double Staff Antibrid Tutorials",
+    "playlistId": "PLGRWu2f31dFVkZv9jONCwGuA4zb8mZrLi",
+    "entries": [
+      {
+        "videoId": "NbWdQM7LvpY",
+        "title": "Double Staff Tech Blog: Body Tracing Cranks/Antibrids",
+        "order": 1,
+        "duration": 329
+      },
+      {
+        "videoId": "oxpc-Xt43MY",
+        "title": "Double Staff Tech Blog: BTB Antibrid Cranks",
+        "order": 2,
+        "duration": 285
+      },
+      {
+        "videoId": "8ScYjUsv4LQ",
+        "title": "Double Staff Tutorial: Basic Antibrids",
+        "order": 3,
+        "duration": 301
+      },
+      {
+        "videoId": "0fUQvp9xjP0",
+        "title": "Double Staff Tech Blog: Antibrid Boxes",
+        "order": 4,
+        "duration": 403
+      },
+      {
+        "videoId": "0xG0NcePpN0",
+        "title": "Double Staff Tech Blog: Hand Tracer Boxes",
+        "order": 5,
+        "duration": 270
+      },
+      {
+        "videoId": "tOk2Mcisgyc",
+        "title": "How to do Basic Antibrids for Double Staff: 1-minute tutorial",
+        "order": 6,
+        "duration": 90
+      },
+      {
+        "videoId": "zhTZu7Y5CWk",
+        "title": "DrexFactor Winter Double Staff Tech",
+        "order": 7,
+        "duration": 166
+      },
+      {
+        "videoId": "5cbSh2K7Mng",
+        "title": "Double Staff Tutting Framework Tutorial",
+        "order": 8,
+        "duration": 291
+      }
+    ]
+  }
+]

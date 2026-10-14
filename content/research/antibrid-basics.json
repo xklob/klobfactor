@@ -1,0 +1,1079 @@
+[
+  {
+    "videoId": "NbWdQM7LvpY",
+    "title": "Body tracing cranks",
+    "summary": "Combine a lower antibrid with an upper shoulder reel and isolation, then link the same pathway on both sides of the body.",
+    "setup": {
+      "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+      "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body. Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+      "plane": "The lower reel passes in front of and behind the hip. The upper reel passes around the shoulder; its other staff isolates beside it. This needs depth as well as the front-view outline."
+    },
+    "moves": [
+      {
+        "name": "Antibrid and crank recap",
+        "start": 54,
+        "end": 99,
+        "description": "Drex revisits a hip reel paired with antispin, briefly shows a full body trace, and introduces the crank as an antispin section followed by an isolation return.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "One hand stays visually aligned with an end of the opposite staff; a crank changes the movement used for the return.",
+        "steps": [
+          {
+            "title": "Recall the antibrid",
+            "body": "Let one hand perform a small hip reel while the other hand follows that staff end and turns its own staff in antispin."
+          },
+          {
+            "title": "Recognize the crank",
+            "body": "The moving staff takes an antispin arc, then folds back with an isolation. Its hand no longer needs to finish a full circle."
+          },
+          {
+            "title": "Locate the new pathway",
+            "body": "The full-body trace at 1:10 is a reference demonstration. The lesson that follows moves the crank along a vertical side of the body."
+          }
+        ],
+        "suggestedPattern": "crank",
+        "timing": "A coordinated reel with alternating antispin and isolation sections."
+      },
+      {
+        "name": "Reverse-direction lower entry",
+        "start": 99,
+        "end": 123,
+        "description": "Set up the lower antibrid in the reverse of Drex\u2019s usual direction so its vertical alignment can lead into the upper crank.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "Arrive with the two staffs vertical on one side, with one hand at hip height and the other near shoulder height.",
+        "steps": [
+          {
+            "title": "Start from the hips",
+            "body": "Begin with the staffs overlapped horizontally and send the right hand around the left reel."
+          },
+          {
+            "title": "Keep the two rotations opposed",
+            "body": "The antispin hand travels around in the direction opposite its own staff. Drex calls the hand clockwise and the staff counterclockwise from his working viewpoint."
+          },
+          {
+            "title": "Pause on the vertical",
+            "body": "Stop when the right hand has reached the left-shoulder area and the left hand remains low. Use this aligned position to change jobs."
+          }
+        ],
+        "suggestedPattern": "antibrid",
+        "timing": "Hand and held staff rotate in opposite directions; use body landmarks when mirroring the camera view."
+      },
+      {
+        "name": "Shoulder reel against isolation",
+        "start": 123,
+        "end": 204,
+        "description": "At the vertical alignment, the former antispin staff becomes the shoulder reel while the former hip-reel staff isolates around it.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Keep the upper hand near the shoulder and let the other arm travel around it. Turn the torso enough to give the behind-shoulder end room.",
+        "focus": "The upper half uses an isolation, rather than continuing the previous antispin.",
+        "steps": [
+          {
+            "title": "Exchange the two jobs",
+            "body": "From the vertical stop, let the right-hand staff perform the shoulder reel. The left-hand staff makes the isolation arc."
+          },
+          {
+            "title": "Separate the pinkie ends",
+            "body": "Take the right pinkie end toward the right shoulder while the left pinkie end opens to the left."
+          },
+          {
+            "title": "Raise and cross",
+            "body": "Bring both pinkie ends upward. The right thumb end passes behind the shoulder. Cross the arms until the right pinkie end points left and the left pinkie end points right."
+          },
+          {
+            "title": "Return to the vertical",
+            "body": "Draw the staffs back down to the aligned position where the upper section began."
+          }
+        ],
+        "suggestedPattern": "shoulder-crank",
+        "timing": "The shoulder reel and isolation turn in opposition. The isolation changes the visual attachment from the lower antibrid."
+      },
+      {
+        "name": "Reconnect the lower antibrid",
+        "start": 204,
+        "end": 221,
+        "description": "Continue from the upper crank directly into the antibrid at the hip, creating the rising and falling, snake-like phrase.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body.",
+        "focus": "Use the shared vertical alignment as a continuous handoff between the upper and lower sections.",
+        "steps": [
+          {
+            "title": "Find the shared stop",
+            "body": "Finish the shoulder-reel/isolation section with the staffs aligned vertically beside the body."
+          },
+          {
+            "title": "Return to the lower jobs",
+            "body": "Resume the lower antispin and hip reel instead of pausing or reversing both staffs."
+          },
+          {
+            "title": "Repeat one side",
+            "body": "Loop the lower antibrid and upper crank until the transition reads as one continuous pathway."
+          }
+        ],
+        "suggestedPattern": "body-crank",
+        "timing": "Link upper and lower sections at their shared alignment."
+      },
+      {
+        "name": "Mirror the shoulder crank",
+        "start": 221,
+        "end": 257,
+        "description": "Transfer to the other side and exchange which staff performs the shoulder reel and which performs the isolation.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body.",
+        "focus": "The left hand now holds the shoulder reel; the right-hand staff isolates.",
+        "steps": [
+          {
+            "title": "Switch through the lower pattern",
+            "body": "Use the lower antibrid to arrive at the corresponding vertical position on the other side."
+          },
+          {
+            "title": "Reverse the roles",
+            "body": "Let the left staff reel at the shoulder while the right staff isolates around it. Drex describes their rotations as clockwise and counterclockwise respectively from his viewpoint."
+          },
+          {
+            "title": "Return to the hip",
+            "body": "Bring the pair back to the vertical connection, then continue into the lower antibrid."
+          }
+        ],
+        "suggestedPattern": "body-crank-mirror",
+        "timing": "The mirrored shoulder and isolation roles still oppose one another."
+      },
+      {
+        "name": "Alternate both sides",
+        "start": 257,
+        "end": 279,
+        "description": "String the lower antibrid and upper crank together across the right and left sides.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body.",
+        "focus": "Change sides at the shared lower arrangement, then lift into the next upper crank.",
+        "steps": [
+          {
+            "title": "Complete one upper section",
+            "body": "Separate the staffs into the shoulder crank and bring them back together."
+          },
+          {
+            "title": "Travel through the low connection",
+            "body": "Use the bottom antibrid to reach the opposite side."
+          },
+          {
+            "title": "Repeat with exchanged hands",
+            "body": "Perform the mirrored upper crank and continue alternating at an even pace."
+          }
+        ],
+        "suggestedPattern": "body-crank-alternating",
+        "timing": "Keep the phrase continuous while alternating the active side."
+      }
+    ],
+    "pitfalls": [
+      "Continuing antispin through the upper section misses the isolation variation taught here.",
+      "Treating the vertical alignment as a purely flat crossing hides the shoulder reel\u2019s behind-body path.",
+      "Clockwise directions reverse in a mirrored front view; learn the hip and shoulder landmarks first."
+    ],
+    "prerequisites": [
+      "8ScYjUsv4LQ"
+    ],
+    "evidence": [
+      {
+        "time": 99,
+        "observation": "Spoken setup explicitly reverses the usual lower-antibrid direction."
+      },
+      {
+        "time": 126,
+        "observation": "Frame shows right hand near the left shoulder and left hand low, with vertically overlapped staffs."
+      },
+      {
+        "time": 148,
+        "observation": "Drex identifies the return as an isolation rather than antispin."
+      },
+      {
+        "time": 180,
+        "observation": "Both pinkie ends rise while the right thumb end passes behind the shoulder."
+      },
+      {
+        "time": 204,
+        "observation": "Demonstrates reconnecting directly into the lower antibrid."
+      },
+      {
+        "time": 240,
+        "observation": "Mirrored upper position appears on the other side."
+      }
+    ],
+    "limitations": [
+      "The full body trace in the introduction is demonstrated as prior context rather than broken down here.",
+      "A diagram can show role changes and checkpoints but must label the shoulder depth and crossings as schematic, not motion capture."
+    ]
+  },
+  {
+    "videoId": "oxpc-Xt43MY",
+    "title": "Behind-the-back cranks",
+    "summary": "Use the isolation half of a crank to redirect a hip reel behind the back, then return to the front without reversing the antispin staff.",
+    "setup": {
+      "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+      "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body. Start with a comfortable front antibrid.",
+      "plane": "The reel changes between a front-side hip route and a behind-the-back route. The antispin hand follows the shared side alignment. Front and rear depth must remain distinct."
+    },
+    "moves": [
+      {
+        "name": "Front crank",
+        "start": 70,
+        "end": 101,
+        "description": "Pair a left-hand hip reel with a right-hand antispin arc and an isolation return.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "The reel keeps going while the other staff alternates antispin and isolation.",
+        "steps": [
+          {
+            "title": "Antispin up and over",
+            "body": "Move the right hand over the left reel while the right staff turns in antispin."
+          },
+          {
+            "title": "Fold back by isolation",
+            "body": "Continue the left hip reel and return the right hand over the same upper arc as an isolation."
+          },
+          {
+            "title": "Repeat the contrast",
+            "body": "Practice the two-part phrase: antispin, isolation. The moving hand travels out and back rather than around a complete circle."
+          }
+        ],
+        "suggestedPattern": "crank",
+        "timing": "Continuous reel under an alternating antispin/isolation phrase."
+      },
+      {
+        "name": "Enter behind the back",
+        "start": 101,
+        "end": 134,
+        "description": "During the isolation return, send the hip-reel thumb end down behind the back instead of down in front.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Let the reel hand move behind the hip as the torso turns. Keep the moving hand on the shared side.",
+        "focus": "The key change is the depth of the reel\u2019s descending thumb end.",
+        "steps": [
+          {
+            "title": "Prepare the isolation half",
+            "body": "Begin the familiar return of the front crank."
+          },
+          {
+            "title": "Redirect the reel",
+            "body": "Send the left staff\u2019s thumb end down behind the back during that return."
+          },
+          {
+            "title": "Meet on the side",
+            "body": "Reconnect the reel end with the right hand at the side, then continue the antispin against the behind-the-back reel."
+          }
+        ],
+        "suggestedPattern": "behind-back-antibrid",
+        "timing": "Change the reel\u2019s front/back route during the isolation section."
+      },
+      {
+        "name": "Exit behind the back",
+        "start": 134,
+        "end": 177,
+        "description": "Use the horizontal alignment behind the back to return to the front while maintaining the right staff\u2019s rotation.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Pause with the left reel hand behind the back and the right hand out to the side.",
+        "focus": "Left thumb end points toward the performer\u2019s right behind the back; right thumb end points toward the performer\u2019s left.",
+        "steps": [
+          {
+            "title": "Find the exit alignment",
+            "body": "Bring the staffs to the horizontal arrangement with those thumb ends pointing across toward opposite sides."
+          },
+          {
+            "title": "Drop and lift together",
+            "body": "Drop the left thumb end behind the back while taking the right staff up and around in antispin."
+          },
+          {
+            "title": "Continue forward",
+            "body": "As the staffs meet on the other side, let the right thumb end descend into the ordinary front antibrid. Keep its rotation going in the same direction."
+          }
+        ],
+        "suggestedPattern": "behind-back-exit",
+        "timing": "The right staff continues its rotational direction through the entry and exit."
+      },
+      {
+        "name": "Enter on the other side",
+        "start": 177,
+        "end": 204,
+        "description": "Mirror the entry so the left hand performs antispin and the right hand supplies the behind-the-back reel.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body.",
+        "focus": "The isolation return opens the route for the right thumb end behind the back.",
+        "steps": [
+          {
+            "title": "Exchange hands",
+            "body": "Start with left-hand antispin against a right-hand hip reel."
+          },
+          {
+            "title": "Use the same crank transition",
+            "body": "Fold the antispin staff back with isolation while the right thumb end descends behind the back."
+          },
+          {
+            "title": "Resume antispin",
+            "body": "Continue the left-hand antispin against the right-hand rear reel."
+          }
+        ],
+        "suggestedPattern": "behind-back-antibrid-mirror",
+        "timing": "Same sequence as the first entry with hands exchanged."
+      },
+      {
+        "name": "Mirror the exit",
+        "start": 204,
+        "end": 224,
+        "description": "Return from the mirrored rear arrangement using the matching drop-and-lift transition.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body.",
+        "focus": "Left thumb end points to the performer\u2019s right; right thumb end points to the performer\u2019s left.",
+        "steps": [
+          {
+            "title": "Pause at the rear alignment",
+            "body": "Recognize the horizontal line before changing its depth."
+          },
+          {
+            "title": "Drop the reel thumb end",
+            "body": "Lower the right thumb end behind the back as the left thumb end goes up and over."
+          },
+          {
+            "title": "Resume the front pattern",
+            "body": "Continue the downward part of the front antibrid after the hands meet again."
+          }
+        ],
+        "suggestedPattern": "behind-back-exit-mirror",
+        "timing": "Exchange the hands from the first exit while preserving the same sequence."
+      },
+      {
+        "name": "Alternate at the middle position",
+        "start": 224,
+        "end": 237,
+        "description": "Use the shared front position to switch which side enters behind the back.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "The centered front alignment is the handoff point.",
+        "steps": [
+          {
+            "title": "Finish an exit",
+            "body": "Return fully to the front arrangement."
+          },
+          {
+            "title": "Change the active antispin hand",
+            "body": "At the middle position, exchange the reel and antispin roles."
+          },
+          {
+            "title": "Repeat the mirrored entry",
+            "body": "Go behind the other side, then exit before switching again."
+          }
+        ],
+        "suggestedPattern": "behind-back-alternating",
+        "timing": "Alternate sides after returning to the shared front alignment."
+      }
+    ],
+    "pitfalls": [
+      "Redirecting the reel in the middle of an arbitrary antispin section loses the transition demonstrated in the crank.",
+      "A flat front-view drawing cannot tell the learner whether the descending thumb end is in front of or behind the torso.",
+      "Do not add a direction reversal to the antispin staff at the exit; Drex explicitly aims for continuous rotation."
+    ],
+    "prerequisites": [
+      "8ScYjUsv4LQ"
+    ],
+    "evidence": [
+      {
+        "time": 74,
+        "observation": "Right antispin and left hip reel establish the front crank."
+      },
+      {
+        "time": 109,
+        "observation": "Instruction contrasts a thumb end descending in front with descending behind the back."
+      },
+      {
+        "time": 138,
+        "observation": "The left hand is visibly behind the back at the horizontal exit setup."
+      },
+      {
+        "time": 165,
+        "observation": "Drex states that the right staff should keep turning in the same direction."
+      },
+      {
+        "time": 180,
+        "observation": "Begins the left-hand antispin version."
+      },
+      {
+        "time": 204,
+        "observation": "Mirrored exit is explicitly broken down."
+      }
+    ],
+    "limitations": [
+      "The creator calls this a developing exploration at 3:57, rather than a polished model of every joint position.",
+      "Depth, shoulder comfort, and the body turn must be checked against the source; a path diagram alone does not encode them."
+    ]
+  },
+  {
+    "videoId": "8ScYjUsv4LQ",
+    "title": "Basic antibrids",
+    "summary": "Connect a staff end to the other hand visually, learn the hip-reel and antispin pairing on both sides, then fold the pathway into cranks and shoulder variations.",
+    "setup": {
+      "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+      "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body. Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+      "plane": "The antispin hand follows the reel\u2019s thumb end. The reel has one end passing in front of the body and one behind; turning the torso changes how this looks from the camera."
+    },
+    "moves": [
+      {
+        "name": "Hand-to-end connection",
+        "start": 24,
+        "end": 53,
+        "description": "Treat the right hand as though it is attached to the thumb end of the left staff.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body.",
+        "focus": "A hand follows the opposite staff end, rather than both hands spinning independently.",
+        "steps": [
+          {
+            "title": "Mark the reel end",
+            "body": "Identify the left staff\u2019s thumb end."
+          },
+          {
+            "title": "Place the second hand beside it",
+            "body": "Keep the right hand near that end while still holding the center of its own staff."
+          },
+          {
+            "title": "Move the connection",
+            "body": "Move the left staff slowly and let the right hand travel with its thumb end."
+          }
+        ],
+        "suggestedPattern": "antibrid-connection",
+        "timing": "Maintain the shared hand/end position throughout the drill."
+      },
+      {
+        "name": "Right antispin with left hip reel",
+        "start": 53,
+        "end": 92,
+        "description": "The left hand makes a hip reel while the right hand follows its thumb end and performs the diamond-mode antispin described by Drex.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "Keep the right grip beside the left thumb end at each checkpoint.",
+        "steps": [
+          {
+            "title": "Start at home base",
+            "body": "Hold both staffs horizontally just above the hips, with the thumb ends toward one another."
+          },
+          {
+            "title": "Thumb up, pinkie out",
+            "body": "Begin the left hip reel. Take the right thumb end upward, then send the right pinkie end outward."
+          },
+          {
+            "title": "Thumb down, pinkie out",
+            "body": "Continue until the right thumb end points down, then the pinkie end opens outward again at the return."
+          },
+          {
+            "title": "Join the checkpoints",
+            "body": "Turn the hand path and staff rotation in opposite directions while preserving the hand/end connection."
+          }
+        ],
+        "suggestedPattern": "antibrid",
+        "timing": "The antispin hand and its shaft rotate oppositely; the other staff performs a hip reel."
+      },
+      {
+        "name": "Left antispin with right hip reel",
+        "start": 113,
+        "end": 138,
+        "description": "Exchange the two hands and learn the same relationship on the other side.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "The left grip follows the right staff\u2019s thumb end.",
+        "steps": [
+          {
+            "title": "Exchange roles",
+            "body": "Let the right hand provide the hip reel."
+          },
+          {
+            "title": "Repeat the end sequence",
+            "body": "For the left staff use thumb up, pinkie out, thumb down, pinkie out."
+          },
+          {
+            "title": "Keep the connection visible",
+            "body": "Let the left hand move with the right thumb end rather than independently."
+          }
+        ],
+        "suggestedPattern": "antibrid-mirror",
+        "timing": "The same pairing with the antispin and reel hands exchanged."
+      },
+      {
+        "name": "Switch sides at home base",
+        "start": 138,
+        "end": 160,
+        "description": "Alternate which hand performs antispin whenever the staffs return to their shared horizontal position.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "The shared hip-height line is the switching point.",
+        "steps": [
+          {
+            "title": "Complete one side",
+            "body": "Return to the overlapping horizontal staffs."
+          },
+          {
+            "title": "Exchange the two jobs",
+            "body": "Make the former antispin hand the reel hand and the former reel hand the antispin hand."
+          },
+          {
+            "title": "Alternate without a reset",
+            "body": "Return through the same home base after each side."
+          }
+        ],
+        "suggestedPattern": "antibrid-alternating",
+        "timing": "One side, shared line, opposite side."
+      },
+      {
+        "name": "Half antispin and isolation crank",
+        "start": 160,
+        "end": 215,
+        "description": "Replace the second half of a full antispin hand circle with an isolation that returns over the upper arc.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "The visual attachment changes: during the return, the reel hand aligns with the moving staff\u2019s thumb end.",
+        "steps": [
+          {
+            "title": "Take the first half",
+            "body": "Use the right-hand sequence thumb up, then pinkie out."
+          },
+          {
+            "title": "Fold the upper arc back",
+            "body": "Continue with pinkie up, then pinkie out again. The right hand retraces the upper arc rather than finishing a full circle."
+          },
+          {
+            "title": "Follow the new connection",
+            "body": "During the isolation return, think of the left hand beside the right staff\u2019s thumb end. The focal hand/end pair has switched."
+          }
+        ],
+        "suggestedPattern": "crank",
+        "timing": "Alternating antispin and isolation over an out-and-back hand arc."
+      },
+      {
+        "name": "Crank on the opposite side",
+        "start": 215,
+        "end": 231,
+        "description": "Play the same upper-arc and isolation phrase with the other side leading.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "Recognize the change in which hand follows an end.",
+        "steps": [
+          {
+            "title": "Change the leading hand",
+            "body": "Start the corresponding half antispin on the other side."
+          },
+          {
+            "title": "Isolate back",
+            "body": "Return over the upper arc instead of tracing the remainder of a circle."
+          },
+          {
+            "title": "Alternate the phrase",
+            "body": "Use the shared home-base position to compare both sides."
+          }
+        ],
+        "suggestedPattern": "crank-mirror",
+        "timing": "Mirror the antispin/isolation phrase."
+      },
+      {
+        "name": "Shoulder-reel variations",
+        "start": 231,
+        "end": 256,
+        "description": "Drex briefly explores moving the same hand/end relationship up to shoulder reels on both sides.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Raise the reel hand toward the shoulder and keep enough room for its rear end to pass behind.",
+        "focus": "This is an extension demonstration, with the same end-to-hand relationship at a higher body landmark.",
+        "steps": [
+          {
+            "title": "Move the reel upward",
+            "body": "Use a shoulder reel in place of the hip reel."
+          },
+          {
+            "title": "Keep the paired hand near the end",
+            "body": "Follow the shoulder-reel end with the other hand."
+          },
+          {
+            "title": "Explore the other shoulder",
+            "body": "Drex demonstrates the relationship on both sides. Use the later body-tracing lesson for a fuller breakdown of this height change."
+          }
+        ],
+        "suggestedPattern": "shoulder-antibrid",
+        "timing": "Brief exploration of the antibrid relationship with a shoulder reel."
+      }
+    ],
+    "pitfalls": [
+      "Merely combining a reel and antispin does not create the taught antibrid unless the hand/end relationship is maintained.",
+      "In the crank, the hand travels out and back on an arc. Finishing a full hand circle produces the basic antibrid instead.",
+      "The introductory demonstration starts the antispin thumb end upward. The later 1-minute tutorial teaches the reverse direction."
+    ],
+    "prerequisites": [
+      "tqJoUgprXws"
+    ],
+    "evidence": [
+      {
+        "time": 36,
+        "observation": "Drex describes the right hand as attached to the left thumb end."
+      },
+      {
+        "time": 54,
+        "observation": "Horizontal home base is at hip height with shoulder-width hands."
+      },
+      {
+        "time": 69,
+        "observation": "Exact frames show the first vertical checkpoint with the right thumb end up."
+      },
+      {
+        "time": 81,
+        "observation": "The source names the right-hand pattern a four-petal diamond-mode antispin."
+      },
+      {
+        "time": 138,
+        "observation": "Shared home-base position is identified for switching sides."
+      },
+      {
+        "time": 181,
+        "observation": "Spoken crank checkpoints are thumb up, pinkie out, pinkie up, pinkie out."
+      },
+      {
+        "time": 200,
+        "observation": "The source explains the attachment shifts to the left hand and right thumb end."
+      },
+      {
+        "time": 240,
+        "observation": "Shoulder-reel variation is demonstrated, with corrections rather than a full separate tutorial."
+      }
+    ],
+    "limitations": [
+      "The source names the pattern a four-petal diamond-mode antispin; a pedagogical diagram should prioritize the actual hand/end connection and cardinal stops over an ornamental ideal flower trace.",
+      "The shoulder examples are demonstrations, so detailed wrist angles or a full progression should not be invented from them."
+    ]
+  },
+  {
+    "videoId": "0fUQvp9xjP0",
+    "title": "Antibrid boxes",
+    "summary": "Travel around the hips and shoulders by orbiting one hand around the other, then swapping the reel and antispin jobs at straight-line alignments.",
+    "setup": {
+      "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+      "stance": "Start facing forward with both hands at the hips. Keep the torso free to turn through the shoulder sections.",
+      "plane": "Hands travel between four body landmarks. Reel ends pass in front of and behind the hip or shoulder, so the apparent box is a front-view teaching map rather than one fixed physical plane."
+    },
+    "moves": [
+      {
+        "name": "Learn the hand-only box",
+        "start": 110,
+        "end": 201,
+        "description": "Before adding staffs, alternate a full circle plus a quarter around the other hand to reach the next body landmark.",
+        "grip": "Begin without props so the hand route is clear.",
+        "stance": "Both hands start at their own hips.",
+        "focus": "The four destinations are right hand to left shoulder, left hand to right shoulder, right hand to right hip, left hand to left hip.",
+        "steps": [
+          {
+            "title": "Across and up",
+            "body": "Circle the right hand around the left hand, continuing for a full circle plus a quarter until it stops at the left shoulder."
+          },
+          {
+            "title": "Across the top",
+            "body": "Circle the left hand around the right hand and stop at the right shoulder."
+          },
+          {
+            "title": "Down on the right",
+            "body": "Circle the right hand around the left hand and finish at the right hip."
+          },
+          {
+            "title": "Return to the left hip",
+            "body": "Circle the left hand around the right hand and stop at the left hip. Repeat the four destinations."
+          }
+        ],
+        "suggestedPattern": "antibrid-box-hands",
+        "timing": "Each active hand makes one full orbit plus a quarter before the other hand takes over."
+      },
+      {
+        "name": "First corner: left hip reel",
+        "start": 201,
+        "end": 230,
+        "description": "Add the staffs, keeping the left hand on the hip reel while the right hand performs antispin around it.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "At the cardinal checkpoints the staffs create a straight-line alignment.",
+        "steps": [
+          {
+            "title": "Start with parallel staffs",
+            "body": "Hold the horizontal overlapping arrangement at the hips."
+          },
+          {
+            "title": "Pair the first orbit",
+            "body": "Make a left hip reel and a right-hand antispin."
+          },
+          {
+            "title": "Continue to the upper stop",
+            "body": "Travel through the full circle plus a quarter until the right hand reaches the left-shoulder area and the staffs align vertically."
+          }
+        ],
+        "suggestedPattern": "antibrid-box-low",
+        "timing": "Keep the reel-end and antispin-hand pairing through the orbit and extra quarter."
+      },
+      {
+        "name": "Second corner: right shoulder reel",
+        "start": 230,
+        "end": 256,
+        "description": "At the left-side vertical line, let the right hand become the reel anchor while the left hand antispins around it.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Right hand is near the left shoulder; left hand begins low on that side.",
+        "focus": "The straight line provides the moment to exchange the two jobs.",
+        "steps": [
+          {
+            "title": "Pause on the line",
+            "body": "Find the vertical alignment with the right hand above the left."
+          },
+          {
+            "title": "Swap roles",
+            "body": "The right staff becomes the shoulder reel. The left hand traces its antispin around that reel."
+          },
+          {
+            "title": "Reach the upper horizontal line",
+            "body": "Continue until the left hand reaches the right shoulder and the staffs line up across the upper body."
+          }
+        ],
+        "suggestedPattern": "antibrid-box-upper",
+        "timing": "Switch roles at the straight line, then perform the next circle plus quarter."
+      },
+      {
+        "name": "Third corner: left shoulder reel",
+        "start": 256,
+        "end": 301,
+        "description": "Use the upper horizontal alignment to make the left staff the shoulder reel while the right hand travels downward in antispin.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Left hand is near the right shoulder. Let the right hand travel around it toward the right hip.",
+        "focus": "As the right hand drops, the left staff must route behind the shoulder during its reel.",
+        "steps": [
+          {
+            "title": "Swap at the upper line",
+            "body": "Let the left staff take the reel while the right hand resumes antispin."
+          },
+          {
+            "title": "Keep the shoulder route",
+            "body": "When the right hand descends and comes outward, allow the left reel end to pass behind the shoulder."
+          },
+          {
+            "title": "Reach the lower vertical stop",
+            "body": "Finish with the right hand at the right hip and the left hand still above it, creating another vertical alignment."
+          }
+        ],
+        "suggestedPattern": "antibrid-box-descend",
+        "timing": "The hand route continues while the shoulder reel changes its front/back emphasis."
+      },
+      {
+        "name": "Fourth corner: right hip reel",
+        "start": 301,
+        "end": 316,
+        "description": "At the right-side vertical line, switch to the right hip reel and let the left antispin return to its home hip.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Right hand remains near the right hip as the left hand circles down.",
+        "focus": "Complete the route by returning to both hands at their original hips.",
+        "steps": [
+          {
+            "title": "Change jobs on the vertical",
+            "body": "Right hand takes the hip reel and left hand takes antispin."
+          },
+          {
+            "title": "Circle the left hand",
+            "body": "Continue the circle-plus-quarter pathway around the right hand."
+          },
+          {
+            "title": "Close the box",
+            "body": "Return the left hand to the left hip and restore the original horizontal arrangement."
+          }
+        ],
+        "suggestedPattern": "antibrid-box-return",
+        "timing": "Complete the fourth role exchange and return to home base."
+      },
+      {
+        "name": "Join all four corners",
+        "start": 316,
+        "end": 355,
+        "description": "Link the box by alternating right and left antispin while the anchor progresses around the body.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body.",
+        "focus": "The active antispin hand alternates right, left, right, left.",
+        "steps": [
+          {
+            "title": "Name the four anchors",
+            "body": "Use left hip, right-hand shoulder reel, left-hand shoulder reel, then right hip."
+          },
+          {
+            "title": "Preserve the antispin relationship",
+            "body": "The moving hand and its staff rotate in opposite directions. Drex calls the staff clockwise and the hand counterclockwise from his viewpoint."
+          },
+          {
+            "title": "Exchange only on a line",
+            "body": "Use the vertical and horizontal staff alignments to make each role change readable."
+          }
+        ],
+        "suggestedPattern": "antibrid-box",
+        "timing": "Four alternating circle-plus-quarter phrases make the full route."
+      },
+      {
+        "name": "Hold a corner or branch out",
+        "start": 355,
+        "end": 368,
+        "description": "Drex shows that the traveling route can pause in a familiar antibrid before returning to the box or another linked pattern.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body.",
+        "focus": "A corner is also a stable place to repeat an antibrid rather than always traveling.",
+        "steps": [
+          {
+            "title": "Choose a familiar corner",
+            "body": "Arrive at a reel/antispin relationship you can repeat comfortably."
+          },
+          {
+            "title": "Repeat in place",
+            "body": "Keep the same anchor for another cycle."
+          },
+          {
+            "title": "Resume from an alignment",
+            "body": "When ready, use the shared line to travel into the next box section."
+          }
+        ],
+        "suggestedPattern": "antibrid-box-hold",
+        "timing": "Optional extra cycles can be inserted at a corner."
+      }
+    ],
+    "pitfalls": [
+      "The hand-only captions contain left/right slips. The clear recap at 2:28 and the demonstrated destinations resolve the order.",
+      "Moving directly to the next corner omits the full orbit plus quarter that distinguishes this pattern from a simple four-position box.",
+      "The third section requires the reel to pass behind the shoulder; keeping both staffs entirely in front changes the movement.",
+      "Clockwise and counterclockwise depend on viewing direction. Use the named body landmarks when learning from a front-facing diagram."
+    ],
+    "prerequisites": [
+      "8ScYjUsv4LQ",
+      "NbWdQM7LvpY"
+    ],
+    "evidence": [
+      {
+        "time": 120,
+        "observation": "Begins a prop-free hand-path demonstration."
+      },
+      {
+        "time": 148,
+        "observation": "Clear destination recap: right hand left shoulder, left hand right shoulder, right hand right hip, left hand left hip."
+      },
+      {
+        "time": 158,
+        "observation": "Specifies a circle plus a quarter for each moving hand."
+      },
+      {
+        "time": 204,
+        "observation": "Adds left hip reel and right antispin."
+      },
+      {
+        "time": 234,
+        "observation": "Vertical line on the performer\u2019s left marks the first role swap."
+      },
+      {
+        "time": 258,
+        "observation": "Horizontal upper line marks the next role swap."
+      },
+      {
+        "time": 286,
+        "observation": "Explicitly explains the rear-shoulder route during the descending section."
+      },
+      {
+        "time": 306,
+        "observation": "Right-side vertical line leads to left antispin and right hip reel."
+      },
+      {
+        "time": 336,
+        "observation": "Recaps alternating right and left antispin."
+      }
+    ],
+    "limitations": [
+      "Automatic captions misrecognize several technical words and contain contradictory side labels; the repeated verbal recap and source frames were used to resolve the route.",
+      "The final recap also slips between hip and shoulder names. The ordered breakdown and visible hand landmarks establish the anchor sequence used here.",
+      "Box diagrams must show which hand is the moving orbit and which is the current anchor, and must distinguish rear shoulder passages from flat line crossings."
+    ]
+  },
+  {
+    "videoId": "tOk2Mcisgyc",
+    "title": "Basic antibrids in one minute",
+    "summary": "A compact reverse-direction drill: learn the hip reel and antispin separately, combine them through the hand/end connection, then switch sides.",
+    "setup": {
+      "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end. At home base the thumb ends point toward each other.",
+      "stance": "Begin upright with feet comfortably apart. Allow the torso to turn as a staff passes the side of the body. Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+      "plane": "The reel thumb end circles in front of the hips while the pinkie end circles behind. The antispin hand follows the reel thumb end."
+    },
+    "moves": [
+      {
+        "name": "Home base",
+        "start": 8,
+        "end": 14,
+        "description": "Use the shared horizontal position to begin and to switch sides later.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "Hands at hips, thumb ends pointing inward.",
+        "steps": [
+          {
+            "title": "Find the center grips",
+            "body": "Hold both staffs around their centers."
+          },
+          {
+            "title": "Set the hip position",
+            "body": "Place one hand at each hip with the staffs overlapped horizontally."
+          },
+          {
+            "title": "Check the inward ends",
+            "body": "Both thumb ends point toward the opposite hand."
+          }
+        ],
+        "suggestedPattern": "antibrid-home",
+        "timing": "A stationary alignment used for starting and switching."
+      },
+      {
+        "name": "Left hip reel",
+        "start": 14,
+        "end": 32,
+        "description": "Keep the left hand near the bottom of the rib cage while the two ends circle on different sides of the body.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Keep the left hand close to the lower ribs; allow the staff to pass beside the hip.",
+        "focus": "Thumb end in front, pinkie end behind.",
+        "steps": [
+          {
+            "title": "Trace four directions",
+            "body": "From home base, direct the left thumb end down, left, up, then right."
+          },
+          {
+            "title": "Keep the hand close",
+            "body": "Let the staff turn around the lower-rib area rather than sending the whole arm through a large circle."
+          },
+          {
+            "title": "Check the depth",
+            "body": "The thumb end circles in front of the hips. The pinkie end circles behind them."
+          }
+        ],
+        "suggestedPattern": "hip-reel",
+        "timing": "Continuous down-left-up-right sequence for the left thumb end, using the performer\u2019s directions."
+      },
+      {
+        "name": "Right-hand antispin",
+        "start": 32,
+        "end": 44,
+        "description": "Learn the right-hand flower separately, using alternating thumb and pinkie checkpoints.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Let the right hand travel around its flower while the torso turns freely.",
+        "focus": "The right hand path and right staff rotation oppose each other.",
+        "steps": [
+          {
+            "title": "Start thumb down",
+            "body": "From home base, point the right thumb end toward the ground."
+          },
+          {
+            "title": "Open pinkie left",
+            "body": "Take the right pinkie end toward the performer\u2019s left."
+          },
+          {
+            "title": "Finish thumb up, pinkie right",
+            "body": "Point the thumb end upward, then the pinkie end toward the performer\u2019s right to return home."
+          }
+        ],
+        "suggestedPattern": "antispin-reverse",
+        "timing": "Thumb down, pinkie left, thumb up, pinkie right."
+      },
+      {
+        "name": "Combine the two patterns",
+        "start": 44,
+        "end": 52,
+        "description": "Match the separately practiced paths one checkpoint at a time.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "Keep the right grip beside the left reel\u2019s thumb end.",
+        "steps": [
+          {
+            "title": "Align the first checkpoint",
+            "body": "Start both drills from the horizontal home base."
+          },
+          {
+            "title": "Move one quarter at a time",
+            "body": "Combine the reel and antispin checkpoints slowly."
+          },
+          {
+            "title": "Preserve the connection",
+            "body": "Keep the reel end and other hand aligned as you join the checkpoints into a continuous movement."
+          }
+        ],
+        "suggestedPattern": "antibrid-reverse",
+        "timing": "Same hand/end connection as the longer lesson, with its initial rotation reversed."
+      },
+      {
+        "name": "Mirror and switch sides",
+        "start": 52,
+        "end": 60,
+        "description": "Learn the reverse pairing, then use home base to alternate the side performing antispin.",
+        "grip": "Keep each hand near its staff center. Name the end beside the thumb the thumb end and the opposite end the pinkie end.",
+        "stance": "Hands just above the hips, about shoulder width apart, with horizontal overlapping staffs and thumb ends facing inward.",
+        "focus": "Return to the shared hip-level line before exchanging roles.",
+        "steps": [
+          {
+            "title": "Exchange hands",
+            "body": "Make the right hand the reel and the left hand the antispin."
+          },
+          {
+            "title": "Return home",
+            "body": "Finish at the inward-thumb horizontal position."
+          },
+          {
+            "title": "Alternate sides",
+            "body": "Use that position to pass smoothly between the two versions."
+          }
+        ],
+        "suggestedPattern": "antibrid-alternating-reverse",
+        "timing": "Switch the active side at home base."
+      }
+    ],
+    "pitfalls": [
+      "This clip begins with the antispin thumb end down, while the longer basic tutorial begins thumb up. Both are valid reverse-direction drills.",
+      "The reel does not stay entirely in front of the torso: the pinkie end circles behind.",
+      "Preserve the hand/end connection instead of performing the two patterns independently."
+    ],
+    "prerequisites": [
+      "tqJoUgprXws",
+      "8ScYjUsv4LQ"
+    ],
+    "evidence": [
+      {
+        "time": 9,
+        "observation": "On-screen home-base label specifies hands at hips with thumbs toward each other."
+      },
+      {
+        "time": 15,
+        "observation": "On-screen text places the hip reel near the bottom of the ribs."
+      },
+      {
+        "time": 18,
+        "observation": "On-screen directions read thumb down, left, up, right."
+      },
+      {
+        "time": 24,
+        "observation": "Close-up explicitly labels the pinkie-end circle behind the back."
+      },
+      {
+        "time": 27,
+        "observation": "Close-up labels the thumb-end circle in front."
+      },
+      {
+        "time": 33,
+        "observation": "Text identifies the separate right-hand antispin flower."
+      },
+      {
+        "time": 36,
+        "observation": "Text gives thumb down, pinkie left, thumb up, pinkie right."
+      },
+      {
+        "time": 45,
+        "observation": "Text asks the learner to combine both patterns piece by piece."
+      },
+      {
+        "time": 48,
+        "observation": "Text identifies the connection between staff end and hand."
+      },
+      {
+        "time": 57,
+        "observation": "Text identifies home base as the place to switch sides."
+      }
+    ],
+    "limitations": [
+      "The first minute is music and on-screen instruction; automatic English captions omit the teaching. The video\u2019s authored description and inspected text overlays provide the source evidence.",
+      "The clip is a compact recap, so the longer basic-antibrid lesson supplies the fuller explanation of the connection."
+    ]
+  }
+]

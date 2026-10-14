@@ -1,0 +1,412 @@
+[
+  {
+    "videoId": "0xG0NcePpN0",
+    "title": "Hand tracer boxes",
+    "summary": "Build a folding box by pairing an end isolation with an antispin. The important meeting points are a staff tip and the other hand, rather than two staff tips.",
+    "setup": {
+      "grip": "Hold both staffs near their centers. Keep track of the thumb and pinkie ends as your wrists turn; the isolation pivot changes around the box.",
+      "stance": "Drex demonstrates facing forward with feet comfortably apart. Leave room above the head and in front of the chest for crossed arms. The video does not prescribe a special footwork pattern.",
+      "plane": "Work in a vertical plane in front of the body. The two hands need a small depth separation when they cross overhead. Clockwise in the explanation is from the spinner's own viewpoint."
+    },
+    "moves": [
+      {
+        "name": "Find the hand-tracer alignment",
+        "start": 57,
+        "end": 99,
+        "description": "Drex introduces a split-time, same-direction relationship whose checkpoints place staff ends at the opposite hand. Recognize this alignment before building the box.",
+        "grip": "Center grips; identify both thumb ends and both pinkie ends.",
+        "stance": "Face forward with the hands free to travel in front of the torso.",
+        "focus": "Match a staff end to the other hand, rather than looking only for end-to-end contact.",
+        "steps": [
+          { "title": "Start in parallel", "body": "Observe the parallel, offset staff relationship in the source. The hands are separated along the same general line as the staffs." },
+          { "title": "Name the meeting point", "body": "Pause at a horizontal or vertical alignment and identify the end of one staff beside the hand holding the other." },
+          { "title": "Keep the reference", "body": "Use those hand-to-end checkpoints to organize the following folds. Both reciprocal alignments do not have to remain fixed throughout every transition." }
+        ],
+        "suggestedPattern": "hand-tracer",
+        "timing": "Split time, same direction is the introductory relationship."
+      },
+      {
+        "name": "Lift the first side of the box",
+        "start": 99,
+        "end": 147,
+        "description": "The hand nearest the direction of travel leads with an end isolation. The other hand follows the moving end while its staff antispins. Drex builds the first lift from the low horizontal alignment to the upright side alignment.",
+        "grip": "Keep center grips. In the demonstrated first lift, the isolating staff pivots around its pinkie end while its thumb end rises.",
+        "stance": "Allow the shoulders to turn slightly toward the side being raised without lifting the stationary pivot away.",
+        "focus": "One tip provides the isolation pivot; the other tip gives the opposite hand its moving reference.",
+        "steps": [
+          { "title": "Choose the leading hand", "body": "From the low horizontal overlap, identify the hand closest to the next side of the box." },
+          { "title": "Hold the pivot", "body": "Fold that staff around the end pointing along the intended travel. In Drex's first example this is its pinkie end." },
+          { "title": "Add the antispin", "body": "Move the other hand with the rising free end and turn its staff against the hand's travel. Watch the source's small, stopped demonstration before joining the motions." },
+          { "title": "Arrive upright", "body": "Finish at the vertical side checkpoint with the hands one above the other and the staffs aligned alongside them." }
+        ],
+        "suggestedPattern": "hand-tracer-box",
+        "timing": "One isolation paired with one antispin; advance together between box checkpoints."
+      },
+      {
+        "name": "Fold across the top",
+        "start": 147,
+        "end": 177,
+        "description": "The right-hand staff now isolates around its thumb end while the left-hand staff makes the complementary antispin. The crossed-arm arrangement must prepare the next descent.",
+        "grip": "The right staff's thumb end is the isolation pivot in Drex's demonstrated orientation.",
+        "stance": "Keep the overhead crossing in front of the head. Place the right hand nearer the torso than the left hand.",
+        "focus": "The depth order of the hands matters even though the box looks flat from the front.",
+        "steps": [
+          { "title": "Change the pivot", "body": "At the vertical side checkpoint, transfer the isolating role to the right staff's thumb end." },
+          { "title": "Cross overhead", "body": "Carry the complementary left-hand antispin across the top of the box while keeping the hand-to-end reference." },
+          { "title": "Set the depth", "body": "Arrange the right hand on the body side of the left hand. Pause at this crossing before attempting the following side." }
+        ],
+        "suggestedPattern": "hand-tracer-box",
+        "timing": "Exchange the isolation and antispin roles at the box checkpoint."
+      },
+      {
+        "name": "Descend and close the box",
+        "start": 177,
+        "end": 199,
+        "description": "The next descent isolates the left staff's thumb end. The right staff passes through the space between the left hand and the body. The final fold uses the right staff's pinkie end to bring the pair home.",
+        "grip": "Keep both center grips while the pivot changes from left thumb end to right pinkie end.",
+        "stance": "Preserve the hand depth established across the top so the descending staff has a clear route.",
+        "focus": "Resolve the crossing through the correct gap before completing the low edge.",
+        "steps": [
+          { "title": "Use the left thumb pivot", "body": "From the overhead checkpoint, fold around the left staff's thumb end." },
+          { "title": "Pass through the gap", "body": "Let the right staff travel between the left hand and the torso, as shown in the source. Do this slowly enough to see the route." },
+          { "title": "Close the low edge", "body": "Use the right staff's pinkie-end isolation with the left-hand antispin to return to the lower alignment." }
+        ],
+        "suggestedPattern": "hand-tracer-box",
+        "timing": "Continue the same alternating isolation and antispin relationship."
+      },
+      {
+        "name": "Chain the complete box",
+        "start": 199,
+        "end": 249,
+        "description": "Each hand alternates between antispin and isolation. Connecting those pieces at their hand-tracer checkpoints creates the complete box.",
+        "grip": "Center grips throughout; notice which end is the pivot at each corner.",
+        "stance": "Stay comfortably planted while the arms fold low, to the side, overhead, and down the other side.",
+        "focus": "Think in alternating jobs for each hand, rather than memorizing an unrelated shape at every corner.",
+        "steps": [
+          { "title": "Separate the jobs", "body": "Follow one hand through its antispin and isolation pieces before watching the other hand." },
+          { "title": "Link the checkpoints", "body": "Join the pieces only after the staff end and opposite hand meet cleanly at each alignment." },
+          { "title": "Smooth the loop", "body": "Repeat the whole box with the overhead depth order intact. Increase the playback speed after the individual folds are recognizable." }
+        ],
+        "suggestedPattern": "hand-tracer-box",
+        "timing": "A repeating isolation/antispin alternation for each hand."
+      },
+      {
+        "name": "Shift from boxes to diamonds",
+        "start": 249,
+        "end": 258,
+        "description": "Drex briefly shows that the box can connect back into a diamond arrangement. This is a demonstration of a connection, without a separate breakdown of its grip changes or intermediate positions.",
+        "grip": "Center grips are visible; no new grip instruction is given.",
+        "stance": "Watch how the arms leave the square checkpoints for the diagonal arrangement.",
+        "focus": "Recognize the connection in the original footage before trying to reconstruct it.",
+        "steps": [
+          { "title": "Watch the change", "body": "Scrub the short source passage to compare the last box alignment with the first diagonal alignment." },
+          { "title": "Keep it a study", "body": "The source does not isolate this transition into a drill. Use the earlier box lesson for practice and this clip to see the possible connection." }
+        ],
+        "suggestedPattern": "source-only",
+        "timing": "Short performance connection; no separate count is taught.",
+        "demonstrationOnly": true
+      }
+    ],
+    "pitfalls": [
+      "Looking only for tip-to-tip contact hides the hand-tracer relationship.",
+      "Forcing both staff ends to remain at both opposite hands throughout a fold removes the antispin. The paired alignments are checkpoints; one end-to-hand reference guides the transition.",
+      "Crossing the left hand nearer the body at the top obstructs the right staff's next descent in Drex's demonstrated direction.",
+      "A front-view sketch cannot show the necessary depth separation at the overhead crossing."
+    ],
+    "prerequisites": ["8ScYjUsv4LQ", "0fUQvp9xjP0"],
+    "evidence": [
+      { "time": 71, "observation": "Narration identifies a split-time/same-direction parallel relationship, with staff ends matching the opposite hand rather than the other staff's end." },
+      { "time": 110, "observation": "Narration says the hand nearest the travel direction isolates around the end pointing that way." },
+      { "time": 135.6, "observation": "A directly extracted source frame shows a mid-fold X: the free end of the lower staff is near the opposite hand, while the other staff is angled across it. Both reciprocal hand-to-tip contacts are not maintained at this midpoint." },
+      { "time": 136.4, "observation": "A directly extracted source frame shows the completed upright side checkpoint, with the hands stacked and staffs parallel." },
+      { "time": 153, "observation": "The stopped vertical alignment sets up the right thumb-end isolation across the top." },
+      { "time": 172, "observation": "Narration explicitly places the right hand nearer the body to make the following descent possible." },
+      { "time": 183, "observation": "Narration explains that the right staff must pass between the left hand and body." },
+      { "time": 205, "observation": "Drex describes each hand alternating antispin and isolation as the box is chained together." },
+      { "time": 251, "observation": "A brief box-to-diamond connection is demonstrated without a new step-by-step explanation." }
+    ],
+    "limitations": [
+      "Teaching text combines the spoken explanation with direct frame inspection. Suggested diagrams are geometric teaching aids, not motion capture.",
+      "The source is a front-view demonstration. It establishes which hand is nearer the body at the top, but does not provide a measured three-dimensional hand path.",
+      "Stance guidance describes the visible demonstration; the video does not teach a specific footwork sequence.",
+      "The final diamond connection is shown briefly and is marked as a demonstration rather than an invented drill."
+    ]
+  },
+  {
+    "videoId": "zhTZu7Y5CWk",
+    "title": "Winter tech: performance study",
+    "summary": "A continuous performance study of grid tracing, antibrids, and linked flow. Drex demonstrates combinations without a spoken technical breakdown or named move chapters.",
+    "setup": {
+      "grip": "The staffs are visibly held near their centers. This performance does not explain thumb/pinkie orientation or grip transitions.",
+      "stance": "Drex shifts weight and turns between front, side, and back-facing positions. Treat these as observations, not a prescribed footwork drill.",
+      "plane": "The performance changes orientation and depth. A single flat path diagram would omit essential information."
+    },
+    "moves": [
+      {
+        "name": "Opening linked phrases",
+        "start": 0,
+        "end": 30,
+        "description": "Editorial viewing window. The opening links compact shoulder-level shapes, upper/lower hand positions, and outward reaches. The on-screen title identifies this as Colorado double staff research, filmed in December 2016.",
+        "grip": "Center holds are visible; grip mechanics are not narrated.",
+        "stance": "Watch the small turns and weight shifts beneath the upper-body pattern.",
+        "focus": "Notice where a hand and the opposite staff end come close, and when the arms open away from the torso.",
+        "steps": [
+          { "title": "Watch the whole phrase", "body": "Play the original passage once to see the relationship between the compact and extended shapes." },
+          { "title": "Compare two checkpoints", "body": "Pause near 0:12 and 0:26 to compare a compact front alignment with one hand raised above the head." }
+        ],
+        "suggestedPattern": "source-only",
+        "timing": "Performance timing varies; no teaching count is supplied.",
+        "demonstrationOnly": true,
+        "editorialTitle": true
+      },
+      {
+        "name": "Wide paths and overhead folds",
+        "start": 30,
+        "end": 60,
+        "description": "Editorial viewing window. Broad lateral extensions lead into repeated high folds and lower returns. The passage shows how the visible frame can expand and contract around the same performer.",
+        "grip": "Both staffs remain hand-held around their centers in the inspected frames.",
+        "stance": "Observe changes between a front-facing stance and an angled torso.",
+        "focus": "Compare the wide hand separation around 0:32 with the overhead arrangements around 0:38 and 0:46.",
+        "steps": [
+          { "title": "Track the hand spacing", "body": "Use slow playback to see where the hands are far apart and where they return near the head or torso." },
+          { "title": "Follow one staff", "body": "Replay while following only one staff through a high fold and its lower return. This clip supplies an example, not a separate breakdown." }
+        ],
+        "suggestedPattern": "source-only",
+        "timing": "Linked performance phrase; no fixed count is taught.",
+        "demonstrationOnly": true,
+        "editorialTitle": true
+      },
+      {
+        "name": "Turns through the grid",
+        "start": 60,
+        "end": 90,
+        "description": "Editorial viewing window. The performer moves between front, profile, and back-facing orientations while continuing the staff patterns. This makes changes of plane and body orientation easier to notice.",
+        "grip": "The footage shows center holds but does not break down the wrist or shoulder transitions.",
+        "stance": "Watch the feet and hips together with the staff planes; the back-facing position near 1:16 is especially clear.",
+        "focus": "A pattern can continue while the torso turns. The video does not explain the exact turn entry.",
+        "steps": [
+          { "title": "Watch the body first", "body": "Replay this passage while following the hips and shoulders instead of the staff tips." },
+          { "title": "Add the planes", "body": "Replay again and compare the staff orientation before, during, and after a body turn." }
+        ],
+        "suggestedPattern": "source-only",
+        "timing": "Continuous demonstration with changing orientation.",
+        "demonstrationOnly": true,
+        "editorialTitle": true
+      },
+      {
+        "name": "Shoulder and hip links",
+        "start": 90,
+        "end": 120,
+        "description": "Editorial viewing window. Upper and lower hand positions alternate with compact shoulder-level crossings and reaches. The passage is useful for recognizing familiar antibrid and tracing ideas inside a longer phrase.",
+        "grip": "Observe the center grips and staff-end positions directly; the video gives no new grip instruction.",
+        "stance": "The stance stays mobile enough for the torso to follow the changing upper and lower shapes.",
+        "focus": "Compare the high/low arrangement around 1:36 with the more compact shoulder-level shapes around 1:46 and 1:48.",
+        "steps": [
+          { "title": "Locate familiar positions", "body": "Pause at the high/low and crossed shapes and compare them with the earlier antibrid lessons." },
+          { "title": "Watch the connection", "body": "Play through each connection slowly. Do not assume this performance alone supplies every intermediate grip or depth cue." }
+        ],
+        "suggestedPattern": "source-only",
+        "timing": "Performance phrasing rather than a narrated drill.",
+        "demonstrationOnly": true,
+        "editorialTitle": true
+      },
+      {
+        "name": "Closing flow sequence",
+        "start": 120,
+        "end": 147,
+        "description": "Editorial viewing window. The final passage reconnects low positions, overhead folds, outward reaches, and body turns before the closing credits.",
+        "grip": "Center holds remain visible. No technical grip explanation accompanies the sequence.",
+        "stance": "Follow the changing direction of the torso as the staffs travel above and below shoulder level.",
+        "focus": "Notice how repeated visual checkpoints can belong to different surrounding combinations.",
+        "steps": [
+          { "title": "Compare repeated shapes", "body": "Use the low alignment around 2:00 and the raised arrangement around 2:12 as viewing checkpoints." },
+          { "title": "Return to the tutorials", "body": "Choose one familiar component and revisit its earlier tutorial for instruction. This closing sequence is presented as performance inspiration." }
+        ],
+        "suggestedPattern": "source-only",
+        "timing": "Continuous performance ending around 2:27.",
+        "demonstrationOnly": true,
+        "editorialTitle": true
+      }
+    ],
+    "pitfalls": [
+      "Treating these editorial viewing windows as Drex's named chapters or formal move taxonomy.",
+      "Inferring an exact grip transition or three-dimensional path from a single front-view frame.",
+      "Using an advanced performance clip as the only instruction for a new component."
+    ],
+    "prerequisites": ["NbWdQM7LvpY", "0xG0NcePpN0", "8ScYjUsv4LQ"],
+    "evidence": [
+      { "time": 2, "observation": "The opening title reads Colorado Double Staff Research." },
+      { "time": 6, "observation": "An opening title gives December 2016 as the filmed period." },
+      { "time": 32, "observation": "An exact source frame shows the hands extended broadly to either side at different heights." },
+      { "time": 38, "observation": "An exact source frame shows both hands raised, with the staffs forming a high folded arrangement." },
+      { "time": 76, "observation": "An exact source frame shows Drex facing away from the camera while continuing the sequence." },
+      { "time": 96, "observation": "An exact source frame shows one hand above the head and the other near the hip." },
+      { "time": 120, "observation": "The sequence passes through a low position in front of the torso." },
+      { "time": 146, "observation": "The outdoor performance is still visible; at 148 seconds the video has changed to its closing card." }
+    ],
+    "limitations": [
+      "The downloaded video has no subtitles or chapter metadata. Direct frame inspection at two-second intervals found no named move sections, only the opening location/research title and date.",
+      "The source description names grid tracing, antibrids, and flow but does not assign names or steps to each performed combination.",
+      "All five viewing-window headings and boundaries are editorial navigation aids. They preserve the original running order and cover the outdoor performance without claiming that Drex taught five separate moves.",
+      "Use the original footage for this lesson. A generic flat simulator would imply unverified mechanics and should not be presented as a reconstruction."
+    ]
+  },
+  {
+    "videoId": "5cbSh2K7Mng",
+    "title": "Tutting framework",
+    "summary": "Drex presents Rico, also known as Solriso's, compact 3-by-2 framework: anchor one hand at the opposite shoulder, fold between sides, then add antispins, depth, and right-angle relationships.",
+    "setup": {
+      "grip": "Use center grips. In the crossed home position, each hand is level with the opposite shoulder. Keep the thumb and pinkie ends identifiable through folds.",
+      "stance": "Begin facing forward with enough space to extend either arm sideways. Drex demonstrates feet apart and later turns his torso for the three-dimensional variations.",
+      "plane": "Start with a compact vertical 3-by-2 grid in front of the torso. Later variations deliberately move outward toward the audience."
+    },
+    "moves": [
+      {
+        "name": "Set the 3-by-2 grid and home base",
+        "start": 33,
+        "end": 67,
+        "description": "The framework uses a smaller region than the familiar 3-by-3 staff grid. Cross the arms so each hand is opposite its usual shoulder; one hand generally remains at that opposite-shoulder height while the other works.",
+        "grip": "Center grips; hands cross to opposite shoulders without releasing the staffs.",
+        "stance": "Face forward and identify the torso's left, middle, and right regions and its upper and lower levels.",
+        "focus": "The opposite-shoulder hand is a reliable anchor for the moving side.",
+        "steps": [
+          { "title": "Mark the smaller grid", "body": "Think of three columns across the working area and two vertical levels, as illustrated over Drex's body." },
+          { "title": "Cross to home", "body": "Bring each hand level with the opposite shoulder. This crossed position is the return point for the patterns that follow." },
+          { "title": "Choose an anchor", "body": "Identify which hand will stay at the opposite shoulder as the other begins its larger path." }
+        ],
+        "suggestedPattern": "tutting-home",
+        "timing": "A stationary setup before the alternating patterns."
+      },
+      {
+        "name": "Basic parallel pattern",
+        "start": 67,
+        "end": 113,
+        "description": "One arm makes a large circle to its side while the opposite hand stays by the shoulder. Turn the anchored staff to remain parallel, then fold at home base and swap jobs.",
+        "grip": "Keep center grips. The shoulder hand rotates its staff without joining the large hand circle.",
+        "stance": "Leave room to the side of the working arm. Keep the opposite-shoulder anchor visible.",
+        "focus": "One large hand path, one anchored hand, and parallel staffs.",
+        "steps": [
+          { "title": "Send the right arm down", "body": "From crossed home base, swing the right arm downward. Keep the left hand by the right shoulder and rotate its staff to match the other staff's angle." },
+          { "title": "Complete the right circle", "body": "Continue out to the right side, upward, and back to crossed home base. Maintain parallel staffs throughout the circle." },
+          { "title": "Send the left arm up", "body": "With the right hand now staying by the left shoulder, send the left arm upward, outward, down, and around." },
+          { "title": "Fold and alternate", "body": "Return the left arm underneath the right at home base, then repeat the small folding handoff between the two large circles." }
+        ],
+        "suggestedPattern": "tutting-parallel",
+        "timing": "The hands alternate large circles; staffs remain parallel while their roles change."
+      },
+      {
+        "name": "Fold out, antispin, fold in",
+        "start": 113,
+        "end": 154,
+        "description": "Add an antispin to the moving side between two isolation folds. The fold checkpoints overlap the pinkie ends, while the staff-end to opposite-hand relationship keeps the compact geometry readable.",
+        "grip": "Center grips. Track the pinkie ends at the fold-in and fold-out checkpoints.",
+        "stance": "Stay in the compact front grid and keep the nonworking hand near its opposite shoulder.",
+        "focus": "Overlap the pinkie ends at the folds and preserve a staff-end to opposite-hand reference.",
+        "steps": [
+          { "title": "Fold outward", "body": "Open the working arm with an isolation, starting from crossed home base." },
+          { "title": "Antispin the side", "body": "Continue around the side with staff rotation opposing the hand's travel, as shown by the source's curved path overlay." },
+          { "title": "Fold home", "body": "Return through either the upper or lower fold point. Check that the pinkie ends overlap at the fold." },
+          { "title": "Check the connection", "body": "Use a mirror, as Drex suggests, to monitor the relationship between a staff end and the opposite hand while alternating sides." }
+        ],
+        "suggestedPattern": "tutting-antispin",
+        "timing": "Isolation fold, antispin, isolation fold; repeat on the other side."
+      },
+      {
+        "name": "Inspin side option",
+        "start": 113,
+        "end": 154,
+        "description": "Drex also names inspin as an option for the side portions. The detailed displayed path in this passage concentrates on antispin, so this is an exploration prompt rather than a separately broken-down inspin drill.",
+        "grip": "Keep the same center grips and crossed home position.",
+        "stance": "Use the same compact grid and shoulder anchor as the basic pattern.",
+        "focus": "Recognize inspin as a named variation; the source does not give it its own complete teaching sequence.",
+        "steps": [
+          { "title": "Locate the option", "body": "Listen to the introduction to the side variations, where both inspin and antispin are proposed." },
+          { "title": "Retain the framework", "body": "Compare with the taught fold and anchor relationships. The site does not invent missing inspin counts or grip checkpoints." }
+        ],
+        "suggestedPattern": "source-only",
+        "timing": "Named variation without a separate narrated count.",
+        "demonstrationOnly": true
+      },
+      {
+        "name": "Take the folds into 3D",
+        "start": 154,
+        "end": 174,
+        "description": "The side shapes and folds can move outward toward the audience instead of remaining close to the torso. Drex suggests adding antispin to these depth-changing folds.",
+        "grip": "Maintain center grips and the familiar hand-to-end relationship while the working plane changes.",
+        "stance": "Let the torso face the working space as needed. Allow clear room in front of the body.",
+        "focus": "Depth changes the plane of the existing fold; it is more than a sideways shift in a flat diagram.",
+        "steps": [
+          { "title": "Move the working plane", "body": "Watch the antispin or inspin project outward toward the camera rather than staying flat against the body." },
+          { "title": "Project the fold", "body": "Follow the fold-in and fold-out movements as they also use that outward direction." },
+          { "title": "Study the antispin option", "body": "Drex proposes adding antispin inside these folds. Use the original moving footage for the changing depth and wrist orientation." }
+        ],
+        "suggestedPattern": "source-only",
+        "timing": "The existing fold sequence moves into an outward-facing plane.",
+        "demonstrationOnly": true
+      },
+      {
+        "name": "Right-angle Chu-chu pattern",
+        "start": 174,
+        "end": 201,
+        "description": "Replace the parallel relationship with perpendicular staffs. At crossed home base, swap which staff is vertical and which is horizontal; the outward-reaching hand follows an R-type path.",
+        "grip": "Keep center grips and change the two staff orientations at home base.",
+        "stance": "Begin in the front grid with one hand anchored by the opposite shoulder, as in the basic pattern.",
+        "focus": "Switch the vertical and horizontal assignments at home, then carry the right-angle relationship through the outward movement.",
+        "steps": [
+          { "title": "Set the right angle", "body": "At home base, place one staff vertically and the other horizontally." },
+          { "title": "Reach with the R-type", "body": "Move one hand around its larger side path while preserving the perpendicular staff relationship illustrated in the source." },
+          { "title": "Return and switch", "body": "At crossed home base, exchange which staff is vertical and which is horizontal before reaching out on the other side." },
+          { "title": "Repeat the handoff", "body": "Alternate the orientation switch and the side path to form the Chu-chu pattern." }
+        ],
+        "suggestedPattern": "tutting-right-angle",
+        "timing": "Switch at home base, complete the side R-type path, then switch again."
+      },
+      {
+        "name": "Angles in 3D and combined flow",
+        "start": 201,
+        "end": 259,
+        "description": "Drex proposes combining the right-angle relationship with the depth variations, then performs a longer example. The performance shows possible combinations without assigning a separate name or drill to every link.",
+        "grip": "Center holds remain visible; use the source for the exact wrist orientation as the planes change.",
+        "stance": "The performer changes torso orientation and weight while moving the patterns into depth.",
+        "focus": "Notice when the staffs are parallel, when they form a right angle, and when the working plane points outward.",
+        "steps": [
+          { "title": "Recognize the ingredients", "body": "Look for the earlier shoulder anchor, folding handoff, antispin, and right-angle shapes in the combined footage." },
+          { "title": "Study one connection", "body": "Loop a short section of the source and compare its starting and ending positions before attempting the full phrase." },
+          { "title": "Return to the taught pattern", "body": "Use the earlier basic or antispin drill for practice. This final passage is an example of combining the framework's ingredients." }
+        ],
+        "suggestedPattern": "source-only",
+        "timing": "Demonstrated combinations with no additional fixed counts.",
+        "demonstrationOnly": true
+      }
+    ],
+    "pitfalls": [
+      "Letting both hands make large circles erases the opposite-shoulder anchor that organizes the basic pattern.",
+      "Treating this as the larger classical staff grid can displace the fold checkpoints.",
+      "Missing the pinkie-end overlap makes the antispin folds harder to recognize and reconnect.",
+      "Keeping the staffs parallel during the Chu-chu variation removes its intended right-angle relationship.",
+      "A flat diagram cannot teach the depth and wrist orientation of the outward-facing variations."
+    ],
+    "prerequisites": ["0xG0NcePpN0", "8ScYjUsv4LQ"],
+    "evidence": [
+      { "time": 6, "observation": "The spoken introduction credits Rico, also known as Solriso, for the framework." },
+      { "time": 51, "observation": "Drex contrasts the compact 3-by-2 working grid with a 3-by-3 grid." },
+      { "time": 59, "observation": "Narration defines crossed home base by placing each hand level with the opposite shoulder." },
+      { "time": 75, "observation": "The basic-pattern overlay and direct source frame show one hand by the opposite shoulder and the other low on its side, with parallel staffs." },
+      { "time": 95, "observation": "The left arm is raised while the right hand remains near the opposite shoulder, demonstrating the change of working side." },
+      { "time": 115, "observation": "The narration introduces both antispin and inspin options, while the subsequent displayed section is titled Antispin Pattern." },
+      { "time": 135, "observation": "Narration identifies the overlapping pinkie ends as the fold checkpoint." },
+      { "time": 145, "observation": "Drex explains the staff-end to opposite-hand connection and recommends checking it in a mirror." },
+      { "time": 165, "observation": "The source displays 3D Pattern while the staff motion projects outward from the torso." },
+      { "time": 185, "observation": "The source displays Chu-chu Pattern with a circular overlay and perpendicular staffs." },
+      { "time": 190, "observation": "Narration calls the outward path an R-type and instructs the viewer to swap the vertical and horizontal assignments at home base." },
+      { "time": 217, "observation": "The concluding performance begins after the invitation to combine the ideas; individual links are not separately named or explained." }
+    ],
+    "limitations": [
+      "The framework is attributed to Solriso in both the narration and video description. Drex presents his overview and examples.",
+      "The inspin option is named but receives less explicit instruction than the antispin pattern; it is not expanded into invented steps here.",
+      "The three-dimensional variations and final combinations need the original video. They are marked as demonstrations rather than represented by an allegedly exact flat simulation.",
+      "Suggested planar diagrams explain anchor, path, and angle relationships. They are not body tracking or measured motion capture.",
+      "The stance descriptions are observations of the demonstration; precise foot placement is not taught."
+    ]
+  }
+]
