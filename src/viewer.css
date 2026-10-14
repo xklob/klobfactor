@@ -154,3 +154,36 @@
  .lesson-pagination{font-size:12px}
 }
 @media(prefers-reduced-motion:reduce){.player-card *{scroll-behavior:auto}}
+
+.grip-window{cursor:default}
+.checkpoint-controls{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px;font-size:12px;border-top:1px solid var(--line)}
+.checkpoint-controls button{padding:7px 0}
+.checkpoint-number{color:var(--muted);font-variant-numeric:tabular-nums}
+/* The source is the movement reference; its close-up shares the original frame. */
+.source-viewer-actions{display:flex;justify-content:flex-end;gap:6px;padding:8px 0}
+.source-viewer-actions button{padding:7px 10px;font-size:12px;border-radius:4px;color:var(--muted)}
+.source-viewer-actions button:hover,.source-viewer-actions button[aria-pressed=true]{background:var(--selected);color:var(--ink)}
+.source-stage{position:relative;aspect-ratio:16/9;min-height:190px;background:#111216}
+.source-stage video{object-fit:contain}
+.source-seek{display:flex;align-items:center;gap:12px;padding:12px 0 0}
+.source-seek input{min-width:0;flex:1;accent-color:var(--green);height:24px}
+.source-seek output{font-size:11px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.source-tools{gap:8px;font-size:12px;border-bottom:0}
+.source-tools>button{min-height:34px;font-size:12px}
+.source-tools select{min-height:34px;font-size:12px}
+.source-tools label{gap:6px}
+.source-focus{position:absolute;right:12px;top:12px;z-index:3;width:clamp(145px,24vw,260px);background:var(--paper);border:1px solid var(--line);border-radius:6px;overflow:hidden;box-shadow:0 3px 14px #0006}
+.source-focus-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:3px 8px;font-size:11px}
+.source-focus-head button{min-height:28px}
+.source-focus-head [data-close]{font-size:22px}
+.source-focus canvas{display:block;width:100%;height:auto;aspect-ratio:4/3;touch-action:none;cursor:grab}
+.source-focus>span{display:block;padding:5px 8px;font-size:10px;color:var(--muted);text-align:center}
+.source-pick{position:absolute;inset:0 0 48px;z-index:2;cursor:crosshair;background:#ffffff08;border:1px dashed var(--green)}
+.source-pick:before{content:'Select a point in the video';position:absolute;left:12px;top:12px;background:var(--paper);padding:5px 8px;border-radius:4px;font-size:12px}
+.source-expanded,#source-panel:fullscreen{display:flex;flex-direction:column;width:100%;height:100%;background:var(--surface);padding:10px 16px;overflow:auto}
+#source-panel:fullscreen{height:100dvh}
+.source-expanded .source-stage,#source-panel:fullscreen .source-stage{flex:1;min-height:220px;aspect-ratio:auto}
+.source-expanded .source-viewer-actions,#source-panel:fullscreen .source-viewer-actions{flex-shrink:0}
+.source-expanded .source-alternatives,#source-panel:fullscreen .source-alternatives{display:none}
+.source-expanded #source-status,#source-panel:fullscreen #source-status{margin:4px 0}
+@media(max-width:680px){.source-tools{gap:6px}.source-tools>button{padding:5px 7px;font-size:11px}.source-focus{right:7px;top:7px;width:145px}.source-viewer-actions{padding:4px 0}.source-expanded,#source-panel:fullscreen{padding:5px 10px}}

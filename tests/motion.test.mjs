@@ -15,23 +15,23 @@ test('rigid staffs and centered grips for every implemented motion and view vari
 test('isolation really pins the chosen end',()=>{
  for(const pinky of [false,true]){const key=pinky?'pinky':'thumb',anchor=sampleMotion({kind:'isolation',pinky},0).hands[0][key];for(let n=0;n<100;n++)near(distance(anchor,sampleMotion({kind:'isolation',pinky},n/100).hands[0][key]),0);}
 });
-test('antispin equal-radius reference has horizontal thumb and vertical pinky paths',()=>{
- for(let n=0;n<100;n++){const h=sampleMotion({kind:'antispin'},n/100).hands[0];near(h.thumb[1],.85);near(h.pinky[0],0);}
+test('equal-radius antispin gives the selected end a horizontal path',()=>{
+ for(const pinky of [false,true])for(let n=0;n<100;n++){const h=sampleMotion({kind:'antispin',pinky},n/100).hands[0];near(h[pinky?'pinky':'thumb'][1],1.3);near(h.center[0],-.28+HALF_STAFF*Math.sin(h.armAngle));}
 });
 test('R-type keeps its shaft orientation fixed',()=>{const axis=sampleMotion({kind:'rtype',orientation:1.2},0).hands[0].axis;for(let n=0;n<100;n++)near(distance(axis,sampleMotion({kind:'rtype',orientation:1.2},n/100).hands[0].axis),0);});
-test('basic antibrid maintains the verified hand-to-thumb-end connection',()=>{for(let n=0;n<100;n++){const [a,b]=sampleMotion({kind:'antibrid'},n/100).hands;near(distance(a.thumb,b.center),0);}});
+test('basic antibrid maintains front alignment in separate physical planes',()=>{for(let n=0;n<100;n++){const [a,b]=sampleMotion({kind:'antibrid'},n/100).hands;near(distance(a.thumb.slice(0,2),b.center.slice(0,2)),0);assert.ok(Math.abs(a.thumb[2]-b.center[2])>=.1);}});
 test('front crank returns by isolation and keeps the moving hand on the upper arc',()=>{
  for(let n=0;n<100;n++){
   const t=n/100,[a,b]=sampleMotion({kind:'crank'},t).hands;
   assert.ok(b.center[1]>=a.center[1]-1e-10);
-  near(t<.5?distance(a.thumb,b.center):distance(b.thumb,a.center),0);
+  near(t<.5?distance(a.thumb.slice(0,2),b.center.slice(0,2)):distance(b.thumb.slice(0,2),a.center.slice(0,2)),0);
  }
 });
 test('antibrid box preserves its changing contact and joins all four phrases continuously',()=>{
  const contacts=[[0,'thumb',1],[1,'pinky',0],[0,'pinky',1],[1,'thumb',0]];
  for(let n=0;n<200;n++){
   const t=n/200,hands=sampleMotion({kind:'box'},t).hands,[anchor,end,mover]=contacts[Math.floor(t*4)];
-  near(distance(hands[anchor][end],hands[mover].center),0);
+  near(distance(hands[anchor][end].slice(0,2),hands[mover].center.slice(0,2)),0);
  }
  for(const t of [.25,.5,.75,1]){
   const before=sampleMotion({kind:'box'},t-1e-8),after=sampleMotion({kind:'box'},t);
@@ -52,18 +52,9 @@ test('all 20 researched sources are complete and timestamps stay inside the vide
 test('together-same keeps two staves in separate physical planes',()=>{
  for(const kind of ['isolation','antispin','extension','inspin','rtype'])for(let n=0;n<32;n++){
   const [left,right]=sampleMotion({kind,timing:'together-same'},n/32).hands;
-  near(left.center[0],right.center[0]);near(left.center[1],right.center[1]);
-  assert.ok(Math.abs(left.center[2]-right.center[2])>=.29);
+  near(right.center[0]-left.center[0],.56);near(left.center[1],right.center[1]);
+  assert.ok(Math.abs(left.center[2]-right.center[2])>=.10);
  }
-});
-test('archer repeats continuously and distinguishes shoulder and underarm passages',()=>{
- const first=sampleMotion({kind:'archer'},0),last=sampleMotion({kind:'archer'},1-1e-8);
- first.hands.forEach((hand,i)=>{assert.ok(distance(hand.center,last.hands[i].center)<1e-5);assert.ok(distance(hand.thumb,last.hands[i].thumb)<1e-5);});
- const over=sampleMotion({kind:'archer'},.25),under=sampleMotion({kind:'archer'},.75);
- assert.ok(over.hands[0].elbow[1]>1.3);assert.ok(under.hands[0].elbow[1]<1.3);
- assert.ok(over.hands[0].thumb[2]<0);assert.ok(under.hands[0].pinky[2]<0);
- assert.ok(under.hands[1].pinky[2]>0);
- const solo=sampleMotion({kind:'archer',solo:true},.75);assert.equal(solo.hands.length,1);assert.ok(solo.guideHands[1],'Solo drill needs extended arm as a threading reference');
 });
 // Closest point between two finite segments, sampled independently of rendering.
 const dot=(a,b)=>a.reduce((sum,x,i)=>sum+x*b[i],0),sub=(a,b)=>a.map((x,i)=>x-b[i]);
@@ -74,10 +65,23 @@ function segmentDistance(a,b,c,d){
  if(t<0){t=0;s=clamp(-D/A);}else if(t>1){t=1;s=clamp((B-D)/A);}
  return Math.hypot(...w.map((x,i)=>x+s*u[i]-t*v[i]));
 }
-test('schematic archer clears the extended arm and the other shaft',()=>{
- for(let n=0;n<1200;n++){
-  const [left,right]=sampleMotion({kind:'archer'},n/1200).hands;
-  for(const [a,b] of [[[.45,1.3,0],right.elbow],[right.elbow,right.center]])assert.ok(segmentDistance(left.pinky,left.thumb,a,b)>.087,`Arm crossing at ${n/1200}`);
-  assert.ok(segmentDistance(left.pinky,left.thumb,right.pinky,right.thumb)>.10,`Staff crossing at ${n/1200}`);
+
+test('the complete catalog never animates a reconstructed person',async()=>{
+ const all=JSON.parse(await readFile(new URL('../dist/assets/catalog.json',import.meta.url),'utf8')).flatMap(s=>s.entries);
+ for(const l of all)for(const m of l.moves){if(!m.motion){assert.equal(m.representation,'source');continue;}const state=sampleMotion(m.motion,.3);assert.equal(state.alignmentOnly,true);assert.equal(state.referenceBody,m.motion.kind==='study'&&!!m.motion.landmarks?.length);assert.ok(['reference','pattern'].includes(m.representation));}
+ const archer=all.find(l=>l.videoId==='2WMkronsmfo');for(const m of archer.moves)if(m.motion)assert.equal(m.motion.kind,'study');
+});
+test('all published paired prop studies keep the two shafts physically separate',async()=>{
+ const all=JSON.parse(await readFile(new URL('../dist/assets/catalog.json',import.meta.url),'utf8')).flatMap(s=>s.entries);
+ const specs=all.flatMap(l=>l.moves.map(m=>m.motion)).filter(Boolean);
+ for(const spec of specs)for(let n=0;n<=240;n++){
+  const [a,b]=sampleMotion(spec,n/240).hands;if(!b)continue;
+  assert.ok(segmentDistance(a.pinky,a.thumb,b.pinky,b.thumb)>.092,`${spec.kind}: overlapping solid staves at ${n/240}`);
+ }
+});
+test('reverse studies traverse the same geometry in the opposite direction',()=>{
+ for(const kind of ['isolation','extension','antispin','inspin','rtype','antibrid','crank'])for(const phase of [.1,.24,.63,.91]){
+  const forward=sampleMotion({kind},1-phase),reverse=sampleMotion({kind,reverse:true},phase);
+  forward.hands.forEach((h,i)=>{near(distance(h.center,reverse.hands[i].center),0);near(distance(h.thumb,reverse.hands[i].thumb),0);});
  }
 });

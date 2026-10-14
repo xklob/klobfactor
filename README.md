@@ -1,27 +1,28 @@
 # Klobfactor
 
+Website: **[vulcantech.klob.io](https://vulcantech.klob.io)**
+
 Double staff lessons, interactive diagrams, and timestamped DrexFactor tutorials.
 
 - 21 lesson pages from 20 distinct videos in two playlists.
 - 150 ordered move and study sections with grip, stance, focus, practice cues, and source timestamps.
-- Interactive 3D diagrams, an animated archer weave, verified pose checkpoints, and spatial maps.
+- Source demonstrations first, with separate 3D pattern studies and static spatial references.
 - Scrubbing, forward/backward steps, looping, automatic move advancement, and 0.25× through 2× playback.
 - Isometric default with free orbit, zoom, and pan; front, side, top, and mirrored presets.
-- Theater and full-screen views, colored thumb/pinky ends and fingers, and a live grip inset for either hand.
-- Optional tip paths and see-through body, with two separate planes for coincident patterns.
+- Theater and full-screen views. Downloaded videos have a live close-up with selectable area, pan, and zoom.
+- Identical colored thumb/pinky end shapes, black shafts and grips, white center marks, optional tip paths, and independent staff visibility. Coincident patterns use separate physical planes.
 - Neutral charcoal dark mode by default, with a saved light/dark preference.
 - A motion lab, searchable curriculum, VTG reference, and browser-local practice records.
 
 The teaching is credited to DrexFactor. This is an independent companion, without affiliation or endorsement.
 
-## Planned Android release
+## Android
 
-A Google Play Console entry has been created for a future public Android release:
+[Vulcan Tech Gospel (Trainer)](android/README.md) includes the complete web curriculum and major practice features, with native Android navigation, saved progress, offline local video playback, and outdoor display controls. It bundles all lesson text, diagrams, the motion lab, VTG relationships, and reference pages from the same source as the website. Source videos can be selected from device storage.
 
-- App name: **Vulcan Tech Gospel (Trainer)**
-- Package ID: `app.segfaultlabs.vulcan_tech_trainer`
-
-The Android companion is planned after the current web release. It should include all the same lesson content and major features, support offline outdoor practice, and be available through Klobstore. The current release is the website.
+- [Signed Android APK](https://github.com/xklob/klobfactor/releases/latest), also available through Klobstore.
+- Android 9 or newer. Package ID: `app.segfaultlabs.vulcan_tech_trainer`.
+- A Google Play Console entry exists under **Vulcan Tech Gospel (Trainer)**. Public Play Store publication is planned separately.
 
 ## Run locally
 
@@ -62,17 +63,21 @@ Videos, full captions, raw download metadata, cookies, and local test artifacts 
 
 ## Diagram scope
 
-The diagrams are teaching models, not motion capture. Isolation pins the chosen end; extension carries a staff around with the arm; antispin opposes the hand and shaft rotations; R-type holds the shaft angle. The inspin model uses an inferred three-turn shaft ratio and identifies that assumption in the interface.
+[Movement sequences](docs/movement-sequences.md) records the ordered actions and source timestamps for every section, including the separate thumb-led and pinky-led elbow passages.
 
-The front crank and antibrid box preserve the demonstrated hand-to-end connections. Their geometry does not reconstruct the reel's depth or shoulder clearance. The archer loop follows the observed over-shoulder and underarm sequence at 2:16–3:05 and 3:54–4:54; its numerical depth, elbows, and added clearance poses are schematic, not measured. The brief side transfer remains a pair of endpoint setups. Other complex body tracing, reels, crossers, spatial passages, hand-tracer boxes, and tutting use annotated poses or spatial references where continuous movement has not been verified. Mixed transitions and briefly demonstrated combinations point to the timestamped source. Discrete checkpoints are never interpolated into an invented body path.
+The 3D studies show prop geometry and static spatial landmarks. They do not animate a human body. The previous mannequin, hand animation, and interpolated archer weave were withdrawn because their wrist motion, elbow routes, and clearance were not reliable. A full-body 3D trainer is still unfinished.
 
-Every move has source playback and teaching cues. Consult the source for exact grip changes, body turns, and front/back clearance. The text distinguishes observed stance from footwork explicitly taught in the videos.
+Isolation pins the chosen end; extension carries the prop around a larger orbit; antispin opposes the hand and shaft rotations; R-type holds the shaft angle. The inspin study uses an inferred three-turn shaft ratio and identifies that assumption. The front crank and antibrid box preserve the demonstrated hand-to-end alignment in projection, with the solid staves separated in depth. These diagrams do not establish a grip change, elbow passage, shoulder clearance, or body turn.
+
+Archer weaves and other body passages use the actual demonstration plus discrete reference positions. Still references have no play bar. Every section retains its source playback and teaching cues, including thumb/pinky inside-versus-outside elbow placement. The text distinguishes observed stance from footwork explicitly taught in the videos.
+
+The video close-up crops the original frame with the same orientation. It is available for locally selected videos and the local development media. YouTube embeds retain their own player; use a downloaded file for the close-up. No tutorial videos are rehosted or bundled.
 
 ## Validate
 
 ```sh
-npm test
 npm run build
+npm test
 npx playwright install chromium
 npm run dev
 # In a second terminal:
@@ -89,14 +94,17 @@ The math/content suite checks staff rigidity, isolation pivots, antispin paths, 
 | --- | --- |
 | `content/catalog.json` | Playlist identity and original ordering |
 | `content/research/` | Original lesson notes, timestamps, evidence, and limitations |
+| `android/` | Native companion and Android build |
+| `scripts/build-android-assets.mjs` | Shared offline content bundle |
 | `src/motion.mjs` | Pure geometric models |
 | `src/studies.mjs` | Verified poses and spatial study definitions |
 | `src/player.mjs` | Playback, camera UI, theater and full screen |
-| `src/scene.mjs` | Depth-tested 3D renderer, hand geometry, and grip inset |
-| `src/archer.mjs` | Source-informed shoulder and underarm animation |
+| `src/scene.mjs` | Depth-tested prop renderer and stationary spatial references |
+| `src/source-focus.mjs` | Live close-up of the original local video frame |
+| `src/movement-guides.mjs` | Observed movement checkpoints and source timestamps |
 | `src/app.mjs` | Lessons, search, source playback, and practice records |
 | `scripts/build.mjs` | Static page generation |
 | `scripts/serve.mjs` | Local server and optional local-media playback |
 | `.openai/hosting.json` | Sites project identity and static output directory |
 
-Major changes are validated, committed, pushed to [GitHub](https://github.com/xklob/klobfactor), and released. Release assets contain the built static site without the original tutorial media.
+Major changes are validated, committed, pushed to [GitHub](https://github.com/xklob/klobfactor), and released. Web release assets contain the built static site. Android releases contain a signed universal APK. Neither includes the original tutorial media.

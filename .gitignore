@@ -15,3 +15,12 @@ cookies*.txt
 .env*
 playwright-report/
 test-results/
+android/.gradle/
+android/**/build/
+android/local.properties
+android/signing.properties
+*.jks
+*.keystore
+*.p12
+__pycache__/
+android/.kotlin/

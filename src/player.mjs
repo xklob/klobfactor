@@ -4,24 +4,23 @@ const clean=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt
 
 export class MotionPlayer {
   constructor(root,spec={},opts={}) {
-    Object.assign(this,{root,spec,opts,phase:0,speed:.5,playing:false,view:'isometric',mirror:false,trails:false,body:true,xray:false,inset:false,insetHand:0,loop:true,previous:0});
+    Object.assign(this,{root,spec,opts,phase:0,speed:.5,playing:false,view:'isometric',mirror:false,trails:false,body:true,staffVisible:[true,true],loop:true,previous:0});
     root.innerHTML=`
       <div class="stage-toolbar">
         <label class="camera-preset"><span class="sr-only">Camera view</span><select aria-label="Camera view" data-camera><option value="isometric">Isometric</option><option value="front">Front</option><option value="side">Side</option><option value="top">Top</option><option value="free" disabled>Custom view</option></select></label>
-        <div class="viewer-actions"><button data-action="inset" aria-pressed="false">Grip inset</button><button data-action="expand" aria-expanded="false">Expand</button></div>
+        <div class="viewer-actions"><button data-action="expand" aria-expanded="false">Expand</button></div>
       </div>
       <div class="stage">
         <div class="scene-labels" aria-hidden="true"></div>
         <span class="scene-status"></span>
-        <div class="grip-picture" hidden><div class="grip-picture-head"><label><span class="sr-only">Inset hand</span><select aria-label="Inset hand"><option value="0">Left hand</option><option value="1">Right hand</option></select></label><button data-action="inset" aria-label="Close grip inset">×</button></div><div class="grip-window" tabindex="0" aria-label="Grip close-up. Drag to rotate, scroll to zoom."></div><div class="grip-labels"></div></div>
         <span class="view-note">Isometric</span>
         <div class="stage-zoom"><button data-action="zoom-out" aria-label="Zoom out">−</button><button data-action="reset-camera" aria-label="Reset camera">↺</button><button data-action="zoom-in" aria-label="Zoom in">+</button></div>
       </div>
       <div class="study-caption" aria-live="off" hidden></div>
-      <div class="diagram-legend"><span><i class="dot left"></i> L</span><span><i class="dot right"></i> R</span><span class="thumb-key">● Thumb</span><span class="pinky-key">○ Pinky</span></div>
+      <div class="diagram-legend"><span><i class="dot left"></i> L</span><span><i class="dot right"></i> R</span><span class="thumb-key">● Thumb end</span><span class="pinky-key">● Pinky end</span></div>
       <div class="playback"><div class="transport"><button class="icon-button" data-action="restart" aria-label="Restart cycle">↺</button><button class="icon-button" data-action="back" aria-label="Step backward one eighth of a cycle">‹</button><button class="play-button" data-action="play" aria-label="Play animation">▶</button><button class="icon-button" data-action="forward" aria-label="Step forward one eighth of a cycle">›</button><label class="speed-label"><span class="sr-only">Playback speed</span><select aria-label="Playback speed"><option value="0.25">0.25×</option><option value="0.5" selected>0.5×</option><option value="0.75">0.75×</option><option value="1">1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label><button data-action="loop" class="loop-button" aria-pressed="true">Loop</button></div><div class="scrubber"><input type="range" min="0" max="1000" value="0" step="1" aria-label="Cycle position"><output>0%</output></div></div>
       ${opts.onMoveStep?'<div class="expanded-move-controls"><button data-action="previous-move">← Previous section</button><span class="expanded-move-title"></span><button data-action="next-move">Next section →</button></div>':''}
-      <details class="view-options"><summary>View options</summary><div class="display-options"><label><input type="checkbox" data-option="trails"> Tip paths</label><label><input type="checkbox" data-option="body" checked> Body guide</label><label><input type="checkbox" data-option="xray"> See through body</label><label><input type="checkbox" data-option="mirror"> Mirror view</label></div><div class="camera-actions"><button data-action="focus-left">Focus left grip</button><button data-action="focus-right">Focus right grip</button><button data-action="fullscreen">Full screen</button></div><p class="camera-help">Drag to orbit · Scroll / pinch to zoom · Right-drag / two fingers to pan.<br>Keyboard: WASD orbits, + / − zooms, R resets. Space plays; ← / → step.</p></details>
+      <div class="checkpoint-controls" hidden><button data-action="back" aria-label="Previous position">← Previous position</button><span class="checkpoint-number"></span><button data-action="forward" aria-label="Next position">Next position →</button></div><details class="view-options"><summary>View options</summary><div class="display-options"><label><input type="checkbox" data-staff="0" checked> Left staff</label><label><input type="checkbox" data-staff="1" checked> Right staff</label><label><input type="checkbox" data-option="trails"> Tip paths</label><label><input type="checkbox" data-option="body" checked> Body reference</label><label><input type="checkbox" data-option="mirror"> Mirror view</label></div><div class="camera-actions"><button data-action="focus-left">Focus left center</button><button data-action="focus-right">Focus right center</button><button data-action="fullscreen">Full screen</button></div><p class="camera-help">Drag to orbit · Scroll / pinch to zoom · Right-drag / two fingers to pan.<br>Keyboard: WASD orbits, + / − zooms, R resets. Space plays; ← / → step.</p></details>
       <p class="model-note" hidden></p>`;
     this.range=root.querySelector('input[type=range]');this.output=root.querySelector('output');this.button=root.querySelector('[data-action=play]');
     this.preset=root.querySelector('[data-camera]');
@@ -35,7 +34,6 @@ export class MotionPlayer {
       if(action==='back')this.step(-1);
       if(action==='forward')this.step(1);
       if(action==='loop'){this.loop=!this.loop;button.setAttribute('aria-pressed',String(this.loop));}
-      if(action==='inset'){this.inset=!this.inset;root.querySelector('[data-action=inset]').setAttribute('aria-pressed',String(this.inset));this.render();}
       if(action==='zoom-in')this.scene?.zoom(1.25);
       if(action==='zoom-out')this.scene?.zoom(.8);
       if(action==='reset-camera')this.setView('isometric');
@@ -48,7 +46,7 @@ export class MotionPlayer {
     });
     this.range.addEventListener('input',()=>this.seek(Number(this.range.value)/1000));
     root.querySelector('[aria-label="Playback speed"]').addEventListener('change',e=>{this.speed=Number(e.target.value);});
-    root.querySelector('[aria-label="Inset hand"]').addEventListener('change',e=>{this.insetHand=Number(e.target.value);this.render();});
+    root.querySelectorAll('[data-staff]').forEach(input=>input.addEventListener('change',()=>{this.staffVisible[Number(input.dataset.staff)]=input.checked;this.render();}));
     root.querySelectorAll('[data-option]').forEach(input=>input.addEventListener('change',()=>{this[input.dataset.option]=input.checked;this.render();}));
     root.tabIndex=0;root.setAttribute('aria-label','Motion player');
     root.addEventListener('keydown',e=>{
@@ -60,7 +58,7 @@ export class MotionPlayer {
       if(key==='r')this.setView('isometric');
       if(key==='+'||key==='=')this.scene?.zoom(1.15);
       if(key==='-')this.scene?.zoom(1/1.15);
-      if(this.scene&&'wasd'.includes(key)&&key.length===1){e.preventDefault();const c=e.target.closest('.grip-picture')?this.scene.insetControls:this.scene.controls;if(key==='a')c.rotateLeft(.12);if(key==='d')c.rotateLeft(-.12);if(key==='w')c.rotateUp(.12);if(key==='s')c.rotateUp(-.12);c.update();}
+      if(this.scene&&'wasd'.includes(key)&&key.length===1){e.preventDefault();const c=this.scene.controls;if(key==='a')c.rotateLeft(.12);if(key==='d')c.rotateLeft(-.12);if(key==='w')c.rotateUp(.12);if(key==='s')c.rotateUp(-.12);c.update();}
     });
     this.fullscreenChange=()=>{root.classList.toggle('is-fullscreen',document.fullscreenElement===root);root.querySelector('[data-action=fullscreen]').textContent=document.fullscreenElement===root?'Exit full screen':'Full screen';this.scene?.resize();};
     document.addEventListener('fullscreenchange',this.fullscreenChange);
@@ -98,8 +96,8 @@ export class MotionPlayer {
     try {if(!this.root.requestFullscreen)throw new Error('Fullscreen unsupported');await this.root.requestFullscreen();}
     catch {if(!this.dialog)this.toggleTheater();this.root.querySelector('.view-note').textContent='Expanded view · full screen unavailable';}
   }
-  step(direction) {const count=this.spec.frames?.length;if(count){const index=Math.min(count-1,Math.floor(this.phase*count));this.seek((mod(index+direction,count)+.001)/count);}else this.seek(mod(this.phase+direction*.125));}
-  toggle() {this.playing=!this.playing;this.previous=0;this.updateButton();}
+  step(direction) {const count=this.spec.frames?.length;if(count){const index=Math.min(count-1,Math.floor(this.phase*count));this.seek((mod(index+direction,count)+.001)/count);}else this.seek(this.oneWay?Math.max(0,Math.min(1,this.phase+direction*.125)):mod(this.phase+direction*.125));}
+  toggle() {if(this.referenceOnly)return;if(this.phase>=1)this.phase=0;this.playing=!this.playing;this.previous=0;this.updateButton();}
   updateButton() {this.button.textContent=this.playing?'Ⅱ':'▶';this.button.setAttribute('aria-label',this.playing?'Pause animation':'Play animation');}
   seek(n) {this.phase=n;this.playing=false;this.updateButton();this.render();}
   tick(now) {
@@ -111,6 +109,16 @@ export class MotionPlayer {
     this.previous=now;this.raf=requestAnimationFrame(this.tick);
   }
   rebuild() {
+    this.oneWay=this.spec.kind==='box'&&this.spec.stage!=null;
+    this.loop=!this.oneWay;const loopButton=this.root.querySelector('[data-action=loop]');loopButton.hidden=this.oneWay;loopButton.setAttribute('aria-pressed',String(this.loop));
+    this.referenceOnly=this.spec.kind==='study'||this.spec.kind==='static'||Boolean(this.spec.still);
+    this.alignmentOnly=['antibrid','crank','box'].includes(this.spec.kind);
+    this.root.querySelectorAll('[data-staff]').forEach((input,i)=>{input.parentElement.lastChild.textContent=` ${i?'Right':'Left'} ${this.spec.handsOnly?'hand path':'staff'}`;});
+    this.root.querySelectorAll('.diagram-legend .thumb-key,.diagram-legend .pinky-key').forEach(el=>el.hidden=Boolean(this.spec.handsOnly));
+    this.root.querySelector('[data-option=body]').closest('label').hidden=!(this.spec.kind==='study'&&this.spec.landmarks?.length);
+    if(this.referenceOnly){this.playing=false;this.updateButton();}
+    this.root.querySelector('.playback').hidden=this.referenceOnly;
+    this.root.querySelector('.checkpoint-controls').hidden=!(this.spec.frames?.length>1);
     this.scene?.configure(this.spec);
     const note=this.root.querySelector('.model-note');note.textContent=this.spec.note||'';note.hidden=!this.spec.note;
     const single=this.spec.frames?.length===1;
@@ -122,19 +130,16 @@ export class MotionPlayer {
   }
   render() {
     const state=sampleMotion(this.spec,this.phase);
-    this.scene?.update(state,{body:this.body,trails:this.trails,mirror:this.mirror,xray:this.xray,inset:this.inset,insetHand:this.insetHand});
+    this.scene?.update(state,{body:this.body,trails:this.trails,mirror:this.mirror,staffVisible:this.staffVisible});
     const frames=this.spec.frames||[],index=Math.min(frames.length-1,Math.floor(this.phase*frames.length)),frame=frames[index]||state.cue;
     const caption=this.root.querySelector('.study-caption');caption.hidden=!frame;caption.innerHTML=frame?`<strong>${clean(frame.title)}</strong><p>${clean(frame.caption)}</p>`:'';
     this.root.querySelector('.diagram-legend').hidden=!state.hands.length;
-    this.root.querySelector('[data-action=inset]').disabled=!state.hands.length;
     this.root.querySelector('[data-action=focus-left]').disabled=!state.hands.length;
     this.root.querySelector('[data-action=focus-right]').disabled=state.hands.length<2;
+    this.root.querySelector('.checkpoint-number').textContent=frames.length?`${index+1} / ${frames.length}`:'';
     this.range.value=String(Math.round(this.phase*1000));this.output.value=frames.length?`${index+1} / ${frames.length}`:`${Math.round(this.phase*100)}%`;
     this.range.setAttribute('aria-valuetext',frames.length?`Checkpoint ${index+1} of ${frames.length}: ${frame.title}`:`${Math.round(this.phase*100)} percent through the cycle`);
-    if(this.scene){const n=state.hands.length,overlap=this.root.querySelector('.stage').dataset.overlap==='true';this.root.querySelector('.scene-status').textContent=n===1?'1 staff · solo drill':n===2?(overlap?'2 staves · overlap in this view':'2 staves'):'';}
-    this.root.querySelector('[aria-label="Inset hand"] option[value="1"]').disabled=state.hands.length<2;
-    if(state.hands.length<2)this.insetHand=0;
-    this.root.querySelector('[aria-label="Inset hand"]').value=String(this.insetHand);
+
     this.updateViewNote();this.root.dataset.phase=this.phase.toFixed(4);this.root.dataset.playing=String(this.playing);
   }
   destroy() {cancelAnimationFrame(this.raf);this.closeTheater();this.scene?.destroy();this.scene=null;this.playing=false;this.updateButton();document.removeEventListener('fullscreenchange',this.fullscreenChange);}

@@ -1,0 +1,22 @@
+.site-header,.site-footer,.skip-link,header.header,footer.footer{display:none!important}
+body{min-width:0;background:var(--paper)}
+.wrap{width:auto;max-width:100%;margin:0;padding:16px}
+.page{padding-top:20px;padding-bottom:24px}.page-intro{margin-bottom:24px}
+.native-player main{margin:0;padding:0}.native-player .player-card{border:0;border-radius:0}
+.native-player .stage{height:260px;min-height:0;aspect-ratio:auto}
+.native-player .stage-toolbar{padding:8px 12px}.native-player .model-note{padding:8px 12px;margin:0;font-size:12px}
+.native-player .view-options{margin:0 12px}.native-player .camera-help{font-size:12px}
+.native-player .player-theater .stage{height:auto;flex:1;min-height:180px}
+.native-player .player-theater{max-height:100dvh;height:100dvh;max-width:100vw;width:100vw;border-radius:0;padding:0}
+.native-player .player-theater .player-card{height:100%;max-height:100%;display:flex;flex-direction:column}
+.native-player .player-theater .model-note{max-height:70px;overflow:auto}
+.native-player .player-theater .view-options[open]{max-height:130px;overflow:auto}
+.native-player button,.native-player select{min-height:42px}
+.native-player .expanded-move-controls{flex-shrink:0}
+@media (orientation:landscape){.native-player .player-theater .model-note{display:none}.native-player .player-theater .stage{min-height:100px}.native-player .stage-toolbar{padding:4px 12px}.native-player .diagram-legend{padding:3px 12px}}
+body.native-expanded{overflow:hidden}
+.native-expanded .player-card.is-expanded{position:fixed;inset:0;z-index:1000;display:flex;flex-direction:column;height:var(--native-height,100vh)!important;width:var(--native-width,100vw);margin:0;border:0;border-radius:0;overflow:auto}
+.native-expanded .player-card.is-expanded .stage{height:auto;flex:1 0 180px;min-height:180px}
+.native-expanded .player-card.is-expanded .stage-toolbar,.native-expanded .player-card.is-expanded .playback,.native-expanded .player-card.is-expanded .diagram-legend,.native-expanded .player-card.is-expanded .view-options,.native-expanded .player-card.is-expanded .expanded-move-controls{flex-shrink:0}
+.native-expanded .player-card.is-expanded .view-options[open]{max-height:150px;overflow:auto}
+.native-landscape .native-expanded .player-card.is-expanded .stage{flex-basis:100px;min-height:100px}
