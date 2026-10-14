@@ -1,3 +1,4 @@
+import {archerPose} from './archer.mjs';
 // All coordinates are in a performer-centered right-handed space: x right,
 // y up, z toward the audience. Angle zero points up. Staffs are rigid segments.
 export const TAU = Math.PI * 2;
@@ -31,13 +32,15 @@ function circular(a, kind, options = {}) {
 }
 export function sampleMotion(spec = {}, phase = 0) {
   const t=mod(phase), kind=spec.kind||'isolation', timing=spec.timing||'together-same';
-  let angles=timingAngles(t,timing), hands, stance=0;
+  let angles=timingAngles(t,timing), hands, stance=0, extra={};
   const orientation=spec.orientation||0;
   if(kind === 'study') {
     // Discrete, source-verified poses or spatial landmarks. Never interpolate
     // these into a purported body movement between the observed checkpoints.
     const frame=spec.frames?.[Math.min((spec.frames?.length||1)-1,Math.floor(Math.min(phase,.999999)*(spec.frames?.length||1)))];
     hands=frame?.hands||[];
+  } else if(kind === 'archer') {
+    extra=archerPose(t,spec.solo);hands=extra.hands;
   } else if(kind === 'grip') {
     hands=[-1,1].map((s,i)=>({center:[s*0.64,0.6,0.5],axis:vec(spec.still?Math.PI/2:Math.sin(t*TAU)*Math.PI*0.75*(i? -1:1)),kind}));
   } else if(kind==='hybrid') {
@@ -72,13 +75,31 @@ export function sampleMotion(spec = {}, phase = 0) {
   } else {
     hands=angles.map(a=>circular(a,kind,{orientation,pinky:spec.pinky}));
   }
+  // Separate the two wall planes, even when the front projections coincide.
+  // Contact studies retain their original geometry and explicit depth limits.
+  if(['static','isolation','extension','antispin','inspin','rtype','hybrid','transition'].includes(kind)) {
+    hands=hands.map((h,i)=>({...h,center:[h.center[0],h.center[1],.48+i*.3]}));
+  }
   if(spec.swap)hands=hands.reverse().map(h=>({...h,center:[-h.center[0],h.center[1],h.center[2]],axis:[-h.axis[0],h.axis[1],h.axis[2]]}));
   if(spec.plane==='wheel') hands=hands.map(h=>({...h,center:rotateY(h.center,Math.PI/2),axis:rotateY(h.axis,Math.PI/2)}));
   hands=hands.map((h,i)=>{
     const n=Math.hypot(...h.axis)||1, axis=scale(h.axis,1/n);
     return {...h,axis,side:i?'right':'left',thumb:plus(h.center,scale(axis,HALF_STAFF)),pinky:plus(h.center,scale(axis,-HALF_STAFF))};
   });
-  return {hands,stance,phase:t,kind};
+  if(spec.solo)hands=hands.slice(0,1);
+  return {...extra,hands,stance,phase:kind==='study'?Math.min(phase,.999999):t,kind};
+}
+
+export function armPose(hand,index=0) {
+  const shoulder=[index?.45:-.45,1.3,0];
+  if(hand.elbow)return {shoulder,elbow:hand.elbow};
+  const c=hand.center,delta=c.map((v,i)=>v-shoulder[i]);
+  const distance=Math.hypot(...delta)||1,axis=delta.map(v=>v/distance);
+  // A schematic bend plane, not an anatomically reconstructed wrist/elbow.
+  const hint=[index?.6:-.6,-1,-.2],dot=hint.reduce((v,x,i)=>v+x*axis[i],0);
+  const bend=hint.map((x,i)=>x-dot*axis[i]),length=Math.hypot(...bend)||1;
+  const offset=Math.min(.38,Math.max(.12,.48-distance*.17));
+  return {shoulder,elbow:shoulder.map((x,i)=>x+delta[i]*.5+bend[i]/length*offset)};
 }
 export function project(p, view='front', mirror=false) {
   const yaw=view==='side'?Math.PI/2:view==='perspective'?-.65:0;
@@ -87,4 +108,4 @@ export function project(p, view='front', mirror=false) {
   if(view==='perspective')return [400+(mirror?-1:1)*q[0]*82,290-(q[1]*.96-q[2]*.28)*82,q[2]];
   return [400+(mirror?-1:1)*q[0]*82,290-q[1]*82,q[2]];
 }
-export const BASIC_PATTERNS=['grip','static','isolation','extension','antispin','inspin','hybrid','rtype','transition','antibrid','crank','box','study'];
+export const BASIC_PATTERNS=['grip','static','isolation','extension','antispin','inspin','hybrid','rtype','transition','antibrid','crank','box','archer','study'];

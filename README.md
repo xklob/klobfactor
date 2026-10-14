@@ -1,16 +1,27 @@
 # Klobfactor
 
-A double staff and Vulcan Tech Gospel practice companion. Follow DrexFactor's tutorials in order, inspect the hand and staff relationships, and loop the original demonstrations at your own pace.
+Double staff lessons, interactive diagrams, and timestamped DrexFactor tutorials.
 
 - 21 lesson pages from 20 distinct videos in two playlists.
 - 150 ordered move and study sections with grip, stance, focus, practice cues, and source timestamps.
-- Interactive geometric diagrams, verified pose checkpoints, and spatial maps.
+- Interactive 3D diagrams, an animated archer weave, verified pose checkpoints, and spatial maps.
 - Scrubbing, forward/backward steps, looping, automatic move advancement, and 0.25× through 2× playback.
-- Front, side, top, oblique 3D, and mirrored views; optional tip paths and body guide.
-- Dark mode by default, with a visible light/dark toggle and a saved preference across pages and visits.
+- Isometric default with free orbit, zoom, and pan; front, side, top, and mirrored presets.
+- Theater and full-screen views, colored thumb/pinky ends and fingers, and a live grip inset for either hand.
+- Optional tip paths and see-through body, with two separate planes for coincident patterns.
+- Neutral charcoal dark mode by default, with a saved light/dark preference.
 - A motion lab, searchable curriculum, VTG reference, and browser-local practice records.
 
 The teaching is credited to DrexFactor. This is an independent companion, without affiliation or endorsement.
+
+## Planned Android release
+
+A Google Play Console entry has been created for a future public Android release:
+
+- App name: **Vulcan Tech Gospel (Trainer)**
+- Package ID: `app.segfaultlabs.vulcan_tech_trainer`
+
+The Android companion is planned after the current web release. It should include all the same lesson content and major features, support offline outdoor practice, and be available through Klobstore. The current release is the website.
 
 ## Run locally
 
@@ -53,7 +64,7 @@ Videos, full captions, raw download metadata, cookies, and local test artifacts 
 
 The diagrams are teaching models, not motion capture. Isolation pins the chosen end; extension carries a staff around with the arm; antispin opposes the hand and shaft rotations; R-type holds the shaft angle. The inspin model uses an inferred three-turn shaft ratio and identifies that assumption in the interface.
 
-The front crank and antibrid box preserve the demonstrated hand-to-end connections. Their geometry does not reconstruct the reel's depth or shoulder clearance. Complex body tracing, reels, archers, crossers, 3D passages, hand-tracer boxes, and tutting use annotated poses or spatial references where continuous movement has not been verified. Mixed transitions and briefly demonstrated combinations point to the timestamped source. Discrete checkpoints are never interpolated into an invented body path.
+The front crank and antibrid box preserve the demonstrated hand-to-end connections. Their geometry does not reconstruct the reel's depth or shoulder clearance. The archer loop follows the observed over-shoulder and underarm sequence at 2:16–3:05 and 3:54–4:54; its numerical depth, elbows, and added clearance poses are schematic, not measured. The brief side transfer remains a pair of endpoint setups. Other complex body tracing, reels, crossers, spatial passages, hand-tracer boxes, and tutting use annotated poses or spatial references where continuous movement has not been verified. Mixed transitions and briefly demonstrated combinations point to the timestamped source. Discrete checkpoints are never interpolated into an invented body path.
 
 Every move has source playback and teaching cues. Consult the source for exact grip changes, body turns, and front/back clearance. The text distinguishes observed stance from footwork explicitly taught in the videos.
 
@@ -80,7 +91,9 @@ The math/content suite checks staff rigidity, isolation pivots, antispin paths, 
 | `content/research/` | Original lesson notes, timestamps, evidence, and limitations |
 | `src/motion.mjs` | Pure geometric models |
 | `src/studies.mjs` | Verified poses and spatial study definitions |
-| `src/player.mjs` | Diagram playback and rendering |
+| `src/player.mjs` | Playback, camera UI, theater and full screen |
+| `src/scene.mjs` | Depth-tested 3D renderer, hand geometry, and grip inset |
+| `src/archer.mjs` | Source-informed shoulder and underarm animation |
 | `src/app.mjs` | Lessons, search, source playback, and practice records |
 | `scripts/build.mjs` | Static page generation |
 | `scripts/serve.mjs` | Local server and optional local-media playback |

@@ -41,6 +41,11 @@ export function checkpointStudy(pattern, move) {
         : 'This drill uses the front crossing. The rear point is shown only to orient the space; it is not part of this demonstrated passage.'};
   }
   if (pattern.includes('archer')) {
+    if (pattern.includes('side-switch')) return {...base,label:'Side transfer',
+      frames:[
+        pose('Right shoulder', 'Complete the weave on the right side before switching.', [hand([.65,1.28,.36],[0,1,0]),hand([1.65,1.3,.15],[0,1,0])]),
+        pose('Left shoulder', 'Mirror the close and extended hands. The source demonstrates the transfer at 6:09–6:18.', [hand([-1.65,1.3,.15],[0,1,0]),hand([-.65,1.28,.36],[0,1,0])]),
+      ],note:'Endpoint setups only. Use the source for the continuous transfer.'};
     const solo = pattern.includes('solo');
     return {...base, view: 'front', label: 'ARCHER CHECKPOINTS',
       frames: [

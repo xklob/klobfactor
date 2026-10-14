@@ -48,3 +48,36 @@ test('all 20 researched sources are complete and timestamps stay inside the vide
  }
  assert.equal(seen.size,20);for(const id of duration.keys())assert.ok(seen.has(id));assert.deepEqual(catalog.map(s=>s.entries.length),[13,8]);
 });
+
+test('together-same keeps two staves in separate physical planes',()=>{
+ for(const kind of ['isolation','antispin','extension','inspin','rtype'])for(let n=0;n<32;n++){
+  const [left,right]=sampleMotion({kind,timing:'together-same'},n/32).hands;
+  near(left.center[0],right.center[0]);near(left.center[1],right.center[1]);
+  assert.ok(Math.abs(left.center[2]-right.center[2])>=.29);
+ }
+});
+test('archer repeats continuously and distinguishes shoulder and underarm passages',()=>{
+ const first=sampleMotion({kind:'archer'},0),last=sampleMotion({kind:'archer'},1-1e-8);
+ first.hands.forEach((hand,i)=>{assert.ok(distance(hand.center,last.hands[i].center)<1e-5);assert.ok(distance(hand.thumb,last.hands[i].thumb)<1e-5);});
+ const over=sampleMotion({kind:'archer'},.25),under=sampleMotion({kind:'archer'},.75);
+ assert.ok(over.hands[0].elbow[1]>1.3);assert.ok(under.hands[0].elbow[1]<1.3);
+ assert.ok(over.hands[0].thumb[2]<0);assert.ok(under.hands[0].pinky[2]<0);
+ assert.ok(under.hands[1].pinky[2]>0);
+ const solo=sampleMotion({kind:'archer',solo:true},.75);assert.equal(solo.hands.length,1);assert.ok(solo.guideHands[1],'Solo drill needs extended arm as a threading reference');
+});
+// Closest point between two finite segments, sampled independently of rendering.
+const dot=(a,b)=>a.reduce((sum,x,i)=>sum+x*b[i],0),sub=(a,b)=>a.map((x,i)=>x-b[i]);
+function segmentDistance(a,b,c,d){
+ const u=sub(b,a),v=sub(d,c),w=sub(a,c),A=dot(u,u),B=dot(u,v),C=dot(v,v),D=dot(u,w),E=dot(v,w),det=A*C-B*B;
+ const clamp=n=>Math.max(0,Math.min(1,n));
+ let s=det>1e-12?clamp((B*E-C*D)/det):0,t=(B*s+E)/C;
+ if(t<0){t=0;s=clamp(-D/A);}else if(t>1){t=1;s=clamp((B-D)/A);}
+ return Math.hypot(...w.map((x,i)=>x+s*u[i]-t*v[i]));
+}
+test('schematic archer clears the extended arm and the other shaft',()=>{
+ for(let n=0;n<1200;n++){
+  const [left,right]=sampleMotion({kind:'archer'},n/1200).hands;
+  for(const [a,b] of [[[.45,1.3,0],right.elbow],[right.elbow,right.center]])assert.ok(segmentDistance(left.pinky,left.thumb,a,b)>.087,`Arm crossing at ${n/1200}`);
+  assert.ok(segmentDistance(left.pinky,left.thumb,right.pinky,right.thumb)>.10,`Staff crossing at ${n/1200}`);
+ }
+});

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.0
+
+- Replaced fixed diagram views with a depth-tested 3D viewer, an isometric default, free orbit/pan/zoom, theater mode, and full screen.
+- Added colored thumb and pinky tips, visible finger placement, and a live grip inset for either hand.
+- Separated coincident hand planes so together-same patterns show two staves. Added overlap labels and a see-through body option.
+- Animated the archer shoulder and underarm repeat from source checkpoints. Joint positions and clearance distances remain schematic; the brief side transfer uses endpoint setups.
+- Removed promotional copy, collapsed secondary controls and long section lists, and changed dark mode to charcoal with blue accents.
+- Recorded the planned Android app identity and content-parity requirements.
+
 ## 0.1.1
 
 Added dark mode as the default, with a persistent header toggle. The full interface, animated staffs, body guides, grip diagrams, and VTG illustrations share the theme palette. The saved choice applies before the page paints and syncs between open tabs.
