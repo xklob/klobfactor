@@ -2,6 +2,20 @@
 
 [Open the hosted review](https://vulcan-antispin-preview.deep-krill-3494.chatgpt.site).
 
+The hand/wrist revision is committed on this preview branch. Its hosted update
+is pending because the publishing connection failed on October 15, 2026; the
+hosted link currently shows the previous model. A self-contained offline preview
+can be built and opened directly in a browser:
+
+```sh
+node scripts/build-antispin-preview.mjs
+node scripts/build-antispin-offline.mjs
+```
+
+Open `.artifacts/antispin-offline/Antispin preview.html`. It embeds the renderer
+and model and has been tested with the browser's network access disabled.
+The accompanying `.blend` file remains available through its download link.
+
 This is the first Blender animation review, for **thumb-led antispin, split time /
 same direction**. It is separate from the released web app and Android package.
 Stop after publishing this preview and wait for Caleb's feedback before authoring
