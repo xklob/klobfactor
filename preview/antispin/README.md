@@ -1,6 +1,10 @@
 # Antispin review
 
-[Try the preview](https://vulcan-antispin-preview.deep-krill-3494.chatgpt.site) · [Released website](https://vulcantech.klob.io)
+[Download the revised preview](https://github.com/xklob/klobfactor/releases/tag/antispin-review-2026-10-15) · [Released website](https://vulcantech.klob.io)
+
+The hosted preview update is pending because the publishing connection failed
+on October 15, 2026. Its existing URL still shows the earlier model. The offline
+HTML in the prerelease contains this revision and opens without a server.
 
 This branch contains a revised **thumb-led antispin, split time / same direction**
 study. It is a review draft, separate from the released web and Android apps.
