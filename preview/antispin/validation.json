@@ -1,0 +1,8 @@
+{
+  "samples": 480,
+  "minimum": 0.0005623262934483335,
+  "staffGap": 1.3996984358942954,
+  "maxPalmStep": 1.9069180214591712,
+  "units": "diagram units; 2.3 units per metre",
+  "note": "Sampled geometry clearance, not proof of source technique."
+}

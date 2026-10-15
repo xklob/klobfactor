@@ -1,0 +1,13 @@
+Performer anatomical mesh and skeleton
+
+Source: https://www.innerscene.com/tools/library/3d-parts/human-base-mesh-with-editable-53-bone-rig-8e7c8ab1
+Original asset: human-base-rigged.glb, downloaded 2026-10-14.
+Innerscene's adaptation of the MakeHuman / MPFB body and 53-bone skeleton.
+License: CC0 1.0 Universal, https://creativecommons.org/publicdomain/zero/1.0/
+The source page above supplies Innerscene's CC0 dedication for this asset.
+
+The trainer supplies its own materials, clothing surface, poses, grip controls,
+and animation. The source asset includes no staff movement animation.
+
+The trainer adjusts shoulder centres and torso width to illustrative proportions
+guided by the source footage. Original arm, hand and leg lengths are retained.
