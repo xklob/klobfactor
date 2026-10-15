@@ -1,47 +1,44 @@
-# Antispin review preview
+# Antispin review
 
-[Open the hosted review](https://vulcan-antispin-preview.deep-krill-3494.chatgpt.site).
+[Try the preview](https://vulcan-antispin-preview.deep-krill-3494.chatgpt.site) · [Released website](https://vulcantech.klob.io)
 
-The hand/wrist revision is committed on this preview branch. Its hosted update
-is pending because the publishing connection failed on October 15, 2026; the
-hosted link currently shows the previous model. A self-contained offline preview
-can be built and opened directly in a browser:
+This branch contains a revised **thumb-led antispin, split time / same direction**
+study. It is a review draft, separate from the released web and Android apps.
+Wait for Caleb's feedback before authoring other movements or promoting this
+animation into the curriculum.
 
-```sh
-node scripts/build-antispin-preview.mjs
-node scripts/build-antispin-offline.mjs
-```
+The figure now uses Blender Studio's anatomical male base mesh, with sculpted
+hands, knuckles, and nail beds. A fitted Rigify rig deforms the shoulders, elbows,
+forearms, wrists, and fingers. The browser plays a baked animation using standard
+glTF skinning; it does not reconstruct the body or solve joints at runtime.
+The editable Blender file retains the rig and sculpted surface. Continuous
+twist tracks prevent the segmented arm rig from spinning between baked poses;
+regenerate those tracks with the scene script after changing the controls.
 
-Open `.artifacts/antispin-offline/Antispin preview.html`. It embeds the renderer
-and model and has been tested with the browser's network access disabled.
-The accompanying `.blend` file remains available through its download link.
+## Movement reference
 
-This is the first Blender animation review, for **thumb-led antispin, split time /
-same direction**. It is separate from the released web app and Android package.
-Stop after publishing this preview and wait for Caleb's feedback before authoring
-other movements or promoting it into a release.
+DrexFactor's [split-same demonstration at 8:25](https://www.youtube.com/watch?v=pRoRKPIewhE&t=505s)
+is the body and timing reference. The first 34 samples at 15 fps form a 2.267-second
+loop. His [open-support explanation at 2:14](https://www.youtube.com/watch?v=pRoRKPIewhE&t=134s)
+is the grip reference: the vertical positions use thumb-joint support with the
+fingers directed toward the pinky end. They are not a closed fist throughout.
 
-Reference: DrexFactor's demonstration at
-[8:25](https://www.youtube.com/watch?v=pRoRKPIewhE&t=505s), sampled through 8:27.33.
-The candidate loop uses the first 34 source frames at 15 fps, approximately
-2.267 seconds. Monocular depth estimates are a guide, not measured depth.
+The source capture supplies body turns, stance, and projected arm paths. Depth,
+wrist orientations, finger poses, and staff contact are authored. In particular:
 
-The editable `.blend` scene contains a skinned performer, separate hand and elbow
-controls, Blender two-bone IK, animated finger support, and two staff objects
-attached to the hand bones. The GLB contains a single baked animation for the body
-and both staves. The browser uses Three.js to play it; it does not solve the arms.
+- The staves occupy separate parallel planes around the turning body.
+- Elbows stay on the body side of those planes; the reconstructed elbow depth
+  was unreliable and could put an upper arm across a staff.
+- A cyclic pose fit smooths flexion, forearm roll, and sideways wrist movement.
+  It does not force straight wrists or make the hand follow a full staff turn.
+- Small baked staff offsets maintain the demonstrated thumb support.
 
-The refined performer has 443,724 surface triangles, including fitted nail
-plates on all ten fingers. Imported shading seams are welded before subdivision.
-The elbow controls keep the wrist closer to the forearm, and a forearm roll bone
-spreads rotation through the skin. Blender's **Preserve Volume** deformation is
-matched by `volume-skinning.mjs` in the browser, including shadows and ray picking.
-Other glTF viewers that use ordinary linear skinning may show wrist pinching.
-The editable Blender scene retains the volume-preserving armature setting.
+These accommodations are explicit design choices, not recovered measurements.
+The animation still needs technique review, particularly the support transitions
+and the thumb/pinky passage around each elbow. Collision checks alone cannot
+approve the movement.
 
-## Build
-
-To serve the checked-in preview locally:
+## View locally
 
 ```sh
 npm ci
@@ -49,29 +46,47 @@ node scripts/build-antispin-preview.mjs
 python3 -m http.server 4174 --directory .artifacts/antispin-preview-dist
 ```
 
-Open `http://localhost:4174/`. To regenerate the Blender scene:
-
-Blender 4.5 LTS is installed locally at `~/.local/bin/blender`. Authoring data and
-intermediate reconstruction files are in `.artifacts/body-restoration/`.
+Open `http://localhost:4174/`. For an offline copy:
 
 ```sh
-blender --background --factory-startup --python scripts/blender-antispin.py -- \
-  --guide preview/antispin/source/guide.json \
-  --grips preview/antispin/source/grips.json \
-  --rig preview/antispin/source/rig.json \
-  --output .artifacts/body-restoration/blender-antispin
+node scripts/build-antispin-offline.mjs
 ```
 
-The scene uses source-derived torso and stance tracks. Wrist targets, staff
-angles, support changes, and elbow controls remain editable. Staff depth and
-reach accommodations are authored choices that need technique review.
+Open `.artifacts/antispin-offline/Antispin preview.html` directly in a browser.
+The viewer includes orbit/zoom, fullscreen, reverse seeking, frame steps,
+0.25x/0.5x/1x/2x playback, separate staff visibility, and a grip inset that matches
+the main camera's orientation.
 
-The preview includes orbit/zoom, seeking in both directions, frame steps,
-0.25x/0.5x/1x/2x playback, independent staff visibility, fullscreen, and a grip
-inset whose viewing direction matches the main camera. The inset is larger and
-centered on the hand for close inspection of the thumb, fingers, and wrist.
+## Rebuild
 
-To check the rendered surfaces and browser controls:
+Requires Blender 4.5 LTS with Rigify, Node, and `uv` for the SciPy pose fit.
+After dependencies are cached, add `--offline` to rebuild without network access.
+`source/character.blend` is the fitted, unanimated character. To regenerate it,
+download the [CC0 Blender Studio Human Base Meshes 1.4.1 bundle](https://download.blender.org/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.4.1.zip)
+and run:
+
+```sh
+blender --background --factory-startup --python-exit-code 1 --python scripts/blender-character.py -- \
+  --asset /path/to/human_base_meshes_bundle.blend --output /path/to/character
+```
+
+To regenerate the checked-in motion:
+
+```sh
+blender --background --factory-startup --python-exit-code 1 --python scripts/blender-antispin-rigify.py -- \
+  --character preview/antispin/source/character.blend \
+  --guide preview/antispin/source/rigify-guide.json \
+  --contacts preview/antispin/source/support.json \
+  --output .artifacts/antispin-rebuild
+```
+
+If changing the character or hand poses, first export without `--contacts`, then
+run `scripts/fit-antispin-support.mjs` with that GLB and its authoring report.
+Rebuild with the resulting contact file. Review the exported geometry and motion
+after every such change; the contact fitter uses conservative triangle projections at baked keys.
+The independent 3D audit also checks the interpolation between those keys.
+
+## Validation
 
 ```sh
 node scripts/audit-antispin-preview.mjs
@@ -79,18 +94,18 @@ node scripts/audit-antispin-preview.mjs
 node tests/antispin-preview.mjs
 ```
 
-The surface audit includes the fingers and fingernails, measures wrist bend, and
-compares the first and last deformed surfaces. It uses the same volume-preserving
-deformation as the renderer. `preview/antispin/validation.json` records the result.
+The surface audit checks both staff volumes against the complete exported body,
+clothing, fingers, and nails, plus staff/staff clearance, loop closure, wrist bend,
+arm extension, and abrupt rotations between frames. `validation.json` records the measured result. This audit does
+not test every kind of body self-intersection or establish correct technique.
 
-Do not treat a geometry check as proof of correct technique. Compare the entire
-cycle with the source, especially the thumb/pinky side of each elbow.
+The current geometry result covers 481 samples: minimum staff/body clearance
+1.05 mm, staff/staff clearance 62.5 cm, and loop closure within 0.002 mm. The
+exported body and clothing contain 450,960 triangles. No abrupt arm twist was
+detected. These are geometry and continuity checks, not technique approval.
 
-Browser checks passed for desktop and a 390px phone viewport, including reverse
-seeking, speed control, both visibility toggles, camera orbit/reset, fullscreen,
-and the inset camera orientation. The geometry check samples 480 intervals plus
-the loop endpoint. A separate comparison of 585 hand and forearm points against
-Blender's evaluated mesh found a maximum difference of 0.002 mm.
+The browser check covers seeking, playback speed, visibility, orbit/reset,
+fullscreen, matching inset orientation, and mobile layout.
 
-This checkpoint is a preview branch. The stable web and Android release remains
-v0.3.1 pending review of the animation.
+Character attribution and terms are in [MODEL-LICENSE.txt](MODEL-LICENSE.txt).
+Downloaded source video and cookies are excluded from the repository and preview.

@@ -1,15 +1,6267 @@
 {
+  "modelSha256": "b1754e3eb15b98b070cdc9414742cefe80e12ae80c9c0c683f16edb76f8e81f9",
   "samples": 481,
-  "vertices": 227738,
-  "triangles": 443724,
-  "minimumGapMetres": 0.00021491628028839048,
-  "loopErrorMetres": 4.5993646666771223e-07,
-  "maxWristBendDegrees": 23.831546004073534,
-  "staffGapMetres": 0.6085667966272882,
-  "blenderComparison": {
-    "sampledPoints": 585,
-    "maximumErrorMetres": 1.8929137951451809e-06
-  },
-  "assetSha256": "12b91e5164b57c147c094aaff973ab312bca4ab423079d46b29bc0356c717af1",
-  "note": "Sampled geometry and deformation checks; technique remains a review draft."
+  "vertices": 293474,
+  "triangles": 450960,
+  "minimumGapMetres": 0.0010540665270045192,
+  "staffGapMetres": 0.6249803270629445,
+  "loopErrorMetres": 0.0000010366272403796557,
+  "maxWristBendDegrees": 80.49486180061254,
+  "maxArmStretch": 1.0391790233081066,
+  "maxArmAngularSpeedDegrees": 811.9570257984755,
+  "rows": [
+    {
+      "phase": 0,
+      "minimum": 0.001832688631621525,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001832688631621525
+    },
+    {
+      "phase": 0.0020833333333333333,
+      "minimum": 0.0017713758789965686,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017713758789965686
+    },
+    {
+      "phase": 0.004166666666666667,
+      "minimum": 0.0017606706090683589,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017606706090683589
+    },
+    {
+      "phase": 0.00625,
+      "minimum": 0.001797869678875198,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001797869678875198
+    },
+    {
+      "phase": 0.008333333333333333,
+      "minimum": 0.001804394558161837,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001804394558161837
+    },
+    {
+      "phase": 0.010416666666666666,
+      "minimum": 0.0017516559293447222,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017516559293447222
+    },
+    {
+      "phase": 0.0125,
+      "minimum": 0.0017458611221953056,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017458611221953056
+    },
+    {
+      "phase": 0.014583333333333334,
+      "minimum": 0.001787662854319359,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001787662854319359
+    },
+    {
+      "phase": 0.016666666666666666,
+      "minimum": 0.0017285467303997937,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017285467303997937
+    },
+    {
+      "phase": 0.01875,
+      "minimum": 0.0017099119934399064,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017099119934399064
+    },
+    {
+      "phase": 0.020833333333333332,
+      "minimum": 0.0017410772208181127,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017410772208181127
+    },
+    {
+      "phase": 0.022916666666666665,
+      "minimum": 0.0017563957192733848,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017563957192733848
+    },
+    {
+      "phase": 0.025,
+      "minimum": 0.0017269751250807899,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017269751250807899
+    },
+    {
+      "phase": 0.027083333333333334,
+      "minimum": 0.0017167057246795427,
+      "hit": {
+        "staff": 0,
+        "triangle": 261743,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017167057246795427
+    },
+    {
+      "phase": 0.029166666666666667,
+      "minimum": 0.001750694193763551,
+      "hit": {
+        "staff": 0,
+        "triangle": 261743,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001750694193763551
+    },
+    {
+      "phase": 0.03125,
+      "minimum": 0.0016792094774098643,
+      "hit": {
+        "staff": 0,
+        "triangle": 261730,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0016792094774098643
+    },
+    {
+      "phase": 0.03333333333333333,
+      "minimum": 0.001618289706837455,
+      "hit": {
+        "staff": 0,
+        "triangle": 261730,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001618289706837455
+    },
+    {
+      "phase": 0.035416666666666666,
+      "minimum": 0.0015496722367026768,
+      "hit": {
+        "staff": 0,
+        "triangle": 261728,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0015496722367026768
+    },
+    {
+      "phase": 0.0375,
+      "minimum": 0.0016303149426218303,
+      "hit": {
+        "staff": 0,
+        "triangle": 261737,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0016303149426218303
+    },
+    {
+      "phase": 0.03958333333333333,
+      "minimum": 0.0018887511149914531,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018887511149914531
+    },
+    {
+      "phase": 0.041666666666666664,
+      "minimum": 0.0018592661656431034,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018592661656431034
+    },
+    {
+      "phase": 0.04375,
+      "minimum": 0.0018768228023397747,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018768228023397747
+    },
+    {
+      "phase": 0.04583333333333333,
+      "minimum": 0.0018230135819555463,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018230135819555463
+    },
+    {
+      "phase": 0.04791666666666667,
+      "minimum": 0.001795842077247145,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.001795842077247145
+    },
+    {
+      "phase": 0.05,
+      "minimum": 0.0018246549928050328,
+      "hit": {
+        "staff": 1,
+        "triangle": 124796,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018246549928050328
+    },
+    {
+      "phase": 0.052083333333333336,
+      "minimum": 0.001785990229250552,
+      "hit": {
+        "staff": 0,
+        "triangle": 261605,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001785990229250552
+    },
+    {
+      "phase": 0.05416666666666667,
+      "minimum": 0.0018140051624908598,
+      "hit": {
+        "staff": 1,
+        "triangle": 124796,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018140051624908598
+    },
+    {
+      "phase": 0.05625,
+      "minimum": 0.0018296771092687954,
+      "hit": {
+        "staff": 1,
+        "triangle": 124796,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018296771092687954
+    },
+    {
+      "phase": 0.058333333333333334,
+      "minimum": 0.0019061639905109899,
+      "hit": {
+        "staff": 1,
+        "triangle": 124796,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0019061639905109899
+    },
+    {
+      "phase": 0.06041666666666667,
+      "minimum": 0.0018785009888542658,
+      "hit": {
+        "staff": 1,
+        "triangle": 124796,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018785009888542658
+    },
+    {
+      "phase": 0.0625,
+      "minimum": 0.0018442104078793473,
+      "hit": {
+        "staff": 1,
+        "triangle": 124799,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018442104078793473
+    },
+    {
+      "phase": 0.06458333333333334,
+      "minimum": 0.0018541835307553326,
+      "hit": {
+        "staff": 1,
+        "triangle": 124796,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018541835307553326
+    },
+    {
+      "phase": 0.06666666666666667,
+      "minimum": 0.0018761043618736005,
+      "hit": {
+        "staff": 1,
+        "triangle": 124796,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018761043618736005
+    },
+    {
+      "phase": 0.06875,
+      "minimum": 0.0018303406520476292,
+      "hit": {
+        "staff": 1,
+        "triangle": 124799,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018303406520476292
+    },
+    {
+      "phase": 0.07083333333333333,
+      "minimum": 0.001829135254124212,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.001829135254124212
+    },
+    {
+      "phase": 0.07291666666666667,
+      "minimum": 0.0018758874808868769,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018758874808868769
+    },
+    {
+      "phase": 0.075,
+      "minimum": 0.0018702605257468925,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018702605257468925
+    },
+    {
+      "phase": 0.07708333333333334,
+      "minimum": 0.0018698520485601992,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018698520485601992
+    },
+    {
+      "phase": 0.07916666666666666,
+      "minimum": 0.0019116587843828903,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0019116587843828903
+    },
+    {
+      "phase": 0.08125,
+      "minimum": 0.0019635417570708063,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0019635417570708063
+    },
+    {
+      "phase": 0.08333333333333333,
+      "minimum": 0.0018868226298370452,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018868226298370452
+    },
+    {
+      "phase": 0.08541666666666667,
+      "minimum": 0.0018557299769941839,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018557299769941839
+    },
+    {
+      "phase": 0.0875,
+      "minimum": 0.0018772164552298964,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018772164552298964
+    },
+    {
+      "phase": 0.08958333333333333,
+      "minimum": 0.0019209292152297195,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0019209292152297195
+    },
+    {
+      "phase": 0.09166666666666666,
+      "minimum": 0.0019709037639014104,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0019709037639014104
+    },
+    {
+      "phase": 0.09375,
+      "minimum": 0.0020471841084230002,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0020471841084230002
+    },
+    {
+      "phase": 0.09583333333333334,
+      "minimum": 0.002131518425442106,
+      "hit": {
+        "staff": 1,
+        "triangle": 124787,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002131518425442106
+    },
+    {
+      "phase": 0.09791666666666667,
+      "minimum": 0.002130961761744935,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002130961761744935
+    },
+    {
+      "phase": 0.1,
+      "minimum": 0.002146640826838242,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002146640826838242
+    },
+    {
+      "phase": 0.10208333333333333,
+      "minimum": 0.0021406654582692888,
+      "hit": {
+        "staff": 0,
+        "triangle": 262359,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0021406654582692888
+    },
+    {
+      "phase": 0.10416666666666667,
+      "minimum": 0.0021367027145674233,
+      "hit": {
+        "staff": 0,
+        "triangle": 262359,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0021367027145674233
+    },
+    {
+      "phase": 0.10625,
+      "minimum": 0.0022022322116482234,
+      "hit": {
+        "staff": 1,
+        "triangle": 125636,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0022022322116482234
+    },
+    {
+      "phase": 0.10833333333333334,
+      "minimum": 0.002221179934319426,
+      "hit": {
+        "staff": 1,
+        "triangle": 125636,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002221179934319426
+    },
+    {
+      "phase": 0.11041666666666666,
+      "minimum": 0.002263378281106813,
+      "hit": {
+        "staff": 1,
+        "triangle": 125636,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002263378281106813
+    },
+    {
+      "phase": 0.1125,
+      "minimum": 0.002187463196721178,
+      "hit": {
+        "staff": 1,
+        "triangle": 125636,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002187463196721178
+    },
+    {
+      "phase": 0.11458333333333333,
+      "minimum": 0.0021413315217190566,
+      "hit": {
+        "staff": 1,
+        "triangle": 125636,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0021413315217190566
+    },
+    {
+      "phase": 0.11666666666666667,
+      "minimum": 0.002126265386500849,
+      "hit": {
+        "staff": 1,
+        "triangle": 124804,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002126265386500849
+    },
+    {
+      "phase": 0.11875,
+      "minimum": 0.0021630939773845687,
+      "hit": {
+        "staff": 1,
+        "triangle": 124804,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0021630939773845687
+    },
+    {
+      "phase": 0.12083333333333333,
+      "minimum": 0.0022155663153883027,
+      "hit": {
+        "staff": 0,
+        "triangle": 262306,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0022155663153883027
+    },
+    {
+      "phase": 0.12291666666666666,
+      "minimum": 0.0021831251352355738,
+      "hit": {
+        "staff": 0,
+        "triangle": 262326,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0021831251352355738
+    },
+    {
+      "phase": 0.125,
+      "minimum": 0.0022291466072889617,
+      "hit": {
+        "staff": 0,
+        "triangle": 262039,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0022291466072889617
+    },
+    {
+      "phase": 0.12708333333333333,
+      "minimum": 0.002171093197697236,
+      "hit": {
+        "staff": 0,
+        "triangle": 262039,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002171093197697236
+    },
+    {
+      "phase": 0.12916666666666668,
+      "minimum": 0.0021326944914343976,
+      "hit": {
+        "staff": 0,
+        "triangle": 262328,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0021326944914343976
+    },
+    {
+      "phase": 0.13125,
+      "minimum": 0.0021103054230008737,
+      "hit": {
+        "staff": 0,
+        "triangle": 262039,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0021103054230008737
+    },
+    {
+      "phase": 0.13333333333333333,
+      "minimum": 0.002128466061870971,
+      "hit": {
+        "staff": 0,
+        "triangle": 262039,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002128466061870971
+    },
+    {
+      "phase": 0.13541666666666666,
+      "minimum": 0.002189158077947428,
+      "hit": {
+        "staff": 0,
+        "triangle": 262039,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002189158077947428
+    },
+    {
+      "phase": 0.1375,
+      "minimum": 0.002250904187623859,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002250904187623859
+    },
+    {
+      "phase": 0.13958333333333334,
+      "minimum": 0.0023321573165687552,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0023321573165687552
+    },
+    {
+      "phase": 0.14166666666666666,
+      "minimum": 0.0023379513742444857,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0023379513742444857
+    },
+    {
+      "phase": 0.14375,
+      "minimum": 0.002367137791262868,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002367137791262868
+    },
+    {
+      "phase": 0.14583333333333334,
+      "minimum": 0.002424919472785954,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002424919472785954
+    },
+    {
+      "phase": 0.14791666666666667,
+      "minimum": 0.0024564905628217913,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0024564905628217913
+    },
+    {
+      "phase": 0.15,
+      "minimum": 0.002453374931584479,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002453374931584479
+    },
+    {
+      "phase": 0.15208333333333332,
+      "minimum": 0.0024933828579604637,
+      "hit": {
+        "staff": 0,
+        "triangle": 262023,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0024933828579604637
+    },
+    {
+      "phase": 0.15416666666666667,
+      "minimum": 0.00257181841404148,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.00257181841404148
+    },
+    {
+      "phase": 0.15625,
+      "minimum": 0.002629770397817973,
+      "hit": {
+        "staff": 0,
+        "triangle": 262023,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002629770397817973
+    },
+    {
+      "phase": 0.15833333333333333,
+      "minimum": 0.0027132112392750426,
+      "hit": {
+        "staff": 1,
+        "triangle": 124802,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0027132112392750426
+    },
+    {
+      "phase": 0.16041666666666668,
+      "minimum": 0.002759117832817456,
+      "hit": {
+        "staff": 1,
+        "triangle": 124802,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002759117832817456
+    },
+    {
+      "phase": 0.1625,
+      "minimum": 0.00278936033898234,
+      "hit": {
+        "staff": 1,
+        "triangle": 124802,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.00278936033898234
+    },
+    {
+      "phase": 0.16458333333333333,
+      "minimum": 0.00257971315946332,
+      "hit": {
+        "staff": 1,
+        "triangle": 122454,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.00257971315946332
+    },
+    {
+      "phase": 0.16666666666666666,
+      "minimum": 0.0023258636685126906,
+      "hit": {
+        "staff": 1,
+        "triangle": 122454,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0023258636685126906
+    },
+    {
+      "phase": 0.16875,
+      "minimum": 0.002093030165765005,
+      "hit": {
+        "staff": 1,
+        "triangle": 122467,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002093030165765005
+    },
+    {
+      "phase": 0.17083333333333334,
+      "minimum": 0.002108664053699392,
+      "hit": {
+        "staff": 1,
+        "triangle": 122454,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002108664053699392
+    },
+    {
+      "phase": 0.17291666666666666,
+      "minimum": 0.0021632636607067483,
+      "hit": {
+        "staff": 1,
+        "triangle": 122465,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0021632636607067483
+    },
+    {
+      "phase": 0.175,
+      "minimum": 0.0021663959696819647,
+      "hit": {
+        "staff": 0,
+        "triangle": 262019,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0021663959696819647
+    },
+    {
+      "phase": 0.17708333333333334,
+      "minimum": 0.002186632307179302,
+      "hit": {
+        "staff": 0,
+        "triangle": 262016,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002186632307179302
+    },
+    {
+      "phase": 0.17916666666666667,
+      "minimum": 0.0021161927116282123,
+      "hit": {
+        "staff": 1,
+        "triangle": 122460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0021161927116282123
+    },
+    {
+      "phase": 0.18125,
+      "minimum": 0.0019551522531544904,
+      "hit": {
+        "staff": 1,
+        "triangle": 122819,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019551522531544904
+    },
+    {
+      "phase": 0.18333333333333332,
+      "minimum": 0.0017943274932489869,
+      "hit": {
+        "staff": 1,
+        "triangle": 122806,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017943274932489869
+    },
+    {
+      "phase": 0.18541666666666667,
+      "minimum": 0.0017624467078995558,
+      "hit": {
+        "staff": 1,
+        "triangle": 122818,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0017624467078995558
+    },
+    {
+      "phase": 0.1875,
+      "minimum": 0.001825389674692925,
+      "hit": {
+        "staff": 1,
+        "triangle": 122816,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001825389674692925
+    },
+    {
+      "phase": 0.18958333333333333,
+      "minimum": 0.0019920304367620854,
+      "hit": {
+        "staff": 1,
+        "triangle": 122791,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0019920304367620854
+    },
+    {
+      "phase": 0.19166666666666668,
+      "minimum": 0.002177527578562091,
+      "hit": {
+        "staff": 0,
+        "triangle": 262026,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002177527578562091
+    },
+    {
+      "phase": 0.19375,
+      "minimum": 0.002200944029136162,
+      "hit": {
+        "staff": 1,
+        "triangle": 122793,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.002200944029136162
+    },
+    {
+      "phase": 0.19583333333333333,
+      "minimum": 0.0020523037647262616,
+      "hit": {
+        "staff": 0,
+        "triangle": 277020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0020523037647262616
+    },
+    {
+      "phase": 0.19791666666666666,
+      "minimum": 0.0018831491342875557,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018831491342875557
+    },
+    {
+      "phase": 0.2,
+      "minimum": 0.0017837523537812452,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017837523537812452
+    },
+    {
+      "phase": 0.20208333333333334,
+      "minimum": 0.0017527381193488348,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017527381193488348
+    },
+    {
+      "phase": 0.20416666666666666,
+      "minimum": 0.001776443648836834,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001776443648836834
+    },
+    {
+      "phase": 0.20625,
+      "minimum": 0.0018334086926324253,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018334086926324253
+    },
+    {
+      "phase": 0.20833333333333334,
+      "minimum": 0.001827190102440578,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001827190102440578
+    },
+    {
+      "phase": 0.21041666666666667,
+      "minimum": 0.0018215839113943054,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018215839113943054
+    },
+    {
+      "phase": 0.2125,
+      "minimum": 0.0018141107949413149,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018141107949413149
+    },
+    {
+      "phase": 0.21458333333333332,
+      "minimum": 0.0018088042069064163,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018088042069064163
+    },
+    {
+      "phase": 0.21666666666666667,
+      "minimum": 0.0018121046889923425,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018121046889923425
+    },
+    {
+      "phase": 0.21875,
+      "minimum": 0.0018206987981008293,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018206987981008293
+    },
+    {
+      "phase": 0.22083333333333333,
+      "minimum": 0.0018285391710657333,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018285391710657333
+    },
+    {
+      "phase": 0.22291666666666668,
+      "minimum": 0.0018172744849416656,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018172744849416656
+    },
+    {
+      "phase": 0.225,
+      "minimum": 0.0018199918013184525,
+      "hit": {
+        "staff": 0,
+        "triangle": 277022,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018199918013184525
+    },
+    {
+      "phase": 0.22708333333333333,
+      "minimum": 0.0018338288723156078,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018338288723156078
+    },
+    {
+      "phase": 0.22916666666666666,
+      "minimum": 0.001818433938202326,
+      "hit": {
+        "staff": 0,
+        "triangle": 277022,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001818433938202326
+    },
+    {
+      "phase": 0.23125,
+      "minimum": 0.0017915609672128196,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017915609672128196
+    },
+    {
+      "phase": 0.23333333333333334,
+      "minimum": 0.001778680526992274,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001778680526992274
+    },
+    {
+      "phase": 0.23541666666666666,
+      "minimum": 0.0017790587556421322,
+      "hit": {
+        "staff": 0,
+        "triangle": 277022,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017790587556421322
+    },
+    {
+      "phase": 0.2375,
+      "minimum": 0.0018157011819821545,
+      "hit": {
+        "staff": 0,
+        "triangle": 277022,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018157011819821545
+    },
+    {
+      "phase": 0.23958333333333334,
+      "minimum": 0.0018384155071181733,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018384155071181733
+    },
+    {
+      "phase": 0.24166666666666667,
+      "minimum": 0.0018451623990199464,
+      "hit": {
+        "staff": 0,
+        "triangle": 277022,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018451623990199464
+    },
+    {
+      "phase": 0.24375,
+      "minimum": 0.0018497573321652559,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018497573321652559
+    },
+    {
+      "phase": 0.24583333333333332,
+      "minimum": 0.0018599357669696719,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018599357669696719
+    },
+    {
+      "phase": 0.24791666666666667,
+      "minimum": 0.0018646482625754926,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018646482625754926
+    },
+    {
+      "phase": 0.25,
+      "minimum": 0.001864024097406632,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001864024097406632
+    },
+    {
+      "phase": 0.2520833333333333,
+      "minimum": 0.0018616048399862604,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018616048399862604
+    },
+    {
+      "phase": 0.25416666666666665,
+      "minimum": 0.0018579436517485136,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018579436517485136
+    },
+    {
+      "phase": 0.25625,
+      "minimum": 0.0018519847049757558,
+      "hit": {
+        "staff": 0,
+        "triangle": 277020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018519847049757558
+    },
+    {
+      "phase": 0.25833333333333336,
+      "minimum": 0.0018364854767889387,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018364854767889387
+    },
+    {
+      "phase": 0.2604166666666667,
+      "minimum": 0.0018120639123228397,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018120639123228397
+    },
+    {
+      "phase": 0.2625,
+      "minimum": 0.001785988662951975,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001785988662951975
+    },
+    {
+      "phase": 0.26458333333333334,
+      "minimum": 0.0017599888558537547,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017599888558537547
+    },
+    {
+      "phase": 0.26666666666666666,
+      "minimum": 0.0017966254688308418,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017966254688308418
+    },
+    {
+      "phase": 0.26875,
+      "minimum": 0.0018178348089238905,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018178348089238905
+    },
+    {
+      "phase": 0.2708333333333333,
+      "minimum": 0.0018196117135252446,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018196117135252446
+    },
+    {
+      "phase": 0.27291666666666664,
+      "minimum": 0.0018214441208582888,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018214441208582888
+    },
+    {
+      "phase": 0.275,
+      "minimum": 0.0018345246896602392,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018345246896602392
+    },
+    {
+      "phase": 0.27708333333333335,
+      "minimum": 0.0018327481232346971,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018327481232346971
+    },
+    {
+      "phase": 0.2791666666666667,
+      "minimum": 0.0018168666125263529,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018168666125263529
+    },
+    {
+      "phase": 0.28125,
+      "minimum": 0.0018746835674986334,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018746835674986334
+    },
+    {
+      "phase": 0.2833333333333333,
+      "minimum": 0.0019316043053229613,
+      "hit": {
+        "staff": 0,
+        "triangle": 277017,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0019316043053229613
+    },
+    {
+      "phase": 0.28541666666666665,
+      "minimum": 0.001967270106162794,
+      "hit": {
+        "staff": 0,
+        "triangle": 261743,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001967270106162794
+    },
+    {
+      "phase": 0.2875,
+      "minimum": 0.0019415118506919907,
+      "hit": {
+        "staff": 0,
+        "triangle": 261743,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0019415118506919907
+    },
+    {
+      "phase": 0.28958333333333336,
+      "minimum": 0.0018300727222112512,
+      "hit": {
+        "staff": 0,
+        "triangle": 261743,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018300727222112512
+    },
+    {
+      "phase": 0.2916666666666667,
+      "minimum": 0.001705122223540521,
+      "hit": {
+        "staff": 0,
+        "triangle": 261743,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001705122223540521
+    },
+    {
+      "phase": 0.29375,
+      "minimum": 0.0015473421855317117,
+      "hit": {
+        "staff": 0,
+        "triangle": 261730,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0015473421855317117
+    },
+    {
+      "phase": 0.29583333333333334,
+      "minimum": 0.001538008039602629,
+      "hit": {
+        "staff": 0,
+        "triangle": 261730,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001538008039602629
+    },
+    {
+      "phase": 0.29791666666666666,
+      "minimum": 0.0015354076742865562,
+      "hit": {
+        "staff": 0,
+        "triangle": 261730,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0015354076742865562
+    },
+    {
+      "phase": 0.3,
+      "minimum": 0.0015043066983415534,
+      "hit": {
+        "staff": 0,
+        "triangle": 261730,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0015043066983415534
+    },
+    {
+      "phase": 0.3020833333333333,
+      "minimum": 0.001532118875100269,
+      "hit": {
+        "staff": 0,
+        "triangle": 261730,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001532118875100269
+    },
+    {
+      "phase": 0.30416666666666664,
+      "minimum": 0.001709998693893218,
+      "hit": {
+        "staff": 0,
+        "triangle": 261728,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001709998693893218
+    },
+    {
+      "phase": 0.30625,
+      "minimum": 0.001839687063733629,
+      "hit": {
+        "staff": 0,
+        "triangle": 261737,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001839687063733629
+    },
+    {
+      "phase": 0.30833333333333335,
+      "minimum": 0.0018805344362545669,
+      "hit": {
+        "staff": 0,
+        "triangle": 261609,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018805344362545669
+    },
+    {
+      "phase": 0.3104166666666667,
+      "minimum": 0.0019952183912436347,
+      "hit": {
+        "staff": 0,
+        "triangle": 261631,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0019952183912436347
+    },
+    {
+      "phase": 0.3125,
+      "minimum": 0.0021331220770356672,
+      "hit": {
+        "staff": 0,
+        "triangle": 261642,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0021331220770356672
+    },
+    {
+      "phase": 0.3145833333333333,
+      "minimum": 0.0022208849685855653,
+      "hit": {
+        "staff": 0,
+        "triangle": 261631,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0022208849685855653
+    },
+    {
+      "phase": 0.31666666666666665,
+      "minimum": 0.002213051795845942,
+      "hit": {
+        "staff": 0,
+        "triangle": 261629,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002213051795845942
+    },
+    {
+      "phase": 0.31875,
+      "minimum": 0.0021264605779197088,
+      "hit": {
+        "staff": 0,
+        "triangle": 261629,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0021264605779197088
+    },
+    {
+      "phase": 0.32083333333333336,
+      "minimum": 0.0019975261797614205,
+      "hit": {
+        "staff": 0,
+        "triangle": 261629,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0019975261797614205
+    },
+    {
+      "phase": 0.3229166666666667,
+      "minimum": 0.0018294124563995387,
+      "hit": {
+        "staff": 0,
+        "triangle": 261628,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018294124563995387
+    },
+    {
+      "phase": 0.325,
+      "minimum": 0.0019196754754434546,
+      "hit": {
+        "staff": 0,
+        "triangle": 261628,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0019196754754434546
+    },
+    {
+      "phase": 0.32708333333333334,
+      "minimum": 0.002066205745751412,
+      "hit": {
+        "staff": 0,
+        "triangle": 261646,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002066205745751412
+    },
+    {
+      "phase": 0.32916666666666666,
+      "minimum": 0.0020695556072237945,
+      "hit": {
+        "staff": 0,
+        "triangle": 261627,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0020695556072237945
+    },
+    {
+      "phase": 0.33125,
+      "minimum": 0.002086519202751805,
+      "hit": {
+        "staff": 0,
+        "triangle": 261627,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002086519202751805
+    },
+    {
+      "phase": 0.3333333333333333,
+      "minimum": 0.002071120987739839,
+      "hit": {
+        "staff": 1,
+        "triangle": 122200,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002071120987739839
+    },
+    {
+      "phase": 0.33541666666666664,
+      "minimum": 0.002109948299809414,
+      "hit": {
+        "staff": 1,
+        "triangle": 122200,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002109948299809414
+    },
+    {
+      "phase": 0.3375,
+      "minimum": 0.0020638247036828625,
+      "hit": {
+        "staff": 1,
+        "triangle": 122108,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0020638247036828625
+    },
+    {
+      "phase": 0.33958333333333335,
+      "minimum": 0.0020184548226328067,
+      "hit": {
+        "staff": 1,
+        "triangle": 122111,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0020184548226328067
+    },
+    {
+      "phase": 0.3416666666666667,
+      "minimum": 0.0018966748016399377,
+      "hit": {
+        "staff": 1,
+        "triangle": 125638,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0018966748016399377
+    },
+    {
+      "phase": 0.34375,
+      "minimum": 0.0019032392049839527,
+      "hit": {
+        "staff": 1,
+        "triangle": 125622,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0019032392049839527
+    },
+    {
+      "phase": 0.3458333333333333,
+      "minimum": 0.0020088954331554665,
+      "hit": {
+        "staff": 1,
+        "triangle": 122454,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0020088954331554665
+    },
+    {
+      "phase": 0.34791666666666665,
+      "minimum": 0.0019259189469317817,
+      "hit": {
+        "staff": 1,
+        "triangle": 122454,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019259189469317817
+    },
+    {
+      "phase": 0.35,
+      "minimum": 0.0018393167766819225,
+      "hit": {
+        "staff": 1,
+        "triangle": 122454,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018393167766819225
+    },
+    {
+      "phase": 0.35208333333333336,
+      "minimum": 0.0017713317889449416,
+      "hit": {
+        "staff": 1,
+        "triangle": 122467,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017713317889449416
+    },
+    {
+      "phase": 0.3541666666666667,
+      "minimum": 0.0017928403678439987,
+      "hit": {
+        "staff": 1,
+        "triangle": 122450,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017928403678439987
+    },
+    {
+      "phase": 0.35625,
+      "minimum": 0.0017610585849317656,
+      "hit": {
+        "staff": 1,
+        "triangle": 122450,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017610585849317656
+    },
+    {
+      "phase": 0.35833333333333334,
+      "minimum": 0.0016927277941592139,
+      "hit": {
+        "staff": 1,
+        "triangle": 122821,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016927277941592139
+    },
+    {
+      "phase": 0.36041666666666666,
+      "minimum": 0.0014865946403335162,
+      "hit": {
+        "staff": 1,
+        "triangle": 122802,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0014865946403335162
+    },
+    {
+      "phase": 0.3625,
+      "minimum": 0.001614182645110998,
+      "hit": {
+        "staff": 1,
+        "triangle": 122802,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001614182645110998
+    },
+    {
+      "phase": 0.3645833333333333,
+      "minimum": 0.001704550911843088,
+      "hit": {
+        "staff": 1,
+        "triangle": 122816,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001704550911843088
+    },
+    {
+      "phase": 0.36666666666666664,
+      "minimum": 0.0018217233995399523,
+      "hit": {
+        "staff": 0,
+        "triangle": 262359,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0018217233995399523
+    },
+    {
+      "phase": 0.36875,
+      "minimum": 0.0018189337636344578,
+      "hit": {
+        "staff": 0,
+        "triangle": 262320,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0018189337636344578
+    },
+    {
+      "phase": 0.37083333333333335,
+      "minimum": 0.0017322701842758439,
+      "hit": {
+        "staff": 1,
+        "triangle": 122793,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0017322701842758439
+    },
+    {
+      "phase": 0.3729166666666667,
+      "minimum": 0.001630568096457275,
+      "hit": {
+        "staff": 1,
+        "triangle": 122793,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001630568096457275
+    },
+    {
+      "phase": 0.375,
+      "minimum": 0.0016020440931036432,
+      "hit": {
+        "staff": 1,
+        "triangle": 122793,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0016020440931036432
+    },
+    {
+      "phase": 0.3770833333333333,
+      "minimum": 0.0016359244674561194,
+      "hit": {
+        "staff": 1,
+        "triangle": 122793,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0016359244674561194
+    },
+    {
+      "phase": 0.37916666666666665,
+      "minimum": 0.0016057917581825728,
+      "hit": {
+        "staff": 0,
+        "triangle": 262306,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0016057917581825728
+    },
+    {
+      "phase": 0.38125,
+      "minimum": 0.001558450868951032,
+      "hit": {
+        "staff": 0,
+        "triangle": 262306,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.001558450868951032
+    },
+    {
+      "phase": 0.38333333333333336,
+      "minimum": 0.0015500851444279554,
+      "hit": {
+        "staff": 0,
+        "triangle": 262306,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0015500851444279554
+    },
+    {
+      "phase": 0.3854166666666667,
+      "minimum": 0.0015305074371904474,
+      "hit": {
+        "staff": 0,
+        "triangle": 262306,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0015305074371904474
+    },
+    {
+      "phase": 0.3875,
+      "minimum": 0.001641304109250341,
+      "hit": {
+        "staff": 0,
+        "triangle": 262311,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.001641304109250341
+    },
+    {
+      "phase": 0.38958333333333334,
+      "minimum": 0.0016170861351910738,
+      "hit": {
+        "staff": 1,
+        "triangle": 122774,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0016170861351910738
+    },
+    {
+      "phase": 0.39166666666666666,
+      "minimum": 0.0016429158782769303,
+      "hit": {
+        "staff": 1,
+        "triangle": 122788,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016429158782769303
+    },
+    {
+      "phase": 0.39375,
+      "minimum": 0.001706564940817383,
+      "hit": {
+        "staff": 1,
+        "triangle": 122774,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001706564940817383
+    },
+    {
+      "phase": 0.3958333333333333,
+      "minimum": 0.0017456800834744612,
+      "hit": {
+        "staff": 0,
+        "triangle": 262039,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017456800834744612
+    },
+    {
+      "phase": 0.39791666666666664,
+      "minimum": 0.0017686110983111281,
+      "hit": {
+        "staff": 0,
+        "triangle": 262039,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017686110983111281
+    },
+    {
+      "phase": 0.4,
+      "minimum": 0.0018122093065386837,
+      "hit": {
+        "staff": 0,
+        "triangle": 262039,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018122093065386837
+    },
+    {
+      "phase": 0.40208333333333335,
+      "minimum": 0.0019034996141899206,
+      "hit": {
+        "staff": 1,
+        "triangle": 122481,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019034996141899206
+    },
+    {
+      "phase": 0.4041666666666667,
+      "minimum": 0.0020068440221440217,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0020068440221440217
+    },
+    {
+      "phase": 0.40625,
+      "minimum": 0.0019091513886161995,
+      "hit": {
+        "staff": 1,
+        "triangle": 122481,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019091513886161995
+    },
+    {
+      "phase": 0.4083333333333333,
+      "minimum": 0.0018848375963813283,
+      "hit": {
+        "staff": 1,
+        "triangle": 122481,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018848375963813283
+    },
+    {
+      "phase": 0.41041666666666665,
+      "minimum": 0.001963388668029647,
+      "hit": {
+        "staff": 1,
+        "triangle": 122480,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001963388668029647
+    },
+    {
+      "phase": 0.4125,
+      "minimum": 0.002132083927815923,
+      "hit": {
+        "staff": 1,
+        "triangle": 122480,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002132083927815923
+    },
+    {
+      "phase": 0.41458333333333336,
+      "minimum": 0.002145915170298598,
+      "hit": {
+        "staff": 1,
+        "triangle": 122483,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002145915170298598
+    },
+    {
+      "phase": 0.4166666666666667,
+      "minimum": 0.0021246369688546745,
+      "hit": {
+        "staff": 1,
+        "triangle": 122482,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0021246369688546745
+    },
+    {
+      "phase": 0.41875,
+      "minimum": 0.0021099962068926136,
+      "hit": {
+        "staff": 1,
+        "triangle": 122482,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0021099962068926136
+    },
+    {
+      "phase": 0.42083333333333334,
+      "minimum": 0.002264904118242964,
+      "hit": {
+        "staff": 1,
+        "triangle": 122498,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002264904118242964
+    },
+    {
+      "phase": 0.42291666666666666,
+      "minimum": 0.002431026411877219,
+      "hit": {
+        "staff": 1,
+        "triangle": 122076,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002431026411877219
+    },
+    {
+      "phase": 0.425,
+      "minimum": 0.0025075956559498912,
+      "hit": {
+        "staff": 0,
+        "triangle": 264343,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0025075956559498912
+    },
+    {
+      "phase": 0.4270833333333333,
+      "minimum": 0.00257985644440167,
+      "hit": {
+        "staff": 1,
+        "triangle": 122067,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.00257985644440167
+    },
+    {
+      "phase": 0.42916666666666664,
+      "minimum": 0.0023581349890778053,
+      "hit": {
+        "staff": 1,
+        "triangle": 122066,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0023581349890778053
+    },
+    {
+      "phase": 0.43125,
+      "minimum": 0.0021710360080497496,
+      "hit": {
+        "staff": 1,
+        "triangle": 122066,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0021710360080497496
+    },
+    {
+      "phase": 0.43333333333333335,
+      "minimum": 0.0019650493857090185,
+      "hit": {
+        "staff": 1,
+        "triangle": 122202,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019650493857090185
+    },
+    {
+      "phase": 0.4354166666666667,
+      "minimum": 0.0018153962257048996,
+      "hit": {
+        "staff": 1,
+        "triangle": 122195,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018153962257048996
+    },
+    {
+      "phase": 0.4375,
+      "minimum": 0.0017359172655617757,
+      "hit": {
+        "staff": 1,
+        "triangle": 122192,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017359172655617757
+    },
+    {
+      "phase": 0.4395833333333333,
+      "minimum": 0.001673373649076838,
+      "hit": {
+        "staff": 1,
+        "triangle": 122196,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001673373649076838
+    },
+    {
+      "phase": 0.44166666666666665,
+      "minimum": 0.001649784461072423,
+      "hit": {
+        "staff": 1,
+        "triangle": 122215,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001649784461072423
+    },
+    {
+      "phase": 0.44375,
+      "minimum": 0.0016795530539759334,
+      "hit": {
+        "staff": 1,
+        "triangle": 122215,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016795530539759334
+    },
+    {
+      "phase": 0.44583333333333336,
+      "minimum": 0.0016904125821871913,
+      "hit": {
+        "staff": 1,
+        "triangle": 122215,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016904125821871913
+    },
+    {
+      "phase": 0.4479166666666667,
+      "minimum": 0.001681723798206353,
+      "hit": {
+        "staff": 1,
+        "triangle": 137466,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001681723798206353
+    },
+    {
+      "phase": 0.45,
+      "minimum": 0.0016639590738785313,
+      "hit": {
+        "staff": 1,
+        "triangle": 137466,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016639590738785313
+    },
+    {
+      "phase": 0.45208333333333334,
+      "minimum": 0.0016582713385914407,
+      "hit": {
+        "staff": 1,
+        "triangle": 137466,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016582713385914407
+    },
+    {
+      "phase": 0.45416666666666666,
+      "minimum": 0.0016593316210431058,
+      "hit": {
+        "staff": 1,
+        "triangle": 137466,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016593316210431058
+    },
+    {
+      "phase": 0.45625,
+      "minimum": 0.0016575758379797512,
+      "hit": {
+        "staff": 1,
+        "triangle": 137466,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016575758379797512
+    },
+    {
+      "phase": 0.4583333333333333,
+      "minimum": 0.0016258276703351952,
+      "hit": {
+        "staff": 1,
+        "triangle": 137466,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016258276703351952
+    },
+    {
+      "phase": 0.46041666666666664,
+      "minimum": 0.0016201362126035557,
+      "hit": {
+        "staff": 1,
+        "triangle": 137466,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016201362126035557
+    },
+    {
+      "phase": 0.4625,
+      "minimum": 0.001640922339931631,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001640922339931631
+    },
+    {
+      "phase": 0.46458333333333335,
+      "minimum": 0.001578444565553845,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001578444565553845
+    },
+    {
+      "phase": 0.4666666666666667,
+      "minimum": 0.0015169633539643297,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0015169633539643297
+    },
+    {
+      "phase": 0.46875,
+      "minimum": 0.0015232451133050159,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0015232451133050159
+    },
+    {
+      "phase": 0.4708333333333333,
+      "minimum": 0.0015840085668348547,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0015840085668348547
+    },
+    {
+      "phase": 0.47291666666666665,
+      "minimum": 0.001574285920324131,
+      "hit": {
+        "staff": 1,
+        "triangle": 122218,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001574285920324131
+    },
+    {
+      "phase": 0.475,
+      "minimum": 0.001576434921922245,
+      "hit": {
+        "staff": 1,
+        "triangle": 122217,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001576434921922245
+    },
+    {
+      "phase": 0.47708333333333336,
+      "minimum": 0.0015866984715446099,
+      "hit": {
+        "staff": 1,
+        "triangle": 122197,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0015866984715446099
+    },
+    {
+      "phase": 0.4791666666666667,
+      "minimum": 0.0015351036493533848,
+      "hit": {
+        "staff": 1,
+        "triangle": 122197,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0015351036493533848
+    },
+    {
+      "phase": 0.48125,
+      "minimum": 0.0014628988206318028,
+      "hit": {
+        "staff": 1,
+        "triangle": 122193,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0014628988206318028
+    },
+    {
+      "phase": 0.48333333333333334,
+      "minimum": 0.0013995470342821979,
+      "hit": {
+        "staff": 1,
+        "triangle": 122193,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0013995470342821979
+    },
+    {
+      "phase": 0.48541666666666666,
+      "minimum": 0.001373944865367141,
+      "hit": {
+        "staff": 1,
+        "triangle": 122200,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001373944865367141
+    },
+    {
+      "phase": 0.4875,
+      "minimum": 0.0014392033645515175,
+      "hit": {
+        "staff": 1,
+        "triangle": 122200,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0014392033645515175
+    },
+    {
+      "phase": 0.4895833333333333,
+      "minimum": 0.0014890221898609998,
+      "hit": {
+        "staff": 1,
+        "triangle": 122069,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0014890221898609998
+    },
+    {
+      "phase": 0.49166666666666664,
+      "minimum": 0.0014411384236930145,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0014411384236930145
+    },
+    {
+      "phase": 0.49375,
+      "minimum": 0.0014560064283510848,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0014560064283510848
+    },
+    {
+      "phase": 0.49583333333333335,
+      "minimum": 0.0015894891617311366,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0015894891617311366
+    },
+    {
+      "phase": 0.4979166666666667,
+      "minimum": 0.0017794441233484112,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017794441233484112
+    },
+    {
+      "phase": 0.5,
+      "minimum": 0.002019316223985497,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002019316223985497
+    },
+    {
+      "phase": 0.5020833333333333,
+      "minimum": 0.0019845228588980593,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019845228588980593
+    },
+    {
+      "phase": 0.5041666666666667,
+      "minimum": 0.001951445085474797,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001951445085474797
+    },
+    {
+      "phase": 0.50625,
+      "minimum": 0.001917357927605317,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001917357927605317
+    },
+    {
+      "phase": 0.5083333333333333,
+      "minimum": 0.001877159195892918,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001877159195892918
+    },
+    {
+      "phase": 0.5104166666666666,
+      "minimum": 0.0018304062911784595,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018304062911784595
+    },
+    {
+      "phase": 0.5125,
+      "minimum": 0.0017795257425969081,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017795257425969081
+    },
+    {
+      "phase": 0.5145833333333333,
+      "minimum": 0.0017237235702846614,
+      "hit": {
+        "staff": 1,
+        "triangle": 122065,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017237235702846614
+    },
+    {
+      "phase": 0.5166666666666667,
+      "minimum": 0.0018438699386751287,
+      "hit": {
+        "staff": 1,
+        "triangle": 122093,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018438699386751287
+    },
+    {
+      "phase": 0.51875,
+      "minimum": 0.0018996191766170283,
+      "hit": {
+        "staff": 1,
+        "triangle": 122093,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018996191766170283
+    },
+    {
+      "phase": 0.5208333333333334,
+      "minimum": 0.0019530265972479612,
+      "hit": {
+        "staff": 1,
+        "triangle": 122093,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019530265972479612
+    },
+    {
+      "phase": 0.5229166666666667,
+      "minimum": 0.001931907177093347,
+      "hit": {
+        "staff": 1,
+        "triangle": 122093,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001931907177093347
+    },
+    {
+      "phase": 0.525,
+      "minimum": 0.001813085609379015,
+      "hit": {
+        "staff": 1,
+        "triangle": 122093,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001813085609379015
+    },
+    {
+      "phase": 0.5270833333333333,
+      "minimum": 0.001712461762295149,
+      "hit": {
+        "staff": 1,
+        "triangle": 122093,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001712461762295149
+    },
+    {
+      "phase": 0.5291666666666667,
+      "minimum": 0.0016370856428618574,
+      "hit": {
+        "staff": 1,
+        "triangle": 122114,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016370856428618574
+    },
+    {
+      "phase": 0.53125,
+      "minimum": 0.0017306815764026335,
+      "hit": {
+        "staff": 1,
+        "triangle": 122093,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017306815764026335
+    },
+    {
+      "phase": 0.5333333333333333,
+      "minimum": 0.0018310819354576333,
+      "hit": {
+        "staff": 1,
+        "triangle": 122093,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018310819354576333
+    },
+    {
+      "phase": 0.5354166666666667,
+      "minimum": 0.0019155553707615788,
+      "hit": {
+        "staff": 1,
+        "triangle": 122091,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019155553707615788
+    },
+    {
+      "phase": 0.5375,
+      "minimum": 0.001997287941489097,
+      "hit": {
+        "staff": 1,
+        "triangle": 122091,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001997287941489097
+    },
+    {
+      "phase": 0.5395833333333333,
+      "minimum": 0.0020976042342346936,
+      "hit": {
+        "staff": 1,
+        "triangle": 122091,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0020976042342346936
+    },
+    {
+      "phase": 0.5416666666666666,
+      "minimum": 0.002177855962543383,
+      "hit": {
+        "staff": 1,
+        "triangle": 122091,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002177855962543383
+    },
+    {
+      "phase": 0.54375,
+      "minimum": 0.002226569387149135,
+      "hit": {
+        "staff": 1,
+        "triangle": 122200,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002226569387149135
+    },
+    {
+      "phase": 0.5458333333333333,
+      "minimum": 0.002251331075849272,
+      "hit": {
+        "staff": 1,
+        "triangle": 122200,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002251331075849272
+    },
+    {
+      "phase": 0.5479166666666667,
+      "minimum": 0.0022652002658081535,
+      "hit": {
+        "staff": 1,
+        "triangle": 122200,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0022652002658081535
+    },
+    {
+      "phase": 0.55,
+      "minimum": 0.0021934784772079403,
+      "hit": {
+        "staff": 0,
+        "triangle": 261630,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0021934784772079403
+    },
+    {
+      "phase": 0.5520833333333334,
+      "minimum": 0.0021377075658335944,
+      "hit": {
+        "staff": 0,
+        "triangle": 261605,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0021377075658335944
+    },
+    {
+      "phase": 0.5541666666666667,
+      "minimum": 0.002199144244419594,
+      "hit": {
+        "staff": 1,
+        "triangle": 122108,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002199144244419594
+    },
+    {
+      "phase": 0.55625,
+      "minimum": 0.002073003198706555,
+      "hit": {
+        "staff": 1,
+        "triangle": 122469,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002073003198706555
+    },
+    {
+      "phase": 0.5583333333333333,
+      "minimum": 0.0019013393407272903,
+      "hit": {
+        "staff": 1,
+        "triangle": 122467,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019013393407272903
+    },
+    {
+      "phase": 0.5604166666666667,
+      "minimum": 0.001967873292938937,
+      "hit": {
+        "staff": 1,
+        "triangle": 122467,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001967873292938937
+    },
+    {
+      "phase": 0.5625,
+      "minimum": 0.002112989561578316,
+      "hit": {
+        "staff": 1,
+        "triangle": 122467,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.002112989561578316
+    },
+    {
+      "phase": 0.5645833333333333,
+      "minimum": 0.00213829370110832,
+      "hit": {
+        "staff": 0,
+        "triangle": 261605,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.00213829370110832
+    },
+    {
+      "phase": 0.5666666666666667,
+      "minimum": 0.002038393734092179,
+      "hit": {
+        "staff": 0,
+        "triangle": 261605,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002038393734092179
+    },
+    {
+      "phase": 0.56875,
+      "minimum": 0.002046475792429626,
+      "hit": {
+        "staff": 0,
+        "triangle": 261605,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002046475792429626
+    },
+    {
+      "phase": 0.5708333333333333,
+      "minimum": 0.002015504108830604,
+      "hit": {
+        "staff": 0,
+        "triangle": 261605,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.002015504108830604
+    },
+    {
+      "phase": 0.5729166666666666,
+      "minimum": 0.001953581291912152,
+      "hit": {
+        "staff": 0,
+        "triangle": 261628,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001953581291912152
+    },
+    {
+      "phase": 0.575,
+      "minimum": 0.0019401554613844418,
+      "hit": {
+        "staff": 1,
+        "triangle": 122507,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019401554613844418
+    },
+    {
+      "phase": 0.5770833333333333,
+      "minimum": 0.0018387105465793845,
+      "hit": {
+        "staff": 1,
+        "triangle": 122819,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018387105465793845
+    },
+    {
+      "phase": 0.5791666666666667,
+      "minimum": 0.001727471528361493,
+      "hit": {
+        "staff": 1,
+        "triangle": 122791,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001727471528361493
+    },
+    {
+      "phase": 0.58125,
+      "minimum": 0.001623038713199373,
+      "hit": {
+        "staff": 1,
+        "triangle": 122791,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001623038713199373
+    },
+    {
+      "phase": 0.5833333333333334,
+      "minimum": 0.0014047599801186028,
+      "hit": {
+        "staff": 1,
+        "triangle": 122791,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0014047599801186028
+    },
+    {
+      "phase": 0.5854166666666667,
+      "minimum": 0.0013740272940035055,
+      "hit": {
+        "staff": 1,
+        "triangle": 122791,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0013740272940035055
+    },
+    {
+      "phase": 0.5875,
+      "minimum": 0.0014113050340978511,
+      "hit": {
+        "staff": 1,
+        "triangle": 122772,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0014113050340978511
+    },
+    {
+      "phase": 0.5895833333333333,
+      "minimum": 0.0014162324154523374,
+      "hit": {
+        "staff": 1,
+        "triangle": 122772,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0014162324154523374
+    },
+    {
+      "phase": 0.5916666666666667,
+      "minimum": 0.0014548516149820532,
+      "hit": {
+        "staff": 1,
+        "triangle": 122773,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0014548516149820532
+    },
+    {
+      "phase": 0.59375,
+      "minimum": 0.0015950334796445559,
+      "hit": {
+        "staff": 1,
+        "triangle": 122772,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0015950334796445559
+    },
+    {
+      "phase": 0.5958333333333333,
+      "minimum": 0.0017829420697629533,
+      "hit": {
+        "staff": 1,
+        "triangle": 122772,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0017829420697629533
+    },
+    {
+      "phase": 0.5979166666666667,
+      "minimum": 0.001643893884688651,
+      "hit": {
+        "staff": 1,
+        "triangle": 122772,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001643893884688651
+    },
+    {
+      "phase": 0.6,
+      "minimum": 0.0015257748278820153,
+      "hit": {
+        "staff": 1,
+        "triangle": 122772,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0015257748278820153
+    },
+    {
+      "phase": 0.6020833333333333,
+      "minimum": 0.0014256160052186686,
+      "hit": {
+        "staff": 1,
+        "triangle": 122773,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0014256160052186686
+    },
+    {
+      "phase": 0.6041666666666666,
+      "minimum": 0.0014016963938060269,
+      "hit": {
+        "staff": 1,
+        "triangle": 122775,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0014016963938060269
+    },
+    {
+      "phase": 0.60625,
+      "minimum": 0.001432498492676947,
+      "hit": {
+        "staff": 1,
+        "triangle": 122775,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001432498492676947
+    },
+    {
+      "phase": 0.6083333333333333,
+      "minimum": 0.0014873218995359594,
+      "hit": {
+        "staff": 1,
+        "triangle": 122774,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0014873218995359594
+    },
+    {
+      "phase": 0.6104166666666667,
+      "minimum": 0.001557878426732287,
+      "hit": {
+        "staff": 1,
+        "triangle": 122774,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001557878426732287
+    },
+    {
+      "phase": 0.6125,
+      "minimum": 0.0015475402105164914,
+      "hit": {
+        "staff": 1,
+        "triangle": 122774,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0015475402105164914
+    },
+    {
+      "phase": 0.6145833333333334,
+      "minimum": 0.0015675944361806613,
+      "hit": {
+        "staff": 1,
+        "triangle": 122774,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0015675944361806613
+    },
+    {
+      "phase": 0.6166666666666667,
+      "minimum": 0.0016168804498984078,
+      "hit": {
+        "staff": 1,
+        "triangle": 122774,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0016168804498984078
+    },
+    {
+      "phase": 0.61875,
+      "minimum": 0.001641272777275684,
+      "hit": {
+        "staff": 1,
+        "triangle": 122774,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001641272777275684
+    },
+    {
+      "phase": 0.6208333333333333,
+      "minimum": 0.0016380650109909314,
+      "hit": {
+        "staff": 1,
+        "triangle": 122774,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0016380650109909314
+    },
+    {
+      "phase": 0.6229166666666667,
+      "minimum": 0.0016448809658697328,
+      "hit": {
+        "staff": 1,
+        "triangle": 122774,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0016448809658697328
+    },
+    {
+      "phase": 0.625,
+      "minimum": 0.0016276805037611902,
+      "hit": {
+        "staff": 1,
+        "triangle": 122509,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016276805037611902
+    },
+    {
+      "phase": 0.6270833333333333,
+      "minimum": 0.001673471441863408,
+      "hit": {
+        "staff": 1,
+        "triangle": 122508,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001673471441863408
+    },
+    {
+      "phase": 0.6291666666666667,
+      "minimum": 0.001744985234525107,
+      "hit": {
+        "staff": 1,
+        "triangle": 122508,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001744985234525107
+    },
+    {
+      "phase": 0.63125,
+      "minimum": 0.0018432870928953397,
+      "hit": {
+        "staff": 1,
+        "triangle": 122508,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018432870928953397
+    },
+    {
+      "phase": 0.6333333333333333,
+      "minimum": 0.001868869606993678,
+      "hit": {
+        "staff": 0,
+        "triangle": 262355,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001868869606993678
+    },
+    {
+      "phase": 0.6354166666666666,
+      "minimum": 0.0018255882502047523,
+      "hit": {
+        "staff": 1,
+        "triangle": 122508,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018255882502047523
+    },
+    {
+      "phase": 0.6375,
+      "minimum": 0.0017979989593172232,
+      "hit": {
+        "staff": 1,
+        "triangle": 122511,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017979989593172232
+    },
+    {
+      "phase": 0.6395833333333333,
+      "minimum": 0.0017862559619745057,
+      "hit": {
+        "staff": 1,
+        "triangle": 122511,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017862559619745057
+    },
+    {
+      "phase": 0.6416666666666667,
+      "minimum": 0.0017643739319947952,
+      "hit": {
+        "staff": 1,
+        "triangle": 122511,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017643739319947952
+    },
+    {
+      "phase": 0.64375,
+      "minimum": 0.0017673930667288559,
+      "hit": {
+        "staff": 1,
+        "triangle": 122511,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017673930667288559
+    },
+    {
+      "phase": 0.6458333333333334,
+      "minimum": 0.0017952275800128883,
+      "hit": {
+        "staff": 1,
+        "triangle": 122508,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017952275800128883
+    },
+    {
+      "phase": 0.6479166666666667,
+      "minimum": 0.0018261754449149722,
+      "hit": {
+        "staff": 1,
+        "triangle": 122508,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018261754449149722
+    },
+    {
+      "phase": 0.65,
+      "minimum": 0.0018379667176270601,
+      "hit": {
+        "staff": 1,
+        "triangle": 122481,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018379667176270601
+    },
+    {
+      "phase": 0.6520833333333333,
+      "minimum": 0.001861850355487268,
+      "hit": {
+        "staff": 1,
+        "triangle": 122481,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001861850355487268
+    },
+    {
+      "phase": 0.6541666666666667,
+      "minimum": 0.0018011116617440322,
+      "hit": {
+        "staff": 0,
+        "triangle": 262362,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0018011116617440322
+    },
+    {
+      "phase": 0.65625,
+      "minimum": 0.001703716827299159,
+      "hit": {
+        "staff": 0,
+        "triangle": 262362,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.001703716827299159
+    },
+    {
+      "phase": 0.6583333333333333,
+      "minimum": 0.0016721091390168603,
+      "hit": {
+        "staff": 0,
+        "triangle": 262362,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0016721091390168603
+    },
+    {
+      "phase": 0.6604166666666667,
+      "minimum": 0.0017163246211863905,
+      "hit": {
+        "staff": 0,
+        "triangle": 262374,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0017163246211863905
+    },
+    {
+      "phase": 0.6625,
+      "minimum": 0.0017544299920268444,
+      "hit": {
+        "staff": 0,
+        "triangle": 262362,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0017544299920268444
+    },
+    {
+      "phase": 0.6645833333333333,
+      "minimum": 0.0016915266236165322,
+      "hit": {
+        "staff": 0,
+        "triangle": 262362,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0016915266236165322
+    },
+    {
+      "phase": 0.6666666666666666,
+      "minimum": 0.0016933275115873277,
+      "hit": {
+        "staff": 0,
+        "triangle": 262318,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0016933275115873277
+    },
+    {
+      "phase": 0.66875,
+      "minimum": 0.001789132684922633,
+      "hit": {
+        "staff": 0,
+        "triangle": 262318,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.001789132684922633
+    },
+    {
+      "phase": 0.6708333333333333,
+      "minimum": 0.0018209863886944795,
+      "hit": {
+        "staff": 0,
+        "triangle": 262318,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0018209863886944795
+    },
+    {
+      "phase": 0.6729166666666667,
+      "minimum": 0.0019391752441341916,
+      "hit": {
+        "staff": 0,
+        "triangle": 262318,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0019391752441341916
+    },
+    {
+      "phase": 0.675,
+      "minimum": 0.002118502444654861,
+      "hit": {
+        "staff": 0,
+        "triangle": 262321,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.002118502444654861
+    },
+    {
+      "phase": 0.6770833333333334,
+      "minimum": 0.002123503301100199,
+      "hit": {
+        "staff": 0,
+        "triangle": 262306,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.002123503301100199
+    },
+    {
+      "phase": 0.6791666666666667,
+      "minimum": 0.0017906714409959522,
+      "hit": {
+        "staff": 0,
+        "triangle": 262306,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0017906714409959522
+    },
+    {
+      "phase": 0.68125,
+      "minimum": 0.0016181457320179598,
+      "hit": {
+        "staff": 0,
+        "triangle": 262310,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0016181457320179598
+    },
+    {
+      "phase": 0.6833333333333333,
+      "minimum": 0.001633768290558387,
+      "hit": {
+        "staff": 0,
+        "triangle": 262310,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.001633768290558387
+    },
+    {
+      "phase": 0.6854166666666667,
+      "minimum": 0.0016468381447896484,
+      "hit": {
+        "staff": 0,
+        "triangle": 262326,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0016468381447896484
+    },
+    {
+      "phase": 0.6875,
+      "minimum": 0.0016485852157443644,
+      "hit": {
+        "staff": 0,
+        "triangle": 262041,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0016485852157443644
+    },
+    {
+      "phase": 0.6895833333333333,
+      "minimum": 0.0017041163975175591,
+      "hit": {
+        "staff": 0,
+        "triangle": 262039,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017041163975175591
+    },
+    {
+      "phase": 0.6916666666666667,
+      "minimum": 0.0017598165196877815,
+      "hit": {
+        "staff": 0,
+        "triangle": 262039,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017598165196877815
+    },
+    {
+      "phase": 0.69375,
+      "minimum": 0.0016527524607050422,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0016527524607050422
+    },
+    {
+      "phase": 0.6958333333333333,
+      "minimum": 0.0017037278010659535,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017037278010659535
+    },
+    {
+      "phase": 0.6979166666666666,
+      "minimum": 0.0018055615841978696,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018055615841978696
+    },
+    {
+      "phase": 0.7,
+      "minimum": 0.001753101201607335,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001753101201607335
+    },
+    {
+      "phase": 0.7020833333333333,
+      "minimum": 0.0017786666031386258,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017786666031386258
+    },
+    {
+      "phase": 0.7041666666666667,
+      "minimum": 0.001801995757947178,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001801995757947178
+    },
+    {
+      "phase": 0.70625,
+      "minimum": 0.0018222718954708887,
+      "hit": {
+        "staff": 1,
+        "triangle": 137467,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018222718954708887
+    },
+    {
+      "phase": 0.7083333333333334,
+      "minimum": 0.0018353209473946641,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018353209473946641
+    },
+    {
+      "phase": 0.7104166666666667,
+      "minimum": 0.0018345963479323452,
+      "hit": {
+        "staff": 1,
+        "triangle": 137467,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018345963479323452
+    },
+    {
+      "phase": 0.7125,
+      "minimum": 0.0017967139600542133,
+      "hit": {
+        "staff": 0,
+        "triangle": 276993,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017967139600542133
+    },
+    {
+      "phase": 0.7145833333333333,
+      "minimum": 0.0017059649516104908,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017059649516104908
+    },
+    {
+      "phase": 0.7166666666666667,
+      "minimum": 0.0016894037651737515,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0016894037651737515
+    },
+    {
+      "phase": 0.71875,
+      "minimum": 0.0017567573463386638,
+      "hit": {
+        "staff": 0,
+        "triangle": 276997,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017567573463386638
+    },
+    {
+      "phase": 0.7208333333333333,
+      "minimum": 0.0017952442734106618,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017952442734106618
+    },
+    {
+      "phase": 0.7229166666666667,
+      "minimum": 0.0018081279953383426,
+      "hit": {
+        "staff": 1,
+        "triangle": 137467,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018081279953383426
+    },
+    {
+      "phase": 0.725,
+      "minimum": 0.0018097510995256794,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018097510995256794
+    },
+    {
+      "phase": 0.7270833333333333,
+      "minimum": 0.001799403550847659,
+      "hit": {
+        "staff": 1,
+        "triangle": 137467,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001799403550847659
+    },
+    {
+      "phase": 0.7291666666666666,
+      "minimum": 0.0018027081388553405,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018027081388553405
+    },
+    {
+      "phase": 0.73125,
+      "minimum": 0.0018142222203476471,
+      "hit": {
+        "staff": 1,
+        "triangle": 137456,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018142222203476471
+    },
+    {
+      "phase": 0.7333333333333333,
+      "minimum": 0.0018174474545132255,
+      "hit": {
+        "staff": 1,
+        "triangle": 137456,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018174474545132255
+    },
+    {
+      "phase": 0.7354166666666667,
+      "minimum": 0.0018120104454347839,
+      "hit": {
+        "staff": 1,
+        "triangle": 137457,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018120104454347839
+    },
+    {
+      "phase": 0.7375,
+      "minimum": 0.00182540720627564,
+      "hit": {
+        "staff": 1,
+        "triangle": 137457,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.00182540720627564
+    },
+    {
+      "phase": 0.7395833333333334,
+      "minimum": 0.0018235513567163488,
+      "hit": {
+        "staff": 1,
+        "triangle": 137457,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018235513567163488
+    },
+    {
+      "phase": 0.7416666666666667,
+      "minimum": 0.001806064776037241,
+      "hit": {
+        "staff": 1,
+        "triangle": 137457,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001806064776037241
+    },
+    {
+      "phase": 0.74375,
+      "minimum": 0.0018052080210186599,
+      "hit": {
+        "staff": 1,
+        "triangle": 137486,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018052080210186599
+    },
+    {
+      "phase": 0.7458333333333333,
+      "minimum": 0.0018179591963597072,
+      "hit": {
+        "staff": 1,
+        "triangle": 137457,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018179591963597072
+    },
+    {
+      "phase": 0.7479166666666667,
+      "minimum": 0.0018154692052468335,
+      "hit": {
+        "staff": 1,
+        "triangle": 137457,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018154692052468335
+    },
+    {
+      "phase": 0.75,
+      "minimum": 0.0017976610818120024,
+      "hit": {
+        "staff": 1,
+        "triangle": 137457,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017976610818120024
+    },
+    {
+      "phase": 0.7520833333333333,
+      "minimum": 0.0018269685868465418,
+      "hit": {
+        "staff": 1,
+        "triangle": 137457,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018269685868465418
+    },
+    {
+      "phase": 0.7541666666666667,
+      "minimum": 0.001841452079791651,
+      "hit": {
+        "staff": 1,
+        "triangle": 137486,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001841452079791651
+    },
+    {
+      "phase": 0.75625,
+      "minimum": 0.0018378685410969237,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018378685410969237
+    },
+    {
+      "phase": 0.7583333333333333,
+      "minimum": 0.001842013128874222,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001842013128874222
+    },
+    {
+      "phase": 0.7604166666666666,
+      "minimum": 0.0018595705711375188,
+      "hit": {
+        "staff": 1,
+        "triangle": 137461,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018595705711375188
+    },
+    {
+      "phase": 0.7625,
+      "minimum": 0.0018637618765645746,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018637618765645746
+    },
+    {
+      "phase": 0.7645833333333333,
+      "minimum": 0.0018553511693789378,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018553511693789378
+    },
+    {
+      "phase": 0.7666666666666667,
+      "minimum": 0.0018698352486886567,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018698352486886567
+    },
+    {
+      "phase": 0.76875,
+      "minimum": 0.001876624727484377,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001876624727484377
+    },
+    {
+      "phase": 0.7708333333333334,
+      "minimum": 0.0018734896710279614,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018734896710279614
+    },
+    {
+      "phase": 0.7729166666666667,
+      "minimum": 0.0018776513281281628,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018776513281281628
+    },
+    {
+      "phase": 0.775,
+      "minimum": 0.0018956455936175887,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018956455936175887
+    },
+    {
+      "phase": 0.7770833333333333,
+      "minimum": 0.0019070297873367715,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019070297873367715
+    },
+    {
+      "phase": 0.7791666666666667,
+      "minimum": 0.0019139292269909625,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019139292269909625
+    },
+    {
+      "phase": 0.78125,
+      "minimum": 0.0019210200570581332,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019210200570581332
+    },
+    {
+      "phase": 0.7833333333333333,
+      "minimum": 0.0019206027563684457,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019206027563684457
+    },
+    {
+      "phase": 0.7854166666666667,
+      "minimum": 0.0019150165700794319,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019150165700794319
+    },
+    {
+      "phase": 0.7875,
+      "minimum": 0.0019057668894995466,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0019057668894995466
+    },
+    {
+      "phase": 0.7895833333333333,
+      "minimum": 0.0018870075235991844,
+      "hit": {
+        "staff": 1,
+        "triangle": 137460,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018870075235991844
+    },
+    {
+      "phase": 0.7916666666666666,
+      "minimum": 0.0018621637829060317,
+      "hit": {
+        "staff": 1,
+        "triangle": 137463,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018621637829060317
+    },
+    {
+      "phase": 0.79375,
+      "minimum": 0.0018320281980498745,
+      "hit": {
+        "staff": 1,
+        "triangle": 137456,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018320281980498745
+    },
+    {
+      "phase": 0.7958333333333333,
+      "minimum": 0.0018364232204852206,
+      "hit": {
+        "staff": 1,
+        "triangle": 137456,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018364232204852206
+    },
+    {
+      "phase": 0.7979166666666667,
+      "minimum": 0.0018435314602631512,
+      "hit": {
+        "staff": 1,
+        "triangle": 137456,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018435314602631512
+    },
+    {
+      "phase": 0.8,
+      "minimum": 0.0018472101724809464,
+      "hit": {
+        "staff": 1,
+        "triangle": 137456,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018472101724809464
+    },
+    {
+      "phase": 0.8020833333333334,
+      "minimum": 0.0018507423925799953,
+      "hit": {
+        "staff": 1,
+        "triangle": 137456,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018507423925799953
+    },
+    {
+      "phase": 0.8041666666666667,
+      "minimum": 0.0018521364162334651,
+      "hit": {
+        "staff": 1,
+        "triangle": 137456,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018521364162334651
+    },
+    {
+      "phase": 0.80625,
+      "minimum": 0.00184608786270659,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.00184608786270659
+    },
+    {
+      "phase": 0.8083333333333333,
+      "minimum": 0.001835746285373023,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001835746285373023
+    },
+    {
+      "phase": 0.8104166666666667,
+      "minimum": 0.0018232648565664825,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018232648565664825
+    },
+    {
+      "phase": 0.8125,
+      "minimum": 0.001807858338497786,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.001807858338497786
+    },
+    {
+      "phase": 0.8145833333333333,
+      "minimum": 0.0017923817959538731,
+      "hit": {
+        "staff": 1,
+        "triangle": 137464,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017923817959538731
+    },
+    {
+      "phase": 0.8166666666666667,
+      "minimum": 0.0017586623281910917,
+      "hit": {
+        "staff": 1,
+        "triangle": 122217,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017586623281910917
+    },
+    {
+      "phase": 0.81875,
+      "minimum": 0.0017153803635690038,
+      "hit": {
+        "staff": 1,
+        "triangle": 122217,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0017153803635690038
+    },
+    {
+      "phase": 0.8208333333333333,
+      "minimum": 0.0016651163727984808,
+      "hit": {
+        "staff": 1,
+        "triangle": 122217,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016651163727984808
+    },
+    {
+      "phase": 0.8229166666666666,
+      "minimum": 0.0016111900972108836,
+      "hit": {
+        "staff": 1,
+        "triangle": 122217,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016111900972108836
+    },
+    {
+      "phase": 0.825,
+      "minimum": 0.0016129008943958148,
+      "hit": {
+        "staff": 1,
+        "triangle": 122217,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016129008943958148
+    },
+    {
+      "phase": 0.8270833333333333,
+      "minimum": 0.0016247347949079234,
+      "hit": {
+        "staff": 1,
+        "triangle": 122197,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016247347949079234
+    },
+    {
+      "phase": 0.8291666666666667,
+      "minimum": 0.0016204645523377973,
+      "hit": {
+        "staff": 1,
+        "triangle": 122197,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016204645523377973
+    },
+    {
+      "phase": 0.83125,
+      "minimum": 0.0016426736712808147,
+      "hit": {
+        "staff": 1,
+        "triangle": 122197,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0016426736712808147
+    },
+    {
+      "phase": 0.8333333333333334,
+      "minimum": 0.0017783795136894886,
+      "hit": {
+        "staff": 0,
+        "triangle": 262362,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0017783795136894886
+    },
+    {
+      "phase": 0.8354166666666667,
+      "minimum": 0.0017713022336587753,
+      "hit": {
+        "staff": 0,
+        "triangle": 262374,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0017713022336587753
+    },
+    {
+      "phase": 0.8375,
+      "minimum": 0.0019782758257948386,
+      "hit": {
+        "staff": 0,
+        "triangle": 262362,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0019782758257948386
+    },
+    {
+      "phase": 0.8395833333333333,
+      "minimum": 0.0019617257758304807,
+      "hit": {
+        "staff": 0,
+        "triangle": 262362,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0019617257758304807
+    },
+    {
+      "phase": 0.8416666666666667,
+      "minimum": 0.0018494363501965847,
+      "hit": {
+        "staff": 0,
+        "triangle": 262319,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0018494363501965847
+    },
+    {
+      "phase": 0.84375,
+      "minimum": 0.001879649024683067,
+      "hit": {
+        "staff": 0,
+        "triangle": 262319,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.001879649024683067
+    },
+    {
+      "phase": 0.8458333333333333,
+      "minimum": 0.0019668635364796638,
+      "hit": {
+        "staff": 0,
+        "triangle": 262306,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.0019668635364796638
+    },
+    {
+      "phase": 0.8479166666666667,
+      "minimum": 0.001584413907394484,
+      "hit": {
+        "staff": 0,
+        "triangle": 262306,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03L",
+      "gapMetres": 0.001584413907394484
+    },
+    {
+      "phase": 0.85,
+      "minimum": 0.0015455661399437874,
+      "hit": {
+        "staff": 0,
+        "triangle": 262326,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0015455661399437874
+    },
+    {
+      "phase": 0.8520833333333333,
+      "minimum": 0.0016262181653178675,
+      "hit": {
+        "staff": 0,
+        "triangle": 262327,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0016262181653178675
+    },
+    {
+      "phase": 0.8541666666666666,
+      "minimum": 0.0016174002320319212,
+      "hit": {
+        "staff": 0,
+        "triangle": 262039,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0016174002320319212
+    },
+    {
+      "phase": 0.85625,
+      "minimum": 0.0015868668586573684,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0015868668586573684
+    },
+    {
+      "phase": 0.8583333333333333,
+      "minimum": 0.0017611512040811902,
+      "hit": {
+        "staff": 0,
+        "triangle": 262020,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017611512040811902
+    },
+    {
+      "phase": 0.8604166666666667,
+      "minimum": 0.001551710803547858,
+      "hit": {
+        "staff": 0,
+        "triangle": 268130,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-f_index03L",
+      "gapMetres": 0.001551710803547858
+    },
+    {
+      "phase": 0.8625,
+      "minimum": 0.0010540665270045192,
+      "hit": {
+        "staff": 0,
+        "triangle": 259828,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-f_index03L",
+      "gapMetres": 0.0010540665270045192
+    },
+    {
+      "phase": 0.8645833333333334,
+      "minimum": 0.0024173889746965695,
+      "hit": {
+        "staff": 1,
+        "triangle": 122454,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0024173889746965695
+    },
+    {
+      "phase": 0.8666666666666667,
+      "minimum": 0.0022055119651687247,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0022055119651687247
+    },
+    {
+      "phase": 0.86875,
+      "minimum": 0.0019004256215662037,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0019004256215662037
+    },
+    {
+      "phase": 0.8708333333333333,
+      "minimum": 0.0018608538710850227,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018608538710850227
+    },
+    {
+      "phase": 0.8729166666666667,
+      "minimum": 0.0018313207458382445,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018313207458382445
+    },
+    {
+      "phase": 0.875,
+      "minimum": 0.0018201904033923744,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018201904033923744
+    },
+    {
+      "phase": 0.8770833333333333,
+      "minimum": 0.0017971667757961177,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017971667757961177
+    },
+    {
+      "phase": 0.8791666666666667,
+      "minimum": 0.0017842313454481378,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017842313454481378
+    },
+    {
+      "phase": 0.88125,
+      "minimum": 0.0017871189634880175,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0017871189634880175
+    },
+    {
+      "phase": 0.8833333333333333,
+      "minimum": 0.0018156634868769853,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018156634868769853
+    },
+    {
+      "phase": 0.8854166666666666,
+      "minimum": 0.0018346994464123398,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018346994464123398
+    },
+    {
+      "phase": 0.8875,
+      "minimum": 0.001829881969372624,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001829881969372624
+    },
+    {
+      "phase": 0.8895833333333333,
+      "minimum": 0.0018046703924365515,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018046703924365515
+    },
+    {
+      "phase": 0.8916666666666667,
+      "minimum": 0.0018350815344096646,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018350815344096646
+    },
+    {
+      "phase": 0.89375,
+      "minimum": 0.0018408048599214428,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018408048599214428
+    },
+    {
+      "phase": 0.8958333333333334,
+      "minimum": 0.0018196772521359914,
+      "hit": {
+        "staff": 0,
+        "triangle": 276995,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018196772521359914
+    },
+    {
+      "phase": 0.8979166666666667,
+      "minimum": 0.001817822614564599,
+      "hit": {
+        "staff": 0,
+        "triangle": 276995,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001817822614564599
+    },
+    {
+      "phase": 0.9,
+      "minimum": 0.0018495553514233324,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018495553514233324
+    },
+    {
+      "phase": 0.9020833333333333,
+      "minimum": 0.0018113918364024238,
+      "hit": {
+        "staff": 1,
+        "triangle": 122772,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0018113918364024238
+    },
+    {
+      "phase": 0.9041666666666667,
+      "minimum": 0.0017610208556774077,
+      "hit": {
+        "staff": 1,
+        "triangle": 122774,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.0017610208556774077
+    },
+    {
+      "phase": 0.90625,
+      "minimum": 0.001801652764268422,
+      "hit": {
+        "staff": 1,
+        "triangle": 122770,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb03R",
+      "gapMetres": 0.001801652764268422
+    },
+    {
+      "phase": 0.9083333333333333,
+      "minimum": 0.0018647486693929329,
+      "hit": {
+        "staff": 1,
+        "triangle": 122509,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02R",
+      "gapMetres": 0.0018647486693929329
+    },
+    {
+      "phase": 0.9104166666666667,
+      "minimum": 0.0018570050155538725,
+      "hit": {
+        "staff": 0,
+        "triangle": 276994,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018570050155538725
+    },
+    {
+      "phase": 0.9125,
+      "minimum": 0.001890058668046403,
+      "hit": {
+        "staff": 0,
+        "triangle": 276994,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.001890058668046403
+    },
+    {
+      "phase": 0.9145833333333333,
+      "minimum": 0.0019912104074276734,
+      "hit": {
+        "staff": 0,
+        "triangle": 277004,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0019912104074276734
+    },
+    {
+      "phase": 0.9166666666666666,
+      "minimum": 0.0020193842459260442,
+      "hit": {
+        "staff": 0,
+        "triangle": 277004,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0020193842459260442
+    },
+    {
+      "phase": 0.91875,
+      "minimum": 0.0019748030028549583,
+      "hit": {
+        "staff": 0,
+        "triangle": 277004,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0019748030028549583
+    },
+    {
+      "phase": 0.9208333333333333,
+      "minimum": 0.0020513716852479987,
+      "hit": {
+        "staff": 0,
+        "triangle": 277004,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0020513716852479987
+    },
+    {
+      "phase": 0.9229166666666667,
+      "minimum": 0.0021091684968890297,
+      "hit": {
+        "staff": 0,
+        "triangle": 277004,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0021091684968890297
+    },
+    {
+      "phase": 0.925,
+      "minimum": 0.002109912159247199,
+      "hit": {
+        "staff": 0,
+        "triangle": 277004,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.002109912159247199
+    },
+    {
+      "phase": 0.9270833333333334,
+      "minimum": 0.0020850041972655525,
+      "hit": {
+        "staff": 0,
+        "triangle": 277004,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0020850041972655525
+    },
+    {
+      "phase": 0.9291666666666667,
+      "minimum": 0.0021090566108311736,
+      "hit": {
+        "staff": 0,
+        "triangle": 277004,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0021090566108311736
+    },
+    {
+      "phase": 0.93125,
+      "minimum": 0.002134881938128637,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.002134881938128637
+    },
+    {
+      "phase": 0.9333333333333333,
+      "minimum": 0.002178325807113751,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.002178325807113751
+    },
+    {
+      "phase": 0.9354166666666667,
+      "minimum": 0.0021513185144766515,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0021513185144766515
+    },
+    {
+      "phase": 0.9375,
+      "minimum": 0.00214029090427398,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.00214029090427398
+    },
+    {
+      "phase": 0.9395833333333333,
+      "minimum": 0.0021892513612570483,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0021892513612570483
+    },
+    {
+      "phase": 0.9416666666666667,
+      "minimum": 0.0022586040404252647,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0022586040404252647
+    },
+    {
+      "phase": 0.94375,
+      "minimum": 0.0022293277316960455,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0022293277316960455
+    },
+    {
+      "phase": 0.9458333333333333,
+      "minimum": 0.00226813996849109,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.00226813996849109
+    },
+    {
+      "phase": 0.9479166666666666,
+      "minimum": 0.00237790961963911,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.00237790961963911
+    },
+    {
+      "phase": 0.95,
+      "minimum": 0.002356134509524384,
+      "hit": {
+        "staff": 1,
+        "triangle": 124802,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002356134509524384
+    },
+    {
+      "phase": 0.9520833333333333,
+      "minimum": 0.0023228351526251613,
+      "hit": {
+        "staff": 1,
+        "triangle": 124802,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0023228351526251613
+    },
+    {
+      "phase": 0.9541666666666667,
+      "minimum": 0.0023077153250935477,
+      "hit": {
+        "staff": 1,
+        "triangle": 124802,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0023077153250935477
+    },
+    {
+      "phase": 0.95625,
+      "minimum": 0.0022984951733706696,
+      "hit": {
+        "staff": 1,
+        "triangle": 124803,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0022984951733706696
+    },
+    {
+      "phase": 0.9583333333333334,
+      "minimum": 0.002257122454203368,
+      "hit": {
+        "staff": 1,
+        "triangle": 124802,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002257122454203368
+    },
+    {
+      "phase": 0.9604166666666667,
+      "minimum": 0.002234607250536874,
+      "hit": {
+        "staff": 1,
+        "triangle": 124802,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002234607250536874
+    },
+    {
+      "phase": 0.9625,
+      "minimum": 0.0022297365608787596,
+      "hit": {
+        "staff": 1,
+        "triangle": 124802,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0022297365608787596
+    },
+    {
+      "phase": 0.9645833333333333,
+      "minimum": 0.002202178554100369,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002202178554100369
+    },
+    {
+      "phase": 0.9666666666666667,
+      "minimum": 0.0021722066067205205,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0021722066067205205
+    },
+    {
+      "phase": 0.96875,
+      "minimum": 0.002160928425368476,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.002160928425368476
+    },
+    {
+      "phase": 0.9708333333333333,
+      "minimum": 0.0021545399593154036,
+      "hit": {
+        "staff": 1,
+        "triangle": 124786,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01R",
+      "gapMetres": 0.0021545399593154036
+    },
+    {
+      "phase": 0.9729166666666667,
+      "minimum": 0.0020796533231783165,
+      "hit": {
+        "staff": 0,
+        "triangle": 264326,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0020796533231783165
+    },
+    {
+      "phase": 0.975,
+      "minimum": 0.0020101691411797216,
+      "hit": {
+        "staff": 0,
+        "triangle": 264326,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0020101691411797216
+    },
+    {
+      "phase": 0.9770833333333333,
+      "minimum": 0.0019976018854439576,
+      "hit": {
+        "staff": 0,
+        "triangle": 264326,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0019976018854439576
+    },
+    {
+      "phase": 0.9791666666666666,
+      "minimum": 0.0019239380689930665,
+      "hit": {
+        "staff": 0,
+        "triangle": 264326,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0019239380689930665
+    },
+    {
+      "phase": 0.98125,
+      "minimum": 0.0018396253017995499,
+      "hit": {
+        "staff": 0,
+        "triangle": 264326,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0018396253017995499
+    },
+    {
+      "phase": 0.9833333333333333,
+      "minimum": 0.0018352934021655005,
+      "hit": {
+        "staff": 0,
+        "triangle": 264326,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0018352934021655005
+    },
+    {
+      "phase": 0.9854166666666667,
+      "minimum": 0.001917186212581773,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.001917186212581773
+    },
+    {
+      "phase": 0.9875,
+      "minimum": 0.0018101970193566633,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0018101970193566633
+    },
+    {
+      "phase": 0.9895833333333334,
+      "minimum": 0.001774629423076728,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.001774629423076728
+    },
+    {
+      "phase": 0.9916666666666667,
+      "minimum": 0.0018124248619347475,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0018124248619347475
+    },
+    {
+      "phase": 0.99375,
+      "minimum": 0.0017982235956700114,
+      "hit": {
+        "staff": 0,
+        "triangle": 264341,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0017982235956700114
+    },
+    {
+      "phase": 0.9958333333333333,
+      "minimum": 0.0017379710513312253,
+      "hit": {
+        "staff": 0,
+        "triangle": 277002,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0017379710513312253
+    },
+    {
+      "phase": 0.9979166666666667,
+      "minimum": 0.0017389517920236748,
+      "hit": {
+        "staff": 0,
+        "triangle": 277002,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb01L",
+      "gapMetres": 0.0017389517920236748
+    },
+    {
+      "phase": 1,
+      "minimum": 0.0018326963539104894,
+      "hit": {
+        "staff": 0,
+        "triangle": 276992,
+        "mesh": "female_v006lowresUV",
+        "contact": true
+      },
+      "mi": 0,
+      "region": "DEF-thumb02L",
+      "gapMetres": 0.0018326963539104894
+    }
+  ]
 }

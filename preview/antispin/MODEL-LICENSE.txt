@@ -1,0 +1,13 @@
+Character geometry: Blender Studio Human Base Meshes 1.4.1
+Realistic male base mesh and hand sculpt by Dan Ulrich.
+License: CC0 1.0 Universal (public domain dedication).
+
+Official source and license listing:
+https://www.blender.org/download/demo-files/
+https://download.blender.org/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.4.1.zip
+License text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+The review adds a fitted Rigify skeleton, skin weights, clothing, materials,
+staff geometry, and authored animation. It does not represent DrexFactor's
+likeness. DrexFactor's video remains the movement reference and is not included
+in this download. Its copyright is separate from the character mesh license.

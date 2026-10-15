@@ -14,7 +14,6 @@ const modules={
   'three/addons/GLTFLoader.js':'vendor/GLTFLoader.js',
   'three/addons/BufferGeometryUtils.js':'vendor/BufferGeometryUtils.js',
   'three/addons/SkeletonUtils.js':'vendor/SkeletonUtils.js',
-  'preview/volume-skinning':'volume-skinning.mjs',
 };
 const imports={};
 for(const [name,file]of Object.entries(modules)){
@@ -26,8 +25,7 @@ for(const [name,file]of Object.entries(modules)){
 }
 const model=(await readFile(path.join(input,'antispin-split-same.glb'))).toString('base64');
 let app=await readFile(path.join(input,'app.mjs'),'utf8');
-app=app.replace("'./volume-skinning.mjs'","'preview/volume-skinning'")
-  .replace("'./antispin-split-same.glb'",JSON.stringify('data:model/gltf-binary;base64,'+model));
+app=app.replace("'./antispin-split-same.glb'",JSON.stringify('data:model/gltf-binary;base64,'+model));
 let html=await readFile(path.join(input,'index.html'),'utf8');
 html=html.replace('<link rel="stylesheet" href="./style.css">','<style>'+await readFile(path.join(input,'style.css'),'utf8')+'</style>')
   .replace(/<script type="importmap">.*?<\/script>/,()=>'<script type="importmap">'+JSON.stringify({imports})+'</script>')
@@ -35,4 +33,5 @@ html=html.replace('<link rel="stylesheet" href="./style.css">','<style>'+await r
 html+='\n<!--\n'+await readFile(path.join(input,'THREE-LICENSE.txt'),'utf8')+'\n'+await readFile(path.join(input,'MODEL-LICENSE.txt'),'utf8')+'\n-->\n';
 await writeFile(path.join(output,'Antispin preview.html'),html);
 await copyFile(path.join(input,'antispin-split-same.blend'),path.join(output,'antispin-split-same.blend'));
+for(const file of ['MODEL-LICENSE.txt','THREE-LICENSE.txt'])await copyFile(path.join(input,file),path.join(output,file));
 console.log(path.join(output,'Antispin preview.html'));
