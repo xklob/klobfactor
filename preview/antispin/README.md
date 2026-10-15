@@ -19,6 +19,16 @@ and both staves. The browser uses Three.js to play it; it does not solve the arm
 
 ## Build
 
+To serve the checked-in preview locally:
+
+```sh
+npm ci
+node scripts/build-antispin-preview.mjs
+python3 -m http.server 4174 --directory .artifacts/antispin-preview-dist
+```
+
+Open `http://localhost:4174/`. To regenerate the Blender scene:
+
 Blender 4.5 LTS is installed locally at `~/.local/bin/blender`. Authoring data and
 intermediate reconstruction files are in `.artifacts/body-restoration/`.
 
