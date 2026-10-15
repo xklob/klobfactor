@@ -9,6 +9,8 @@ from pathlib import Path
 import bpy
 from mathutils import Matrix, Quaternion, Vector
 import numpy as np
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from blender_performer import refine_surface, add_forearm_twists, bake_forearm_twists, add_fingernails
 
 argsv=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
 p=argparse.ArgumentParser();p.add_argument('--guide',required=True);p.add_argument('--grips',required=True);p.add_argument('--rig',required=True);p.add_argument('--output',required=True);p.add_argument('--keys',type=int,default=34);args=p.parse_args(argsv)
@@ -57,7 +59,8 @@ def bone_matrix(n,rotation,position):
  m=C@rotation.to_matrix().to_4x4()@correction[n];m.translation=native(position);return m
 
 # Make the anatomy readable without adding separate procedural sleeve surfaces.
-skin=material('Skin',(.62,.47,.36));shirt=material('Shirt',(.12,.16,.23));pants=material('Trousers',(.085,.095,.12));shoes=material('Shoes',(.025,.03,.04))
+skin=material('Skin',(.43,.27,.185));shirt=material('Shirt',(.12,.16,.23));pants=material('Trousers',(.085,.095,.12));shoes=material('Shoes',(.025,.03,.04))
+skin.node_tree.nodes.get('Principled BSDF').inputs['Roughness'].default_value=.57
 mesh.data.materials.clear()
 for m in [skin,shirt,pants,shoes]:mesh.data.materials.append(m)
 groups={g.index:g.name for g in mesh.vertex_groups}
@@ -67,6 +70,7 @@ for f in mesh.data.polygons:
   for g in mesh.data.vertices[vi].groups:weights[groups[g.group]]=weights.get(groups[g.group],0)+g.weight
  owner=max(weights,key=weights.get)if weights else 'pelvis'
  f.material_index=3 if owner.startswith(('foot','ball')) else 2 if owner.startswith(('thigh','calf','pelvis')) else 1 if owner.startswith(('spine','clavicle')) else 0;f.use_smooth=True
+surface_report=refine_surface(mesh)
 
 names=list(rows[0]['guide']['bones']);rotations={n:smooth_quaternions([r['guide']['bones'][n]['q']for r in rows])for n in names};positions={n:smooth([r['guide']['bones'][n]['p']for r in rows])for n in names}
 # Key the captured torso and stance. Arms get Blender's two-bone IK below.
@@ -89,7 +93,7 @@ for i,s in enumerate(['l','r']):
 black=material('Black shaft',(.012,.014,.018));white=material('White center',(.9,.9,.9));blue=material('Thumb end',(.015,.12,.6));gold=material('Pinky end',(.7,.2,.015))
 
 def cylinder(name,radius,depth,z,mat,parent):
- bpy.ops.mesh.primitive_cylinder_add(vertices=32,radius=radius,depth=depth);o=bpy.context.object;o.name=name
+ bpy.ops.mesh.primitive_cylinder_add(vertices=64,radius=radius,depth=depth);o=bpy.context.object;o.name=name
  for c in list(o.users_collection):c.objects.unlink(o)
  props.objects.link(o);o.parent=parent;o.location=(0,0,z);o.data.materials.append(mat)
  for f in o.data.polygons:f.use_smooth=True
@@ -100,7 +104,7 @@ staffs=[];targets=[];poles=[];half=.41
 for i,s in enumerate(['l','r']):
  target=empty('Grip '+s);pole=empty('Elbow '+s,'CIRCLE',.07);targets.append(target);poles.append(pole)
  staff=empty('Staff '+s,'ARROWS',.15);staffs.append(staff);staff['side']='left'if i==0 else 'right';staff.parent=rig;staff.parent_type='BONE';staff.parent_bone='hand_'+s
- cylinder('Shaft '+s,.0105,half*2,0,black,staff);cylinder('Grip '+s,.0122,.13,0,black,staff);cylinder('Center '+s,.0122,.018,0,white,staff)
+ cylinder('Shaft '+s,.0105,half*2,0,black,staff);cylinder('Grip '+s,.0122,.13,0,black,staff);cylinder('Center '+s,.01245,.018,0,white,staff)
  for end,mat in [(1,blue),(-1,gold)]:cylinder(('Thumb 'if end==1 else 'Pinky ')+s,.020,.056,end*(half-.04),mat,staff)
  arm=rig.pose.bones['lowerarm_'+s];ik=arm.constraints.new('IK');ik.name='Hand position';ik.target=target;ik.pole_target=pole;ik.chain_count=2;ik.iterations=64;ik.use_stretch=False
  rig.pose.bones['upperarm_'+s].ik_stretch=0;arm.ik_stretch=0
@@ -129,7 +133,7 @@ rolls=np.unwrap(np.array([[a['roll']for a in r]for r in raw]),axis=0)
 rolls=smooth(rolls,2);pivots=smooth(np.array([[a['pivot']for a in r]for r in raw]),1);centers=np.array([[a['grip']for a in r]for r in raw])
 def interpolate(values,t):
  k=int(t)%N;f=t-int(t);return values[k]*(1-f)+values[(k+1)%N]*f
-report=[]
+report=[];elbow_checkpoints={}
 for k in range(N*STEP+1):
  t=k/STEP;i=int(t)%N;frame=1+k;bpy.context.scene.frame_set(frame)
  for side,s in enumerate(['l','r']):
@@ -138,7 +142,13 @@ for k in range(N*STEP+1):
   if delta.length>.475:W=S+delta.normalized()*.475
   G=W+R*contact[0]+F*contact[1]+P*contact[2]
   palm=Matrix((F.cross(P),F,P)).transposed().to_quaternion();handQ=palm@handFrames[side].inverted();target=targets[side];target.matrix_world=bone_matrix('hand_'+s,handQ,W);keys(target,frame)
-  D=unit(W-S);bend=unit(E-S-D*(E-S).dot(D));poles[side].location=native(E+bend*.28);keys(poles[side],frame)
+  # Choose the elbow on its reach circle nearest a continuation of the palm.
+  # The old source pole could bend the wrist by 80 degrees after IK moved the
+  # elbow away from the captured position. This preserves wrist/prop targets.
+  D=unit(W-S);distance=(W-S).length;upper_length=(rest['lowerarm_'+s].translation-rest['upperarm_'+s].translation).length;lower_length=(rest['hand_'+s].translation-rest['lowerarm_'+s].translation).length
+  along=(upper_length**2-lower_length**2+distance**2)/(2*distance);circle=S+D*along;height=math.sqrt(max(0,upper_length**2-along**2));ideal=W-F*lower_length;bend=unit(ideal-circle-D*(ideal-circle).dot(D));E=circle+bend*height
+  poles[side].location=native(E+bend*.28);keys(poles[side],frame)
+  if k==0:elbow_checkpoints[s]=native(E)
   bpy.context.view_layer.update();actualW=Ci@(rig.matrix_world@rig.pose.bones['hand_'+s].head);G=actualW+R*contact[0]+F*contact[1]+P*contact[2]
   staff=staffs[side];matrix=Vector((0,0,1)).rotation_difference(native(axis)).to_matrix().to_4x4();matrix.translation=native(G);staff.matrix_world=matrix;keys(staff,frame)
   for name in grips[a]['rotations']:
@@ -161,7 +171,7 @@ for action in bpy.data.actions:
 # Calibrate each IK pole against the first captured elbow, avoiding guessed bone-roll conventions.
 bpy.context.scene.frame_set(1)
 for side,s in enumerate(['l','r']):
- ik=rig.pose.bones['lowerarm_'+s].constraints['Hand position'];expected=native(elbows[0,side]);best=(1e9,0)
+ ik=rig.pose.bones['lowerarm_'+s].constraints['Hand position'];expected=elbow_checkpoints[s];best=(1e9,0)
  for deg in range(-180,181,2):
   ik.pole_angle=math.radians(deg);bpy.context.view_layer.update();actual=rig.matrix_world@rig.pose.bones['lowerarm_'+s].head;distance=(actual-expected).length
   if distance<best[0]:best=(distance,deg)
@@ -169,18 +179,23 @@ for side,s in enumerate(['l','r']):
 
 # The editable file keeps controls and source reference. Export bakes constraints.
 scene=bpy.context.scene;scene.frame_start=1;scene.frame_end=END;scene.render.fps=FPS;scene['source_video']='https://www.youtube.com/watch?v=pRoRKPIewhE&t=505s';scene['technique_status']='Review preview; not approved';scene['source_start']=505;scene['period']=N/15
-scene.timeline_markers.new('Start',frame=1);scene.timeline_markers.new('Opposite high / low',frame=1+N*2);scene.timeline_markers.new('Loop',frame=END)
+scene.timeline_markers.new('Start',frame=1);scene.timeline_markers.new('Opposite high / low',frame=1+N*STEP//2);scene.timeline_markers.new('Loop',frame=END)
+add_forearm_twists(mesh,rig)
+twist_report=bake_forearm_twists(rig,scene)
+nail_material=material('Fingernails',(.58,.40,.31));nail_material.node_tree.nodes.get('Principled BSDF').inputs['Roughness'].default_value=.32
+nails=add_fingernails(mesh,rig,nail_material)
 # Keep the source demonstration local to the authoring scene.
 reference=empty('Source footage','IMAGE',1);reference['path']=str(ROOT/'source-videos/pRoRKPIewhE.mp4');reference.hide_render=True
 scene.frame_set(1);bpy.context.view_layer.update()
 # Neutral studio setup is stored in Blender; the browser supplies its own camera.
 world=scene.world or bpy.data.worlds.new('World');scene.world=world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.12,.13,.16,1)
-bpy.ops.wm.save_as_mainfile(filepath=str(out/'antispin-split-same.blend'))
+bpy.ops.wm.save_as_mainfile(filepath=str(out/'antispin-split-same.blend'),compress=True)
 # Export only the performer and solid props. Empty control objects are baked through their children.
 bpy.ops.object.select_all(action='DESELECT');rig.select_set(True);mesh.select_set(True)
 for o in props.objects:o.select_set(True)
 for o in staffs:o.select_set(True)
+for o in nails:o.select_set(True)
 bpy.context.view_layer.objects.active=rig
 bpy.ops.export_scene.gltf(filepath=str(out/'antispin-split-same.glb'),export_format='GLB',use_selection=True,export_animations=True,export_animation_mode='SCENE',export_anim_scene_split_object=False,export_anim_slide_to_zero=True,export_force_sampling=True,export_frame_range=True,export_frame_step=1,export_bake_animation=True,export_extras=True)
-(out/'authoring-report.json').write_text(json.dumps({'source':scene['source_video'],'period':N/15,'status':'preview','frames':report},indent=2))
+(out/'authoring-report.json').write_text(json.dumps({'source':scene['source_video'],'period':N/15,'status':'preview','surface':surface_report,'forearm_twists':twist_report,'frames':report},indent=2))
 print('SCENE_READY',str(out/'antispin-split-same.blend'),flush=True)

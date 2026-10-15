@@ -1,8 +1,15 @@
 {
-  "samples": 480,
-  "minimum": 0.0005623262934483335,
-  "staffGap": 1.3996984358942954,
-  "maxPalmStep": 1.9069180214591712,
-  "units": "diagram units; 2.3 units per metre",
-  "note": "Sampled geometry clearance, not proof of source technique."
+  "samples": 481,
+  "vertices": 227738,
+  "triangles": 443724,
+  "minimumGapMetres": 0.00021491628028839048,
+  "loopErrorMetres": 4.5993646666771223e-07,
+  "maxWristBendDegrees": 23.831546004073534,
+  "staffGapMetres": 0.6085667966272882,
+  "blenderComparison": {
+    "sampledPoints": 585,
+    "maximumErrorMetres": 1.8929137951451809e-06
+  },
+  "assetSha256": "12b91e5164b57c147c094aaff973ab312bca4ab423079d46b29bc0356c717af1",
+  "note": "Sampled geometry and deformation checks; technique remains a review draft."
 }

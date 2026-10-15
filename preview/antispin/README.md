@@ -17,6 +17,14 @@ controls, Blender two-bone IK, animated finger support, and two staff objects
 attached to the hand bones. The GLB contains a single baked animation for the body
 and both staves. The browser uses Three.js to play it; it does not solve the arms.
 
+The refined performer has 443,724 surface triangles, including fitted nail
+plates on all ten fingers. Imported shading seams are welded before subdivision.
+The elbow controls keep the wrist closer to the forearm, and a forearm roll bone
+spreads rotation through the skin. Blender's **Preserve Volume** deformation is
+matched by `volume-skinning.mjs` in the browser, including shadows and ray picking.
+Other glTF viewers that use ordinary linear skinning may show wrist pinching.
+The editable Blender scene retains the volume-preserving armature setting.
+
 ## Build
 
 To serve the checked-in preview locally:
@@ -46,15 +54,29 @@ reach accommodations are authored choices that need technique review.
 
 The preview includes orbit/zoom, seeking in both directions, frame steps,
 0.25x/0.5x/1x/2x playback, independent staff visibility, fullscreen, and a grip
-inset whose viewing direction matches the main camera.
+inset whose viewing direction matches the main camera. The inset is larger and
+centered on the hand for close inspection of the thumb, fingers, and wrist.
+
+To check the rendered surfaces and browser controls:
+
+```sh
+node scripts/audit-antispin-preview.mjs
+# With the local preview server running:
+node tests/antispin-preview.mjs
+```
+
+The surface audit includes the fingers and fingernails, measures wrist bend, and
+compares the first and last deformed surfaces. It uses the same volume-preserving
+deformation as the renderer. `preview/antispin/validation.json` records the result.
 
 Do not treat a geometry check as proof of correct technique. Compare the entire
 cycle with the source, especially the thumb/pinky side of each elbow.
 
 Browser checks passed for desktop and a 390px phone viewport, including reverse
 seeking, speed control, both visibility toggles, camera orbit/reset, fullscreen,
-and the inset camera orientation. The geometry check sampled 480 intervals plus
-the loop endpoint and found no staff/body or staff/staff intersections.
+and the inset camera orientation. The geometry check samples 480 intervals plus
+the loop endpoint. A separate comparison of 585 hand and forearm points against
+Blender's evaluated mesh found a maximum difference of 0.002 mm.
 
 This checkpoint is a preview branch. The stable web and Android release remains
 v0.3.1 pending review of the animation.
