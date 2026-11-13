@@ -174,7 +174,7 @@ private fun SettingsScreen(dark:Boolean,awake:Boolean,outdoor:Boolean,onDark:(Bo
         Text("Source videos and the original VTG poster open in your browser and need a connection unless you have saved them. Practice records and selected video links stay on this device.",style=MaterialTheme.typography.bodyMedium,color=MaterialTheme.colorScheme.onSurfaceVariant)
         OutlinedButton(onClick=onReference){Text("Reference and sources")}
         HorizontalDivider()
-        Text("Vulcan Tech Gospel (Trainer)",style=MaterialTheme.typography.titleMedium)
+        Text("vulcan tech gospel (trainer)",style=MaterialTheme.typography.titleMedium)
         Text("Android ${BuildConfig.VERSION_NAME}",style=MaterialTheme.typography.bodySmall)
         Text("Original teaching by DrexFactor. Independent companion; no affiliation or endorsement.",style=MaterialTheme.typography.bodyMedium)
         TextButton(onClick={onExternal("https://github.com/xklob/klobfactor")}){Text("Source and releases ↗")}

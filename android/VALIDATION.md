@@ -22,3 +22,11 @@ Validated on 14 October 2026 with Android 16 / API 36 on a dedicated emulator, u
 - Release signature and 16 KB alignment are verified before publication. The release certificate SHA-256 is `c789c820ffb986cf1e2a204e5952f53b5553d1b3c6140964548d6debe644d11c`.
 
 The app requests no Internet permission. Linked YouTube pages and the original poster are handled by the external browser. Source tutorial videos are not packaged. Android 9–15 and physical-device GPU behavior have not been tested in this release; the renderer reports unavailable 3D support and retains source access if initialization fails.
+
+## Android 0.1.2 / web 0.3.2: lowercase branding
+
+vulcan tech gospel (trainer) now uses lowercase branding in its Android launcher, Settings and documentation. The web companion uses lowercase klobfactor branding in page titles and app references.
+
+This release includes web 0.3.2 and Android 0.1.2 (versionCode 3). The existing package, release certificate and saved progress remain unchanged. The APK still bundles all 21 lessons and 150 sections with the same curriculum hash as the previous release.
+
+Validation: all 3 Android JVM tests and 13 web/content tests passed; debug/release lint and builds passed. Signature continuity, launcher/version metadata, 16 KiB alignment, bundled curriculum and archive contents were checked. This changes branding only and does not include the unfinished body-motion work. Google Play publication remains separate.

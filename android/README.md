@@ -1,4 +1,4 @@
-# Vulcan Tech Gospel (Trainer)
+# vulcan tech gospel (trainer)
 
 Website: **[vulcantech.klob.io](https://vulcantech.klob.io)**
 
@@ -49,6 +49,6 @@ cd android
 ./gradlew assembleRelease lintRelease
 ```
 
-`VULCAN_SIGNING_PROPERTIES` can point to another private properties file with `storeFile`, `storePassword`, `keyAlias`, and `keyPassword`. The keystore path is relative to that file. Keep the same certificate and increase `versionCode` for updates. Signed universal APKs are published to Klobfactor's GitHub Releases and tracked by Klobstore. Play Store publication remains a later step; keep signing continuity in mind when configuring Play App Signing.
+`VULCAN_SIGNING_PROPERTIES` can point to another private properties file with `storeFile`, `storePassword`, `keyAlias`, and `keyPassword`. The keystore path is relative to that file. Keep the same certificate and increase `versionCode` for updates. Signed universal APKs are published to klobfactor's GitHub Releases and tracked by klobstore. Play Store publication remains a later step; keep signing continuity in mind when configuring Play App Signing.
 
-The Google Play Console entry is **Vulcan Tech Gospel (Trainer)** with package ID **`app.segfaultlabs.vulcan_tech_trainer`**. This repository does not publish to Google Play automatically.
+The Google Play Console entry uses package ID **`app.segfaultlabs.vulcan_tech_trainer`**. This repository does not publish to Google Play automatically.

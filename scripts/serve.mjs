@@ -15,4 +15,4 @@ const server=http.createServer(async(req,res)=>{
   else{res.writeHead(200,{...headers,'Content-Length':s.size});if(req.method==='HEAD')res.end();else createReadStream(p).pipe(res);}
  }catch{res.writeHead(404,{'Content-Type':'text/html'});res.end(await readFile(path.join(root,'404.html'),'utf8').catch(()=> 'Not found'));}
 });
-const port=Number(process.env.PORT||4173);server.listen(port,'127.0.0.1',()=>console.log(`Klobfactor: http://127.0.0.1:${port}`));
+const port=Number(process.env.PORT||4173);server.listen(port,'127.0.0.1',()=>console.log(`klobfactor: http://127.0.0.1:${port}`));

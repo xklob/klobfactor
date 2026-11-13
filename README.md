@@ -1,4 +1,4 @@
-# Klobfactor
+# klobfactor
 
 Website: **[vulcantech.klob.io](https://vulcantech.klob.io)**
 
@@ -18,11 +18,11 @@ The teaching is credited to DrexFactor. This is an independent companion, withou
 
 ## Android
 
-[Vulcan Tech Gospel (Trainer)](android/README.md) includes the complete web curriculum and major practice features, with native Android navigation, saved progress, offline local video playback, and outdoor display controls. It bundles all lesson text, diagrams, the motion lab, VTG relationships, and reference pages from the same source as the website. Source videos can be selected from device storage.
+[vulcan tech gospel (trainer)](android/README.md) includes the complete web curriculum and major practice features, with native Android navigation, saved progress, offline local video playback, and outdoor display controls. It bundles all lesson text, diagrams, the motion lab, VTG relationships, and reference pages from the same source as the website. Source videos can be selected from device storage.
 
-- [Signed Android APK](https://github.com/xklob/klobfactor/releases/latest), also available through Klobstore.
+- [Signed Android APK](https://github.com/xklob/klobfactor/releases/latest), also available through klobstore.
 - Android 9 or newer. Package ID: `app.segfaultlabs.vulcan_tech_trainer`.
-- A Google Play Console entry exists under **Vulcan Tech Gospel (Trainer)**. Public Play Store publication is planned separately.
+- A Google Play Console entry exists for this app. Public Play Store publication is planned separately.
 
 ## Run locally
 

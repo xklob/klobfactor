@@ -1,4 +1,4 @@
-# Klobfactor
+# klobfactor
 
 An independent, source-backed learning companion for double staff and Vulcan Tech Gospel.
 
@@ -11,8 +11,8 @@ An independent, source-backed learning companion for double staff and Vulcan Tec
 - Keep the interface minimal, accessible, responsive, and usable with a keyboard. Playback needs seeking, stepping, looping, and adjustable speeds including 0.25x, 0.5x, and 1x.
 
 - Keep UI copy short and literal; preserve technical explanations. Default to the 3D study tab, neutral charcoal dark surfaces, and an isometric camera. Keep the source demonstration as the secondary tab. Keep secondary controls and long move lists collapsed.
-- Google Play app identity: Vulcan Tech Gospel (Trainer), `app.segfaultlabs.vulcan_tech_trainer`. The Android companion includes all lesson content and major web features, supports offline practice, and is distributed through Klobstore. Generate its assets from the shared web content; never maintain a separate reduced curriculum. Keep its signing material outside the checkout and preserve its release certificate.
+- Google Play app identity: vulcan tech gospel (trainer), `app.segfaultlabs.vulcan_tech_trainer`. The Android companion includes all lesson content and major web features, supports offline practice, and is distributed through klobstore. Generate its assets from the shared web content; never maintain a separate reduced curriculum. Keep its signing material outside the checkout and preserve its release certificate.
 
-- Stable GitHub releases must include the signed Android APK now that Klobstore tracks this repository. Keep Android assets in sync with the released web curriculum, and increment Android versionCode when those assets or the app change.
+- Stable GitHub releases must include the signed Android APK now that klobstore tracks this repository. Keep Android assets in sync with the released web curriculum, and increment Android versionCode when those assets or the app change.
 
 - Treat source footage as the movement reference. Prop curves and collision checks alone do not validate human technique. Do not restore generated body animation without reviewing the complete motion against source checkpoints, including hand support, thumb/pinky elbow passages, torso turns, and clearance. Static references have no play bar.
